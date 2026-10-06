@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">Version PRO</string>
+    <string name="switch_to_pro_statement">Versioni falas i AAAD ju lejon të keni një shkarkim falas çdo muaj. Nëse dëshironi të shkarkoni më shumë, kaloni në PRO.</string>
+    <string name="congratsPro">Urime, keni versionin PRO!</string>    <string name="About">Mbi</string>
+    <string name="have_promo_code">Kam kod promovimi</string>
+    <string name="promo_code">Fut kodin promovues</string>
+    <string name="input_promo_code_here">Fusni kodin këtu</string>    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
+    <string name="warning_payment">Mbasi të kryeni pagesën ju lutemi të shtypni\"Rikthim tek shitësi\"që pagesa të jetē e vlefshme.</string>
+    <string name="attention">KUJDES</string>
+    <string name="next_download_available">Shkarkimi i ardhshëm i disponueshëm: %1$s</string>
+    <string name="connect_error">Gabim_lidhja</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">You have 1 download remaining</item>
+        <item quantity="other">I mbetur_shkarkime[një][tjetër]</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) ēshtē bërë dhe mirëmbajtur nga Shmykelsa.<br><br>Aplikacione e mëposhtme janë bërë nga mjeshtrat:<br>]]>"</string>
+    <string name="pro_unlocked">Urime, versioni PRO u shkyç</string>
+    <string name="cancelled_payment">Blerja u anulua</string>
+    <string name="please_enter_code">Ju lutemi fusni kodin tuaj promocional</string>
+    <string name="connection_error">Gabim lidhjeje, nuk u verifikua dot</string>
+    <string name="not_valid_code">Kod Jo i vlefshëm</string>    <string name="downloading_progress">Shkarkim…</string>
+    <string name="aa_mirror_plus_description">Alternativa e AAMirror me më shumë funksione.</string>
+    <string name="aapassenger_description">Zhbllokoni Android Auto në modalitetin e drejtimit</string>
+    <string name="s2a_description">Aplikacioni pasqyrues më i plotë dhe me tipare të plota për Android Auto. Përfshin shumë karakteristika si një lëshues i personalizueshëm, ekran i ndarë, madhësi të personalizuara të ekranit!</string>
+    <string name="aamirror_description">Pasqyro ekranin e telefonit tuaj në Android Auto</string>
+    <string name="aa_stream_description">Transmetoni video në Android Auto</string>
+    <string name="carstream_description">Formerly known as \"YouTube Auto\", CarStream was one of the first apps made with the custom apps SDK. It was born with the main purpose of delivering YouTube to Android Auto and then it became a web browser with many capabilities.
+    </string>
+    <string name="fermata_description">Dilni nga Android Auto pa dalë nga makina</string>
+    <string name="s2a_redirect">Për përvojën më të mirë, rekomandojmë Screen2Auto</string>
+    <string name="screen2auto_download">Shkarko Screen2Auto</string>    <string name="aawidgets_description">Lindur me një detyrë të vetme. Sillni një miniaplikacion në Android Auto!</string>
+    <string name="performance_monitor_description">Monitoroni performancën e sistemit në Android Auto</string>
+    <string name="promotion">Ju keni të drejtë për 15% zbritje</string>    <string name="loading">Po ngarkohet…</string>
+    <string name="go_pro">BËHU PRO</string>
+    <string name="i_m_good">Jam mirë</string>
+    <string name="nav2contacts_description">Navigoni shpejt te kontaktet tuaja</string>    <string name="back_button_payment_close">Anulo pagesën dhe mbyll</string>
+    <string name="help">Ndihmë</string>
+    <string name="help_dialog">Dëshironi të dërgoni një email për ndihmë tani?</string>    <string name="i_want_to_transfer_license_here">Dua të transferoj licencën këtu</string>
+    <string name="i_want_to_transfer_license_from_here">Dua të transferoj licencën time nga kjo pajisje</string>
+    <string name="license_transfer_help">Skanoni kodin QR në një pajisje tjetër për të transferuar licencën</string>
+    <string name="transfer_license">Transferim licence</string>
+    <string name="debug_mode_activate">Aktivizo korrigjimin e gabimeve</string>
+    <string name="debug_mode_performance_warning">Modaliteti i korrigjimit të gabimeve mund të ndikojë në performancë</string>
+    <string name="debug_mode_deactivated">Modaliteti i korrigjimit të gabimeve u çaktivizua</string>
+    <string name="confirm">Konfirmim</string>
+    <string name="license_here_confirm">Dëshironi të transferoni licencën tuaj në këtë pajisje?</string>
+    <string name="qr_tutorial">Hapni AAAD në pajisjen tuaj tjetër dhe skanoni këtë kod QR</string>
+    <string name="license_done">Licenca u transferua me sukses!</string>
+    <string name="no_license_found">Nuk u gjet licencë e vlefshme</string>    <string name="qr_code_permission">Leja e kamerës është e nevojshme për të skanuar një kod QR</string>
+    <string name="success_transfer">Transferimi u krye me sukses</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Dritare Dialogu</string>
+    <string name="input_email">Fusni adresën tuaj të emailit</string>
+    <string name="days_remaining">%d ditë mbeten deri në shkarkimin tjetër</string>
+    <string name="hours_remaining">%d orë mbeten deri në shkarkimin tjetër</string>
+    <string name="less_than_hour">Më pak se 1 orë mbetet deri në shkarkimin tjetër</string>
+    <string name="download_available_now">Shkarkimi është i disponueshëm tani!</string>    <string name="installation_failed">Instalimi dështoi</string>    <string name="installation_timeout_message">A u përfundua me sukses instalimi i aplikacionit?</string>
+    <string name="installation_succeeded">Po, u instalua</string>
+    <string name="installation_failed_or_cancelled">Jo, dështoi ose u anulua</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Paralajmërim i rëndësishëm</string>
+    <string name="onboarding_warning_message">Ky aplikacion NUK është i lidhur me softonic.com, uptodown.com ose aadapk.com, aadapk.app. Burimi i vetëm zyrtar është github.com</string>
+    <string name="onboarding_official_source">Burimi zyrtar: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Mirësevini në AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Shkarkuesi i aplikacioneve për Android Auto</string>
+    <string name="onboarding_welcome_description">Ky utilitar do të ndihmojë në instalimin e aplikacioneve të personalizuara në Android Auto për telefonat pa root. Rrëshqitni për të mësuar se si të përdorni aplikacionin, pastaj jepni lejet e kërkuara për të filluar.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Zgjidhni dhe Instaloni</string>
+    <string name="onboarding_page_selection_description">Zgjidhni aplikacionin që dëshironi të instaloni dhe prisni derisa të shfaqet instaluesi i sistemit.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informacioni i Aplikacionit</string>
+    <string name="onboarding_page_info_description">Nëse nuk jeni të sigurt se cilin aplikacion të instaloni, shtypni gjatë butonin për të parë përshkrimin.</string>
+
+    <!-- Page 4: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Konfigurimi i kërkuar</string>
+    <string name="onboarding_permissions_subtitle">Jep leje për të instaluar aplikacione të personalizuara</string>
+    <string name="onboarding_unknown_sources_title">Instalo aplikacione të panjohura</string>
+    <string name="onboarding_unknown_sources_description">E nevojshme për të instaluar skedarë APK nga burime të jashtme</string>
+    <string name="onboarding_notifications_title">Njoftimet</string>
+    <string name="onboarding_notifications_description">Merrni njoftime për përparimin e shkarkimit dhe përditësimet e aplikacioneve</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Cilësimet e zhvilluesit të Android Auto (E rekomanduar)</string>
+    <string name="onboarding_aa_dev_description">Hap opsional për të përmirësuar përvojën tuaj me Android Auto</string>
+    <string name="onboarding_aa_dev_warning">Për përvojën më të mirë me aplikacionet e personalizuara në Android Auto, rekomandojmë aktivizimin e \"Burimeve të panjohura\" në cilësimet e zhvilluesit të Android Auto.</string>
+    <string name="onboarding_open_aa_dev">Shiko cilësimet e zhvilluesit</string>
+
+    <string name="onboarding_play_protect_title">Google Play Mbrojtja</string>
+    <string name="onboarding_play_protect_description">Çaktivizo përkohësisht për të lejuar instalimin e aplikacioneve të personalizuara</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect mund të bllokojë instalimin e aplikacioneve të personalizuara. Duhet ta çaktivizoni përkohësisht ose të lejoni AAAD kur kërkohët.</string>
+    <string name="onboarding_open_play_protect">Hap cilësimet e Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Tjetër</string>
+    <string name="onboarding_previous">Mëparshëm</string>
+    <string name="onboarding_skip">Kalo</string>
+    <string name="onboarding_grant_permissions">Jep leje</string>
+    <string name="onboarding_continue">Vazhdo te aplikacioni</string>
+    <string name="onboarding_get_started">Fillo</string>
+    <string name="onboarding_finish">Përfundo konfigurimin</string>
+    <string name="show_intro">Shfaq prezantimin</string>
+    <string name="downloads_remaining">Shkarkime të mbetura</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">I instaluar</string>
+    <string name="status_update_available">Përditësim i disponueshëm</string>
+    <string name="status_update_to_version">Përditëso në %1$s</string>
+    <string name="status_not_installed">I painstaluar</string>
+    <string name="status_downloading">Duke shkarkuar…</string>
+    <string name="status_installing">Duke instaluar…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instalo</string>
+    <string name="action_update">Përditëso</string>
+    <string name="action_open">Hap</string>
+    <string name="action_uninstall">Çinstalo</string>
+    <string name="action_cancel">Anulo</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Shkarkimi dështoi</string>
+    <string name="error_installation_failed">Instalimi dështoi</string>
+    <string name="error_network_unavailable">Rrjeti nuk është i disponueshëm</string>
+    <string name="error_insufficient_storage">Hapësirë ruajtjeje e pamjaftueshme</string>
+    <string name="error_cannot_open_app">Nuk mund të hapet aplikacioni - aktiviteti i nisjes nuk u gjet</string>
+    <string name="error_download_tracking_failed">Përditësimi i statusit të shkarkimit dështoi</string>
+    <string name="error_loading_catalog">Ngarkimi i katalogut të aplikacioneve dështoi</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Transfero Licencën</string>
+    <string name="checking_license_status">Duke kontrolluar statusin e licencës…</string>
+    <string name="qr_code_icon">Ikona e kodit QR</string>
+    <string name="receiver_title">Merr Licencën PRO</string>
+    <string name="receiver_subtitle">Shfaq këtë kod QR për të transferuar një licencë në këtë pajisje</string>
+    <string name="qr_code_to_scan">Kodi QR për transferim licence</string>
+    <string name="receiver_instructions_title">Si funksionon</string>
+    <string name="receiver_instructions_step1">Në pajisjen me PRO, hap AAAD dhe shko te Transfero Licencën</string>
+    <string name="receiver_instructions_step2">Prek butonin Skano Kodin QR në atë pajisje</string>
+    <string name="receiver_instructions_step3">Skano këtë kod QR për të përfunduar transferimin</string>
+    <string name="transfer_license_icon">Ikona e transferimit të licencës</string>
+    <string name="sender_title">Transfero Licencën PRO</string>
+    <string name="sender_subtitle">Transfero licencën tënde në një pajisje të re</string>
+    <string name="sender_warning">⚠️ Paralajmërim: Transferimi i licencës do të heqë statusin PRO nga kjo pajisje dhe do ta aktivizojë atë në pajisjen e re. Ky veprim nuk mund të zhbëhet.</string>
+    <string name="sender_instructions_title">Si të transferosh</string>
+    <string name="sender_step_1">Hap AAAD në pajisjen tënde të re</string>
+    <string name="sender_step_2">Shko te menuja Transfero Licencën</string>
+    <string name="sender_step_3">Do të shfaqet një kod QR në pajisjen e re</string>
+    <string name="sender_step_4">Prek butonin më poshtë dhe skano atë kod QR</string>
+    <string name="scan_qr_code">Skano Kodin QR</string>
+    <string name="camera_permission_required">Kërkohet leje për kamër ën për të skanuar kodet QR</string>
+    <string name="error_checking_license">Dështoi kontrolli i statusit të licencës. Provo përsëri.</string>
+    <string name="error_generating_qr">Dështoi gjenerimi i kodit QR</string>
+    <string name="license_received_success">Licenca u mor me sukses!</string>
+    <string name="scan_error_title">Gabim Skanimi</string>
+    <string name="scan_error_message">Dështoi skanimi i kodit QR. Provo përsëri.</string>
+    <string name="confirm_transfer_title">Konfirmo Transferimin</string>
+    <string name="confirm_transfer_message">Jeni të sigurt që doni të transferoni licencën PRO në pajisjen e re? Kjo do të heqë PRO nga kjo pajisje.</string>
+    <string name="confirm_transfer_yes">Transfero Licencën</string>
+    <string name="confirm_transfer_no">Anulo</string>
+    <string name="license_transferred_success">Licenca u transferua me sukses!</string>
+    <string name="error_transferring_license">Dështoi transferimi i licencës. Provo përsëri.</string>
+    <string name="support_title">Keni Nevojë për Ndihmë?</string>
+    <string name="support_icon">Ikona e ndihmës</string>
+    <string name="support_subtitle">Ne jemi këtu për t\'ju ndihmuar!</string>
+    <string name="support_description">Keni probleme me AAAD? Dërgoni një email dhe do t\'ju përgjigjemi sa më shpejt. Sa më shumë detaje të jepni, aq më shpejt mund t\'ju ndihmojmë!</string>
+    <string name="support_email_will_include">Emaili juaj do të përfshijë:</string>
+    <string name="support_email_item_device">Modeli i pajisjes dhe versioni i Android</string>
+    <string name="support_email_item_version">Informacioni i versionit AAAD</string>
+    <string name="support_email_item_description">Hapësirë për të përshkruar problemin tuaj</string>
+    <string name="support_include_logs">Përfshi regjistrat diagnostikues</string>
+    <string name="support_logs_explanation">Rekomandohet - Na ndihmon të zgjidhim problemet më shpejt. Përmban vetëm informacion të pajisjes dhe konfigurimin e aplikacionit, asnjë të dhënë personale.</string>
+    <string name="support_send_email">Dërgo Email te Mbështetja</string>
+    <string name="support_privacy_note">Ne respektojmë privatësinë tuaj. Asnjë informacion personal, fjalëkalim ose të dhëna pagese nuk përfshihen në regjistrat.</string>
+    <string name="support_preparing_email">Duke përgatitur emailin…</string>
+    <string name="support_log_generation_failed">Dështoi gjenerimi i regjistrave, duke dërguar email pa bashkëngjitje</string>
+    <string name="support_email_failed">Dështoi hapja e aplikacionit të emailit. Ju lutemi dërgoni email direkt te help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Zgjidh aplikacionin e emailit</string>
+    <string name="support_email_subject">Kërkesë Mbështetjeje AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Aplikacione pasqyrimi</string>
+    <string name="third_section_name">Të tjera</string>
+
+    <string name="privacy_policy">Ky aplikacion respekton privatësinë tuaj. Ne nuk mbledhim, ruajmë ose ndajmë asnjë informacion personal pa pëlqimin tuaj. Për më shumë informacion, ju lutemi na kontaktoni.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Cilësimet e Zhvilluesit të Android Auto</string>
+    <string name="android_auto_setup_icon">Ikona e udhëzuesit të konfigurimit të Android Auto</string>
+    <string name="android_auto_setup_subtitle">Ndiqni këto hapa për të aktivizuar burimet e panjohura për aplikacione të personalizuara në Android Auto</string>
+    <string name="android_auto_open_settings">Hap Cilësimet e Android Auto</string>
+    <string name="android_auto_setup_instructions_title">Udhëzime Konfigurimi</string>
+    <string name="android_auto_step1_title">Prekni "Versionin" 10 Herë</string>
+    <string name="android_auto_step1_description">Në cilësimet e Android Auto, rrëshqitni poshtë dhe prekni "Versionin" (elementi i fundit) 10 herë për të zhbllokuar cilësimet e zhvilluesit.</string>
+    <string name="android_auto_step2_title">Konfirmoni Modalitetin e Zhvilluesit</string>
+    <string name="android_auto_step2_description">Kur ju kërkohet, prekni "Lejo" ose "Aktivizo" për të aktivizuar cilësimet e zhvilluesit për Android Auto.</string>
+    <string name="android_auto_step3_title">Hap Cilësimet e Zhvilluesit</string>
+    <string name="android_auto_step3_description">Prekni ikonën e menusë me tre pika në këndin e sipërm djathtas dhe zgjidhni "Cilësimet e zhvilluesit" nga menuja dropdown.</string>
+    <string name="android_auto_step4_title">Aktivizo Burimet e Panjohura</string>
+    <string name="android_auto_step4_description">Në menunë e Cilësimeve të zhvilluesit, gjeni dhe aktivizoni opsionin "Burimet e panjohura" për të lejuar instalimin e aplikacioneve të palëve të treta.</string>
+    <string name="android_auto_setup_done">Përfunduar</string>
+    <string name="android_auto_settings_opened">Cilësimet e Android Auto u hapën. Ndiqni hapat më sipër.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto u hap. Ju lutemi navigoni te Cilësimet manualisht.</string>
+    <string name="android_auto_not_installed">Android Auto nuk është instaluar. Ju lutemi instalojeni fillimisht nga Play Store.</string>
+
+    <string name="onboarding_page_multimedia_title">Aplikacione multimediale</string>
+    <string name="onboarding_page_mirroring_title">Aplikacione pasqyrimi</string>
+    <string name="onboarding_page_others_title">Të tjera</string>
+    <string name="action_retry">Provo sërish</string>
+    <string name="action_download_update">Shkarko përditësimin</string>
+    <string name="action_install_update">Instalo përditësimin</string>
+    <string name="action_skip_update">Kalo tani</string>
+    <string name="action_download_manual">Shkarkim manual</string>
+    <string name="action_continue_offline">Vazhdo offline</string>
+    <string name="badge_update">PËRDITËSIM</string>
+    <string name="check_for_updates">Kontrollo për përditësime</string>
+    <string name="aaad_update_section">Përditësim AAAD i disponueshëm</string>
+    <string name="aaad_update_available_subtitle">Version i ri i disponueshëm për shkarkim</string>
+    <string name="aaad_update_downloaded">Përditësimi u shkarkua! Po instalohet…</string>
+    <string name="aaad_update_failed">Shkarkimi i përditësimit dështoi. Provoni të shkarkoni manualisht.</string>
+    <string name="aaad_current_version">Aktuale: %1$s</string>
+    <string name="aaad_latest_version">Më e reja: %1$s</string>
+    <string name="authorization_failed">Autorizimi i shkarkimit dështoi. Provoni përsëri.</string>
+    <string name="authorization_error">Gabim autorizimi. Kontrolloni lidhjen tuaj.</string>
+    <string name="aabrowser_description">Shfletoni në web me Android Auto</string>
+    <string name="benefit_icon">Përfitim</string>
+    <string name="no_updates_available">Asnjë përditësim i disponueshëm</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Instalim i përmirësuar (opsional)</string>
+    <string name="onboarding_shizuku_subtitle">Për përdorues të avancuar Android 14+</string>
+    <string name="onboarding_shizuku_standard_mode">Modaliteti standard (i rekomanduar)</string>
+    <string name="onboarding_shizuku_standard_description">Përdor instaluesin e sistemit. Funksionon për të gjithë. Shfaq kërkesa instalimi.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Modaliteti i përmirësuar me Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Instalim i heshtur pa kërkesa. Kërkon konfigurimin një herë.</string>
+    <string name="onboarding_shizuku_status">Statusi i Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">Nuk është instaluar</string>
+    <string name="onboarding_shizuku_not_running">I instaluar por nuk po ekzekutohet</string>
+    <string name="onboarding_shizuku_no_permission">Po ekzekutohet por leja nuk është dhënë</string>
+    <string name="onboarding_shizuku_ready">Gati për përdorim</string>
+    <string name="onboarding_shizuku_install">Instalo Shizuku</string>
+    <string name="onboarding_shizuku_start">Nis Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Jep leje</string>
+    <string name="onboarding_shizuku_start_service">Shizuku u instalua - prek për të nisur shërbimin</string>
+    <string name="onboarding_shizuku_start_button">Nis shërbimin Shizuku</string>
+    <string name="shizuku_service_not_started">Shërbimi Shizuku nuk po ekzekutohet. Ju lutemi hapni Shizuku dhe nisni shërbimin.</string>
+    <string name="onboarding_shizuku_what_is_it">Çfarë është Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku është një mjet që lejon aplikacionet të përdorin leje në nivel sistemi përmes korrigjimit wireless. Mundëson instalimin e heshtur të aplikacioneve në Android 14+ pa root. Ju ende mund të përdorni AAAD pa të!</string>
+    <string name="onboarding_shizuku_steps_title">Hapat e konfigurimit:</string>
+    <string name="onboarding_shizuku_step1">1. Instalo aplikacionin Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. Aktivizo opsionet e zhvilluesit</string>
+    <string name="onboarding_shizuku_step3">3. Aktivizo korrigjimin wireless</string>
+    <string name="onboarding_shizuku_step4">4. Nis Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Jep leje për AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Mëso më shumë</string>
+
+    <!-- Error Messages -->
+    <string name="error_not_eligible">Duhet të përditësoni në PRO ose të prisni për shkarkimin tuaj falas tjetër.</string>
+    <string name="error_no_internet">Asnjë lidhje interneti</string>
+    <string name="error_no_internet_message">Ju lutemi lidhuni me internetin për të ngarkuar informacionin e aplikacionit dhe për të vazhduar.</string>
+    <string name="error_initialization_failed">Dështoi inicializimi i të dhënave të aplikacionit</string>
+    <string name="error_metadata_fetch_failed">Dështoi marrja e përditësimeve të aplikacionit</string>
+    <string name="error_metadata_fetch_failed_message">Nuk mund të merrej informacioni më i fundit i aplikacionit. Ju lutemi kontrolloni lidhjen tuaj të internetit dhe provoni përsëri.</string>
+    <string name="error_no_internet_title">Asnjë lidhje interneti</string>
+    <string name="error_no_internet_description">AAAD kërkon një lidhje interneti për të ngarkuar informacionin e aplikacionit. Ju lutemi lidhuni me WiFi ose të dhënat mobile dhe provoni përsëri.</string>
+    <string name="network_error">Gabim rrjeti. Ju lutemi kontrolloni lidhjen tuaj dhe provoni përsëri.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_data">Po ngarkohet informacioni i aplikacionit…</string>
+    <string name="loading_checking_updates">Po kontrollohen përditësimet…</string>
+    <string name="loading_please_wait">Ju lutemi prisni…</string>
+    <string name="loading_app_catalog">Po ngarkohet katalog i aplikacioneve…</string>
+    <string name="loading_fetching_icons">Po ngarkohen ikonat e aplikacioneve…</string>
+    <string name="loading_finalizing">Po përfundon…</string>
+    <string name="loading_checking_internet">Po kontrollohet lidhja e internetit…</string>
+    <string name="downloading_aaad_update">Po shkarkohet përditësimi i AAAD…</string>
+    <string name="progress_downloading">Po shkarkohet %1$s…</string>
+    <string name="progress_installing">Po instalohet %1$s…</string>
+    <string name="progress_checking_updates">Po kontrollohen përditësimet…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Blej Pro</string>
+    <string name="pro_version_title">Versioni PRO</string>
+    <string name="pro_version_icon">Distintivi i versionit PRO</string>
+    <string name="pro_thank_you_title">Faleminderit!</string>
+    <string name="pro_thank_you_message">Faleminderit që mbështetni AAAD me blerjen tuaj PRO! Kontributi juaj ndihmon ta mbajmë këtë projekt gjallë dhe na lejon të vazhdojmë t\'ju sillnim aplikacionet më të mira Android Auto.</string>
+    <string name="pro_since">Anëtar PRO që nga %s</string>
+    <string name="pro_since_legacy">Anëtar PRO</string>
+    <string name="pro_benefits_title">Përfitimet tuaja PRO</string>
+    <string name="pro_benefit_unlimited">Shkarkime të pakufizuara aplikacionesh</string>
+    <string name="pro_benefit_no_cooldown">Asnjë periudhë pritjeje midis shkarkimeve</string>
+    <string name="pro_benefit_support">Mbështetni zhvillimin e vazhdueshëm</string>
+    <string name="pro_closing_message">Ne vërtet çmojmë besimin dhe mbështetjen tuaj. Shijoni aksesin tuaj të pakufizuar në të gjitha aplikacionet AAAD!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">Asnjë aplikacion emaili i instaluar. Ju lutemi instaloni një aplikacion emaili (Gmail, Outlook, etj.) ose dërgoni email drejtpërdrejt në help.aaad@gmail.com nga një pajisje tjetër.</string>
+    <string name="support_attachment_not_supported">Bashkëngjitja nuk mbështetet, po dërgohet emaili pa regjistra</string>
+    <string name="support_attachment_failed_fallback">Nuk mund të bashkëngjiteshin regjistra, po dërgohet emaili pa bashkëngjitje</string>
+    <string name="support_email_body_greeting">Përshëndetje Mbështetja AAAD,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Përditësim i disponueshëm</string>
+    <string name="update_available_message">AAAD v%1$s është tani i disponueshëm. Ju po përdorni v%2$s.\n\nDëshironi të shkarkoni versionin më të fundit?</string>
+    <string name="checking_for_aaad_updates">Po kontrollohen përditësimet e AAAD…</string>
+    <string name="update_available_badge">PËRDITËSIM</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque sjell aplikacionin e diagnostikimit të automjeteve OBD-II Torque Pro në Android Auto. Monitoroni performancën e makinës suaj, shihni të dhënat diagnostikuese dhe qasuni në informacionin e automjetit në kohë reale drejtpërdrejt nga ekrani i makinës suaj.</string>
+    <string name="warning_offline">Jeni offline - të dhënat e aplikacionit mund të jenë të vjetruara</string>
+    <string name="onboarding_preparing_catalog">Po përgatitet katalogu i aplikacioneve në sfond…</string>
+    <string name="version_format">Versioni %1$s</string>
+    <string name="installed_version_format">I instaluar: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Aplikacione Android Auto</string>
+    <string name="hero_subtitle">Instaloni aplikacione të personalizuara për përvojën tuaj Android Auto</string>
+    <string name="refresh_apps">Rifresko aplikacionet</string>
+    <string name="privacy">Politika e privatësisë</string>
+    <string name="installation_timeout_message_secure">Verifikimi i instalimit ka skaduar. Shkarkimi juaj është numëruar në kufirin tuaj mujor për arsye sigurie.</string>
+    <string name="download_was_counted">Shkarkimi u numërua në kufirin tuaj mujor</string>
+    <string name="verifying_authorization">Po verifikohet autorizimi i shkarkimit…</string>
+    <string name="please_sign_in">Ju lutemi identifikohuni për të shkarkuar aplikacione</string>
+</resources>

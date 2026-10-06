@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">Pro Versie</string>
+    <string name="switch_to_pro_statement">De gratis versie van AAAD stelt je in staat om één gratis download per maand te hebben. Als je meer wilt downloaden, upgrade naar PRO.</string>
+    <string name="congratsPro">Gefeliciteerd, je hebt de PRO-versie!</string>    <string name="About">Thema</string>
+    <string name="have_promo_code">Ik heb een promocode</string>
+    <string name="promo_code">Voer promocode in</string>
+    <string name="input_promo_code_here">Voer code hier in</string>    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
+    <string name="warning_payment">Aan het einde van de betaling, druk op \"Terug naar handelaar\" om de transactie te valideren.</string>
+    <string name="attention">LET OP</string>
+    <string name="next_download_available">Volgende download beschikbaar op: %1$s</string>
+    <string name="connect_error">CONNECTIE PROBLEEM</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">Je hebt 1 download resterend</item>
+        <item quantity="other">U heeft geen downloads resterend</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) wordt ontwikkeld en bijgehouden door Shmykelsa.<br><br>De beschikbare apps worden mogelijk gemaakt door de volgende ontwikkelaars:<br>]]>"</string>
+    <string name="pro_unlocked">Gefeliciteerd, PRO-versie ontgrendeld</string>
+    <string name="cancelled_payment">Aankoop geannuleerd</string>
+    <string name="please_enter_code">Voer je promocode in</string>
+    <string name="connection_error">Verbindingsfout, kon niet verifiëren</string>
+    <string name="not_valid_code">Geen geldige code</string>    <string name="downloading_progress">Downloaden…</string>
+    <string name="aa_mirror_plus_description">Alternatief voor AAMirror met meer functionaliteiten.</string>
+    <string name="aapassenger_description">Ontgrendel Android Auto in rijmodus</string>
+    <string name="s2a_description">De meest complete mirror-app voor Android Auto. Bevat vele functies, zoals een aanpasbaar startscherm, gesplitst scherm, aangepaste schermgrootte en nog veel meer!</string>
+    <string name="aamirror_description">Spiegel het scherm van je smartphone naar Android Auto</string>
+    <string name="aa_stream_description">Stream video\'s op Android Auto</string>
+    <string name="carstream_description">Voorheen bekend als \"YouTube Auto\", was CarStream een van de eerste apps gemaakt met custom apps SDK. Het werd geboren met het hoofddoel YouTube in de Auto te leveren en vervolgens werd het een webbrowser met vele mogelijkheden.
+    </string>
+    <string name="fermata_description">Sluit Android Auto af zonder de auto te verlaten</string>
+    <string name="s2a_redirect">Voor de beste ervaring raden we Screen2Auto aan</string>
+    <string name="screen2auto_download">Download Screen2Auto</string>    <string name="aawidgets_description">Geboren met een enkele taak. Breng een widget naar Android Auto!</string>
+    <string name="performance_monitor_description">Bewaak systeemprestaties op Android Auto</string>
+    <string name="promotion">Je komt in aanmerking voor 15% korting</string>    <string name="loading">Laden…</string>
+    <string name="go_pro">WORD PRO</string>
+    <string name="i_m_good">Het is goed</string>
+    <string name="nav2contacts_description">Navigeer snel naar je contacten</string>    <string name="back_button_payment_close">Betaling annuleren en sluiten</string>
+    <string name="help">Hulp</string>
+    <string name="help_dialog">Wilt u nu een e-mail voor hulp verzenden?</string>    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
+    <string name="i_want_to_transfer_license_from_here">Ik wil mijn licentie vanaf dit apparaat overdragen</string>
+    <string name="license_transfer_help">Scan de QR-code op een ander apparaat om je licentie over te dragen</string>
+    <string name="transfer_license">Overdracht van licentie</string>
+    <string name="debug_mode_activate">Debug activeren</string>
+    <string name="debug_mode_performance_warning">Debugmodus kan de prestaties beïnvloeden</string>
+    <string name="debug_mode_deactivated">Debugmodus gedeactiveerd</string>
+    <string name="confirm">Bevestiging</string>
+    <string name="license_here_confirm">Wil je je licentie naar dit apparaat overdragen?</string>
+    <string name="qr_tutorial">Open AAAD op je andere apparaat en scan deze QR-code</string>
+    <string name="license_done">Licentie succesvol overgedragen!</string>
+    <string name="no_license_found">Geen geldige licentie gevonden</string>    <string name="qr_code_permission">Toestemming nodig om QR code te scannen met camera</string>
+    <string name="success_transfer">Overdracht geslaagd</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Het e-mailadres wordt gebruikt om uw aankoop te verifiëren, indien nodig</string>
+    <string name="input_email">Voer je e-mailadres in</string>
+    <string name="days_remaining">%d dagen resterend tot de volgende download</string>
+    <string name="hours_remaining">%d uren resterend tot de volgende download</string>
+    <string name="less_than_hour">Minder dan 1 uur resterend tot de volgende download</string>
+    <string name="download_available_now">Download nu beschikbaar!</string>    <string name="installation_failed">Installatie mislukt</string>    <string name="installation_timeout_message">Is de app-installatie succesvol voltooid?</string>
+    <string name="installation_succeeded">Ja, het is geïnstalleerd</string>
+    <string name="installation_failed_or_cancelled">Nee, het is mislukt of geannuleerd</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Belangrijke waarschuwing</string>
+    <string name="onboarding_warning_message">Deze app is NIET gelieerd aan softonic.com, uptodown.com of aadapk.com, aadapk.app. De enige officiële bron is github.com</string>
+    <string name="onboarding_official_source">Officiële bron: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Welkom bij AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Dit hulpprogramma helpt bij het installeren van aangepaste apps op Android Auto voor telefoons zonder root. Swipe door om te leren hoe je de app gebruikt en verleen vervolgens de vereiste machtigingen om te beginnen.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Selecteren en Installeren</string>
+    <string name="onboarding_page_selection_description">Selecteer de app die je wilt installeren en wacht tot de systeeminstaller verschijnt.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">App-informatie</string>
+    <string name="onboarding_page_info_description">Als je niet zeker bent welke app je moet installeren, houd dan de knop lang ingedrukt om een beschrijving te zien.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedia-apps</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Spiegelapps</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Overige</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Vereiste installatie</string>
+    <string name="onboarding_permissions_subtitle">Verleen machtigingen om aangepaste apps te installeren</string>
+    <string name="onboarding_unknown_sources_title">Onbekende apps installeren</string>
+    <string name="onboarding_unknown_sources_description">Vereist om APK-bestanden van externe bronnen te installeren</string>
+    <string name="onboarding_notifications_title">Meldingen</string>
+    <string name="onboarding_notifications_description">Ontvang meldingen over downloadvoortgang en app-updates</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto Ontwikkelaarsinstellingen (Aanbevolen)</string>
+    <string name="onboarding_aa_dev_description">Optionele stap om uw Android Auto-ervaring te verbeteren</string>
+    <string name="onboarding_aa_dev_warning">Voor de beste ervaring met aangepaste apps op Android Auto raden we aan \"Onbekende bronnen\" in te schakelen in de Android Auto-ontwikkelaarsinstellingen.</string>
+    <string name="onboarding_open_aa_dev">Ontwikkelaarsinstellingen bekijken</string>
+
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Tijdelijk uitschakelen om installatie van aangepaste apps toe te staan</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect kan de installatie van aangepaste apps blokkeren. U moet het tijdelijk uitschakelen of AAAD toestaan wanneer daarom wordt gevraagd.</string>
+    <string name="onboarding_open_play_protect">Play Protect-instellingen openen</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Volgende</string>
+    <string name="onboarding_previous">Vorige</string>
+    <string name="onboarding_skip">Overslaan</string>
+    <string name="onboarding_grant_permissions">Machtigingen verlenen</string>
+    <string name="onboarding_continue">Doorgaan naar app</string>
+    <string name="onboarding_get_started">Aan de slag</string>
+    <string name="onboarding_finish">Installatie voltooien</string>
+    <string name="show_intro">Toon intro</string>
+    <string name="downloads_remaining">Resterende downloads</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Geïnstalleerd</string>
+    <string name="status_update_available">Update beschikbaar</string>
+    <string name="status_update_to_version">Bijwerken naar %1$s</string>
+    <string name="status_not_installed">Niet geïnstalleerd</string>
+    <string name="status_downloading">Downloaden…</string>
+    <string name="status_installing">Installeren…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installeren</string>
+    <string name="action_update">Bijwerken</string>
+    <string name="action_open">Openen</string>
+    <string name="action_uninstall">Verwijderen</string>
+    <string name="action_cancel">Annuleren</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Download mislukt</string>
+    <string name="error_installation_failed">Installatie mislukt</string>
+    <string name="error_network_unavailable">Netwerk niet beschikbaar</string>
+    <string name="error_insufficient_storage">Onvoldoende opslagruimte</string>
+    <string name="error_cannot_open_app">Kan app niet openen - geen startactiviteit gevonden</string>
+    <string name="error_download_tracking_failed">Kon downloadstatus niet bijwerken</string>
+    <string name="error_loading_catalog">Kan app-catalogus niet laden</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Licentie overdragen</string>
+    <string name="checking_license_status">Licentiestatus controleren…</string>
+    <string name="qr_code_icon">QR-codepictogram</string>
+    <string name="receiver_title">PRO-licentie ontvangen</string>
+    <string name="receiver_subtitle">Toon deze QR-code om een licentie naar dit apparaat over te dragen</string>
+    <string name="qr_code_to_scan">QR-code voor licentieoverdracht</string>
+    <string name="receiver_instructions_title">Hoe het werkt</string>
+    <string name="receiver_instructions_step1">Open op het apparaat met PRO AAAD en ga naar Licentie overdragen</string>
+    <string name="receiver_instructions_step2">Tik op de knop QR-code scannen op dat apparaat</string>
+    <string name="receiver_instructions_step3">Scan deze QR-code om de overdracht te voltooien</string>
+    <string name="transfer_license_icon">Licentieoverdracht-pictogram</string>
+    <string name="sender_title">PRO-licentie overdragen</string>
+    <string name="sender_subtitle">Draag je licentie over naar een nieuw apparaat</string>
+    <string name="sender_warning">⚠️ Waarschuwing: Het overdragen van je licentie verwijdert de PRO-status van dit apparaat en activeert deze op het nieuwe apparaat. Deze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="sender_instructions_title">Hoe over te dragen</string>
+    <string name="sender_step_1">Open AAAD op je nieuwe apparaat</string>
+    <string name="sender_step_2">Ga naar het menu Licentie overdragen</string>
+    <string name="sender_step_3">Er verschijnt een QR-code op het nieuwe apparaat</string>
+    <string name="sender_step_4">Tik op de knop hieronder en scan die QR-code</string>
+    <string name="scan_qr_code">QR-code scannen</string>
+    <string name="camera_permission_required">Cameratoestemming vereist om QR-codes te scannen</string>
+    <string name="error_checking_license">Kon licentiestatus niet controleren. Probeer het opnieuw.</string>
+    <string name="error_generating_qr">Kon QR-code niet genereren</string>
+    <string name="license_received_success">Licentie succesvol ontvangen!</string>
+    <string name="scan_error_title">Scanfout</string>
+    <string name="scan_error_message">Kon QR-code niet scannen. Probeer het opnieuw.</string>
+    <string name="confirm_transfer_title">Overdracht bevestigen</string>
+    <string name="confirm_transfer_message">Weet je zeker dat je je PRO-licentie wilt overdragen naar het nieuwe apparaat? Dit verwijdert PRO van dit apparaat.</string>
+    <string name="confirm_transfer_yes">Licentie overdragen</string>
+    <string name="confirm_transfer_no">Annuleren</string>
+    <string name="license_transferred_success">Licentie succesvol overgedragen!</string>
+    <string name="error_transferring_license">Kon licentie niet overdragen. Probeer het opnieuw.</string>
+    <string name="support_title">Hulp nodig?</string>
+    <string name="support_icon">Helppictogram</string>
+    <string name="support_subtitle">We zijn er om je te helpen!</string>
+    <string name="support_description">Problemen met AAAD? Stuur ons een e-mail en we nemen zo snel mogelijk contact met je op. Hoe meer details je geeft, hoe sneller we kunnen helpen!</string>
+    <string name="support_email_will_include">Je e-mail bevat:</string>
+    <string name="support_email_item_device">Apparaatmodel en Android-versie</string>
+    <string name="support_email_item_version">AAAD-versie-informatie</string>
+    <string name="support_email_item_description">Ruimte om je probleem te beschrijven</string>
+    <string name="support_include_logs">Diagnostische logs bijvoegen</string>
+    <string name="support_logs_explanation">Aanbevolen - Helpt ons problemen sneller op te lossen. Bevat alleen apparaatinformatie en app-configuratie, geen persoonlijke gegevens.</string>
+    <string name="support_send_email">E-mail naar support verzenden</string>
+    <string name="support_privacy_note">We respecteren je privacy. Geen persoonlijke informatie, wachtwoorden of betalingsgegevens zijn opgenomen in de logs.</string>
+    <string name="support_preparing_email">E-mail voorbereiden…</string>
+    <string name="support_log_generation_failed">Kon logs niet genereren, e-mail verzenden zonder bijlage</string>
+    <string name="support_email_failed">Kon e-mailapp niet openen. Stuur een e-mail direct naar help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Kies e-mailapp</string>
+    <string name="support_email_subject">AAAD Ondersteuningsverzoek</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Spiegelapps</string>
+    <string name="third_section_name">Overige</string>
+
+    <string name="privacy_policy">Deze app respecteert uw privacy. We verzamelen, bewaren of delen geen persoonlijke informatie zonder uw toestemming. Voor meer informatie kunt u contact met ons opnemen.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto ontwikkelaarsinstellingen</string>
+    <string name="android_auto_setup_icon">Android Auto installatieguide pictogram</string>
+    <string name="android_auto_setup_subtitle">Volg deze stappen om onbekende bronnen voor aangepaste apps op Android Auto in te schakelen</string>
+    <string name="android_auto_open_settings">Android Auto instellingen openen</string>
+    <string name="android_auto_setup_instructions_title">Installatie-instructies</string>
+    <string name="android_auto_step1_title">Tik 10 keer op \"Versie\"</string>
+    <string name="android_auto_step1_description">Scroll in de Android Auto-instellingen naar beneden en tik 10 keer op \"Versie\" (het laatste item) om ontwikkelaarsinstellingen te ontgrendelen.</string>
+    <string name="android_auto_step2_title">Bevestig ontwikkelaarsmodus</string>
+    <string name="android_auto_step2_description">Tik wanneer hierom wordt gevraagd op \"Toestaan\" of \"Inschakelen\" om ontwikkelaarsinstellingen voor Android Auto te activeren.</string>
+    <string name="android_auto_step3_title">Ontwikkelaarsinstellingen openen</string>
+    <string name="android_auto_step3_description">Tik op het drie-punt menupictogram rechtsboven en selecteer \"Ontwikkelaarsinstellingen\" uit het vervolgkeuzemenu.</string>
+    <string name="android_auto_step4_title">Onbekende bronnen inschakelen</string>
+    <string name="android_auto_step4_description">Zoek en schakel in het menu Ontwikkelaarsinstellingen de optie \"Onbekende bronnen\" in om installatie van apps van derden toe te staan.</string>
+    <string name="android_auto_setup_done">Klaar</string>
+    <string name="android_auto_settings_opened">Android Auto-instellingen geopend. Volg de bovenstaande stappen.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto geopend. Navigeer handmatig naar instellingen.</string>
+    <string name="android_auto_not_installed">Android Auto is niet geïnstalleerd. Installeer het eerst via de Play Store.</string>
+
+    <string name="action_retry">Opnieuw proberen</string>
+    <string name="action_download_update">Update downloaden</string>
+    <string name="action_install_update">Update installeren</string>
+    <string name="action_skip_update">Nu overslaan</string>
+    <string name="action_download_manual">Handmatig downloaden</string>
+    <string name="action_continue_offline">Offline doorgaan</string>
+    <string name="badge_update">UPDATE</string>
+    <string name="check_for_updates">Controleren op updates</string>
+    <string name="aaad_update_section">AAAD-update beschikbaar</string>
+    <string name="aaad_update_available_subtitle">Nieuwe versie beschikbaar voor download</string>
+    <string name="aaad_update_downloaded">Update gedownload! Installeren…</string>
+    <string name="aaad_update_failed">Update-download mislukt. Probeer handmatig te downloaden.</string>
+    <string name="aaad_current_version">Huidige: %1$s</string>
+    <string name="aaad_latest_version">Laatste: %1$s</string>
+    <string name="authorization_failed">Downloadautorisatie mislukt. Probeer opnieuw.</string>
+    <string name="authorization_error">Autorisatiefout. Controleer uw verbinding.</string>
+    <string name="aabrowser_description">Browse op het web met Android Auto</string>
+    <string name="benefit_icon">Voordeel</string>
+
+    <!-- Shizuku Setup (Android 14+ Enhancement) -->
+    <string name="onboarding_shizuku_title">🚀 Verbeterde installatie (optioneel)</string>
+    <string name="onboarding_shizuku_subtitle">Voor Android 14+ power users</string>
+    <string name="onboarding_shizuku_standard_mode">Standaardmodus (aanbevolen)</string>
+    <string name="onboarding_shizuku_standard_description">Gebruikt de systeeminstaller. Werkt voor iedereen. Toont installatieprompts.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Verbeterde modus met Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Stille installatie zonder prompts. Vereist eenmalige installatie.</string>
+    <string name="onboarding_shizuku_status">Shizuku-status:</string>
+    <string name="onboarding_shizuku_not_installed">Niet geïnstalleerd</string>
+    <string name="onboarding_shizuku_not_running">Geïnstalleerd maar niet actief</string>
+    <string name="onboarding_shizuku_no_permission">Actief maar toestemming niet verleend</string>
+    <string name="onboarding_shizuku_ready">Klaar voor gebruik</string>
+    <string name="onboarding_shizuku_install">Installeer Shizuku</string>
+    <string name="onboarding_shizuku_start">Start Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Verleen toestemming</string>
+    <string name="onboarding_shizuku_start_service">Shizuku geïnstalleerd - tik om de service te starten</string>
+    <string name="onboarding_shizuku_start_button">Start Shizuku-service</string>
+    <string name="shizuku_service_not_started">Shizuku-service is niet actief. Open Shizuku en start de service.</string>
+    <string name="onboarding_shizuku_what_is_it">Wat is Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku is een tool waarmee apps systeemrechten kunnen gebruiken via draadloze debugging. Het maakt stille app-installatie mogelijk op Android 14+ zonder root. Je kunt AAAD nog steeds zonder gebruiken!</string>
+    <string name="onboarding_shizuku_steps_title">Installatiestappen:</string>
+    <string name="onboarding_shizuku_step1">1. Installeer Shizuku-app</string>
+    <string name="onboarding_shizuku_step2">2. Schakel ontwikkelaarsopties in</string>
+    <string name="onboarding_shizuku_step3">3. Schakel draadloze debugging in</string>
+    <string name="onboarding_shizuku_step4">4. Start Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Verleen toestemming aan AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Meer informatie</string>
+
+    <!-- Additional Error and Loading Messages -->
+    <string name="error_not_eligible">Je moet upgraden naar PRO of wachten op je volgende gratis download.</string>
+    <string name="error_no_internet">Geen internetverbinding</string>
+    <string name="error_no_internet_message">Maak verbinding met het internet om app-informatie te laden en door te gaan.</string>
+    <string name="error_initialization_failed">Initialisatie van app-gegevens mislukt</string>
+    <string name="error_metadata_fetch_failed">Ophalen van app-updates mislukt</string>
+    <string name="error_metadata_fetch_failed_message">Kon de nieuwste app-informatie niet ophalen. Controleer je internetverbinding en probeer het opnieuw.</string>
+    <string name="loading_app_data">App-informatie laden…</string>
+    <string name="loading_checking_updates">Controleren op updates…</string>
+    <string name="loading_please_wait">Even geduld…</string>
+    <string name="loading_app_catalog">App-catalogus laden…</string>
+    <string name="loading_fetching_icons">App-pictogrammen laden…</string>
+    <string name="loading_finalizing">Afronden…</string>
+    <string name="loading_checking_internet">Internetverbinding controleren…</string>
+
+    <!-- Error State Titles and Messages -->
+    <string name="error_no_internet_title">Geen internetverbinding</string>
+    <string name="error_no_internet_description">AAAD vereist een internetverbinding om app-informatie te laden. Maak verbinding met WiFi of mobiele data en probeer het opnieuw.</string>
+    <string name="warning_offline">Je bent offline - app-gegevens kunnen verouderd zijn</string>
+
+    <!-- Self-Update Strings -->
+    <string name="update_available_title">Update beschikbaar</string>
+    <string name="update_available_message">AAAD v%1$s is nu beschikbaar. Je gebruikt v%2$s.\n\nWil je de nieuwste versie downloaden?</string>
+    <string name="downloading_aaad_update">AAAD-update downloaden…</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_preparing_catalog">App-catalogus voorbereiden op de achtergrond…</string>
+
+    <!-- Progress Messages -->
+    <string name="progress_downloading">%1$s downloaden…</string>
+    <string name="progress_installing">%1$s installeren…</string>
+    <string name="progress_checking_updates">Controleren op updates…</string>
+    <string name="checking_for_aaad_updates">Controleren op AAAD-updates…</string>
+    <string name="no_updates_available">Je gebruikt de nieuwste versie!</string>
+
+    <!-- Version Format Strings -->
+    <string name="version_format">Versie %1$s</string>
+    <string name="installed_version_format">Geïnstalleerd: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+
+    <!-- Hero Section -->
+    <string name="hero_title">Android Auto-apps</string>
+    <string name="hero_subtitle">Installeer aangepaste apps voor je Android Auto-ervaring</string>
+    <string name="refresh_apps">Apps verversen</string>
+    <string name="privacy">Privacybeleid</string>
+    <string name="purchase_pro">Pro kopen</string>
+    <string name="aatorque_description">AATorque brengt de OBD-II voertuigdiagnostiek-app Torque Pro naar Android Auto. Monitor de prestaties van je auto, bekijk diagnostische gegevens en krijg toegang tot realtime voertuiginformatie rechtstreeks vanaf het display van je auto.</string>
+
+    <!-- Installation timeout -->
+    <string name="installation_timeout_message_secure">Installatieverificatie is verlopen. Je download is om veiligheidsredenen geteld voor je maandelijkse limiet.</string>
+    <string name="download_was_counted">Download is geteld voor je maandelijkse limiet</string>
+
+    <!-- Pro Version Activity -->
+    <string name="pro_version_title">PRO-versie</string>
+    <string name="pro_version_icon">PRO-versie badge</string>
+    <string name="pro_thank_you_title">Bedankt!</string>
+    <string name="pro_thank_you_message">Bedankt voor het ondersteunen van AAAD met je PRO-aankoop! Je bijdrage helpt dit project levend te houden en stelt ons in staat je de beste Android Auto-apps te blijven brengen.</string>
+    <string name="pro_since">PRO-lid sinds %s</string>
+    <string name="pro_since_legacy">PRO-lid</string>
+    <string name="pro_benefits_title">Je PRO-voordelen</string>
+    <string name="pro_benefit_unlimited">Onbeperkte app-downloads</string>
+    <string name="pro_benefit_no_cooldown">Geen wachttijd tussen downloads</string>
+    <string name="pro_benefit_support">Ondersteuning doorlopende ontwikkeling</string>
+    <string name="pro_closing_message">We waarderen je vertrouwen en ondersteuning enorm. Geniet van je onbeperkte toegang tot alle AAAD-apps!</string>
+
+    <!-- Server-Side Download Authorization -->
+    <string name="verifying_authorization">Downloadautorisatie verifiëren…</string>
+    <string name="please_sign_in">Meld je aan om apps te downloaden</string>
+    <string name="network_error">Netwerkfout. Controleer je verbinding en probeer het opnieuw.</string>
+
+    <!-- Support Activity (remaining strings) -->
+    <string name="support_no_email_app">Geen e-mailapp geïnstalleerd. Installeer een e-mailapp (Gmail, Outlook, etc.) of e-mail help.aaad@gmail.com rechtstreeks vanaf een ander apparaat.</string>
+    <string name="support_attachment_not_supported">Bijlage niet ondersteund, e-mail verzenden zonder logs</string>
+    <string name="support_attachment_failed_fallback">Kon logs niet bijvoegen, e-mail verzenden zonder bijlage</string>
+    <string name="support_email_body_greeting">Hallo AAAD Support,</string>
+</resources>

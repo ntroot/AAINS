@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">PRO Version</string>
+    <string name="switch_to_pro_statement">AAAD:n ilmainen versio sallii yhden ilmaisen latauksen kuukaudessa. Jos haluat ladata enemmän, päivitä PRO-versioon.</string>
+    <string name="congratsPro">Onnittelut, sinulla on PRO-versio!</string>    <string name="About">About</string>
+    <string name="have_promo_code">Minulla on kampanjakoodi</string>
+    <string name="promo_code">Syötä kampanjakoodi</string>
+    <string name="input_promo_code_here">Syötä koodi tähän</string>    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
+    <string name="warning_payment">At the end of the payment please manually press \"Return to merchant\" for the transaction to be validated.</string>
+    <string name="attention">HUOMIO</string>
+    <string name="next_download_available">Seuraava lataus saatavilla: %1$s</string>
+    <string name="connect_error">CONNECTION ERROR</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">You have 1 download remaining</item>
+        <item quantity="other">You have no download remaining</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) is developed and mantained by Shmykelsa.<br><br>The available apps are made possible by the following developers:<br>]]>"</string>
+    <string name="pro_unlocked">Onnittelut, PRO-versio avattu</string>
+    <string name="cancelled_payment">Osto peruutettu</string>
+    <string name="please_enter_code">Syötä kampanjakoodisi</string>
+    <string name="connection_error">Yhteysvirhe, ei voitu tarkistaa</string>
+    <string name="not_valid_code">Not a valid code</string>    <string name="downloading_progress">Downloading…</string>
+    <string name="aa_mirror_plus_description">Alternative to AAMirror with some more functionalities.</string>
+    <string name="aapassenger_description">Avaa Android Auto ajo-tilassa</string>
+    <string name="s2a_description">The most complete and full-featured mirroring app for Android Auto. Includes many features like a customizable launcher, split screen, custom screen sizes and much more!</string>
+    <string name="aamirror_description">Peilaa älypuhelimesi näyttö Android Autoon</string>
+    <string name="aa_stream_description">Suoratoista videoita Android Autossa</string>
+    <string name="carstream_description">Formerly known as \"YouTube Auto\", CarStream was one of the first apps made with the custom apps SDK. It was born with the main purpose of delivering YouTube to Android Auto and then it became a web browser with many capabilities.
+    </string>
+    <string name="fermata_description">Poistu Android Autosta poistumatta autosta</string>
+    <string name="s2a_redirect">Parhaan kokemuksen saavuttamiseksi suosittelemme Screen2Autoa</string>
+    <string name="screen2auto_download">Lataa Screen2Auto</string>    <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
+    <string name="performance_monitor_description">Valvo järjestelmän suorituskykyä Android Autossa</string>
+    <string name="promotion">Olet oikeutettu 15%% alennukseen</string>    <string name="loading">Ladataan…</string>
+    <string name="go_pro">HANKI PRO</string>
+    <string name="i_m_good">Olen tyytyväinen</string>
+    <string name="nav2contacts_description">Navigoi nopeasti yhteystietoihisi</string>    <string name="back_button_payment_close">Peruuta maksu ja sulje</string>
+    <string name="help">Ohje</string>
+    <string name="help_dialog">Do you want to send an e-mail for help right now?</string>    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
+    <string name="i_want_to_transfer_license_from_here">Haluan siirtää lisenssini tältä laitteelta</string>
+    <string name="license_transfer_help">Skannaa QR-koodi toisella laitteella siirtääksesi lisenssisi</string>
+    <string name="transfer_license">Transfer License</string>
+    <string name="debug_mode_activate">Aktivoi virheenkorjaus</string>
+    <string name="debug_mode_performance_warning">Virheenkorjaustila saattaa vaikuttaa suorituskykyyn</string>
+    <string name="debug_mode_deactivated">Virheenkorjaustila poistettu käytöstä</string>
+    <string name="confirm">Vahvistus</string>
+    <string name="license_here_confirm">Haluatko siirtää lisenssisi tälle laitteelle?</string>
+    <string name="qr_tutorial">Avaa AAAD toisella laitteellasi ja skannaa tämä QR-koodi</string>
+    <string name="license_done">Lisenssi siirretty onnistuneesti!</string>
+    <string name="no_license_found">Kelvollista lisenssiä ei löytynyt</string>    <string name="qr_code_permission">The camera permission is needed to scan a QR code</string>
+    <string name="success_transfer">Siirto onnistui</string>
+    <string name="days_remaining">%d päivää jäljellä seuraavaan lataukseen</string>
+    <string name="hours_remaining">%d tuntia jäljellä seuraavaan lataukseen</string>
+    <string name="less_than_hour">Alle tunti jäljellä seuraavaan lataukseen</string>
+    <string name="download_available_now">Lataus saatavilla nyt!</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Tärkeä varoitus</string>
+    <string name="onboarding_warning_message">Tämä sovellus EI ole yhteydessä softonic.com, uptodown.com tai aadapk.com, aadapk.app. Ainoa virallinen lähde on github.com</string>
+    <string name="onboarding_official_source">Virallinen lähde: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Tervetuloa AAAD:iin!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto -sovellusten latausohjelma</string>
+    <string name="onboarding_welcome_description">Tämä työkalu auttaa asentamaan mukautettuja sovelluksia Android Autoon rootaamattomille puhelimille. Pyyhkäise läpi oppiaksesi sovelluksen käytön ja myönnä sitten tarvittavat käyttöoikeudet aloittaaksesi.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Valitse ja asenna</string>
+    <string name="onboarding_page_selection_description">Valitse sovellus, jonka haluat asentaa, ja odota järjestelmän asennusohjelman ilmestymistä.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Sovelluksen tiedot</string>
+    <string name="onboarding_page_info_description">Jos olet epävarma siitä, minkä sovelluksen asentaisit, paina painiketta pitkään saadaksesi kuvauksen.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimediasovellukset</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Peilaussovellukset</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Muut</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Vaadittu asennus</string>
+    <string name="onboarding_permissions_subtitle">Myönnä käyttöoikeudet mukautettujen sovellusten asentamiseen</string>
+    <string name="onboarding_unknown_sources_title">Asenna tuntemattomia sovelluksia</string>
+    <string name="onboarding_unknown_sources_description">Vaaditaan APK-tiedostojen asentamiseen ulkoisista lähteistä</string>
+    <string name="onboarding_notifications_title">Ilmoitukset</string>
+    <string name="onboarding_notifications_description">Vastaanota ilmoituksia latauksen edistymisestä ja sovellusten päivityksistä</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto kehittäjäasetukset (Suositeltu)</string>
+    <string name="onboarding_aa_dev_description">Valinnainen vaihe Android Auto -kokemuksesi parantamiseksi</string>
+    <string name="onboarding_aa_dev_warning">Parhaan kokemuksen saamiseksi mukautetuista sovelluksista Android Autossa suosittelemme ottamaan käyttöön \"Tuntemattomat lähteet\" Android Auton kehittäjäasetuksissa.</string>
+    <string name="onboarding_open_aa_dev">Näytä kehittäjäasetukset</string>
+
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Poista väliaikaisesti käytöstä salliaksesi mukautettujen sovellusten asennuksen</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect saattaa estää mukautettujen sovellusten asennuksen. Sinun täytyy poistaa se väliaikaisesti käytöstä tai sallia AAAD kehotettaessa.</string>
+    <string name="onboarding_open_play_protect">Avaa Play Protect -asetukset</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Seuraava</string>
+    <string name="onboarding_previous">Edellinen</string>
+    <string name="onboarding_skip">Ohita</string>
+    <string name="onboarding_grant_permissions">Myönnä käyttöoikeudet</string>
+    <string name="onboarding_continue">Jatka sovellukseen</string>
+    <string name="onboarding_get_started">Aloita</string>
+    <string name="onboarding_finish">Viimeistele asennus</string>
+    <string name="show_intro">Näytä esittely</string>
+    <string name="downloads_remaining">Jäljellä olevat lataukset</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Asennettu</string>
+    <string name="status_update_available">Päivitys saatavilla</string>
+    <string name="status_update_to_version">Päivitä versioon %1$s</string>
+    <string name="status_not_installed">Ei asennettu</string>
+    <string name="status_downloading">Ladataan…</string>
+    <string name="status_installing">Asennetaan…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Asenna</string>
+    <string name="action_update">Päivitä</string>
+    <string name="action_open">Avaa</string>
+    <string name="action_uninstall">Poista asennus</string>
+    <string name="action_cancel">Peruuta</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Lataus epäonnistui</string>
+    <string name="error_installation_failed">Asennus epäonnistui</string>
+    <string name="error_network_unavailable">Verkko ei käytettävissä</string>
+    <string name="error_insufficient_storage">Tallennustila ei riitä</string>
+    <string name="error_cannot_open_app">Sovellusta ei voi avata - käynnistystoimintoa ei löytynyt</string>
+    <string name="error_download_tracking_failed">Latauksen tilan päivitys epäonnistui</string>
+    <string name="error_loading_catalog">Sovellusluettelon lataus epäonnistui</string>
+    <string name="error_not_eligible">Sinun on päivitettävä PRO-versioon tai odotettava seuraavaa ilmaista lataustasi.</string>
+    <string name="error_no_internet">Ei internet-yhteyttä</string>
+    <string name="error_no_internet_message">Yhdistä internetiin ladataksesi sovellustiedot ja jatkaaksesi.</string>
+    <string name="error_initialization_failed">Sovellustietojen alustus epäonnistui</string>
+    <string name="error_metadata_fetch_failed">Sovelluspäivitysten haku epäonnistui</string>
+    <string name="error_metadata_fetch_failed_message">Uusimpien sovellustietojen noutaminen epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
+    <string name="action_retry">Yritä uudelleen</string>
+    <string name="action_continue_offline">Jatka offline-tilassa</string>
+    <string name="loading_app_data">Ladataan sovellustietoja…</string>
+    <string name="loading_checking_updates">Tarkistetaan päivityksiä…</string>
+    <string name="loading_please_wait">Odota hetki…</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Siirrä lisenssi</string>
+    <string name="checking_license_status">Tarkistetaan lisenssin tilaa…</string>
+    <string name="qr_code_icon">QR-koodikuvake</string>
+    <string name="receiver_title">Vastaanota PRO-lisenssi</string>
+    <string name="receiver_subtitle">Näytä tämä QR-koodi siirtääksesi lisenssin tälle laitteelle</string>
+    <string name="qr_code_to_scan">QR-koodi lisenssin siirtoa varten</string>
+    <string name="receiver_instructions_title">Näin se toimii</string>
+    <string name="receiver_instructions_step1">Avaa PRO-laitteessa AAAD ja siirry kohtaan Siirrä lisenssi</string>
+    <string name="receiver_instructions_step2">Napauta Skannaa QR-koodi -painiketta kyseisessä laitteessa</string>
+    <string name="receiver_instructions_step3">Skannaa tämä QR-koodi viimeistelläksesi siirron</string>
+    <string name="transfer_license_icon">Lisenssinsiirtokuvake</string>
+    <string name="sender_title">Siirrä PRO-lisenssi</string>
+    <string name="sender_subtitle">Siirrä lisenssisi uuteen laitteeseen</string>
+    <string name="sender_warning">⚠️ Varoitus: Lisenssin siirtäminen poistaa PRO-tilan tästä laitteesta ja aktivoi sen uudessa laitteessa. Tätä toimintoa ei voi perua.</string>
+    <string name="sender_instructions_title">Siirtäminen</string>
+    <string name="sender_step_1">Avaa AAAD uudessa laitteessasi</string>
+    <string name="sender_step_2">Siirry Siirrä lisenssi -valikkoon</string>
+    <string name="sender_step_3">Uuteen laitteeseen ilmestyy QR-koodi</string>
+    <string name="sender_step_4">Napauta alla olevaa painiketta ja skannaa kyseinen QR-koodi</string>
+    <string name="scan_qr_code">Skannaa QR-koodi</string>
+    <string name="camera_permission_required">Kameralupa vaaditaan QR-koodien skannaamiseen</string>
+    <string name="error_checking_license">Lisenssin tilan tarkistaminen epäonnistui. Yritä uudelleen.</string>
+    <string name="error_generating_qr">QR-koodin luominen epäonnistui</string>
+    <string name="license_received_success">Lisenssi vastaanotettu onnistuneesti!</string>
+    <string name="scan_error_title">Skannausvirhe</string>
+    <string name="scan_error_message">QR-koodin skannaus epäonnistui. Yritä uudelleen.</string>
+    <string name="confirm_transfer_title">Vahvista siirto</string>
+    <string name="confirm_transfer_message">Haluatko varmasti siirtää PRO-lisenssisi uuteen laitteeseen? Tämä poistaa PRO:n tästä laitteesta.</string>
+    <string name="confirm_transfer_yes">Siirrä lisenssi</string>
+    <string name="confirm_transfer_no">Peruuta</string>
+    <string name="license_transferred_success">Lisenssi siirretty onnistuneesti!</string>
+    <string name="error_transferring_license">Lisenssin siirtäminen epäonnistui. Yritä uudelleen.</string>
+    <string name="support_title">Tarvitsetko apua?</string>
+    <string name="support_icon">Ohjeikuvake</string>
+    <string name="support_subtitle">Olemme täällä auttamassa sinua!</string>
+    <string name="support_description">Onko sinulla ongelmia AAAD:n kanssa? Lähetä meille sähköpostia, niin palaamme asiaan mahdollisimman pian. Mitä enemmän yksityiskohtia annat, sitä nopeammin voimme auttaa!</string>
+    <string name="support_email_will_include">Sähköpostisi sisältää:</string>
+    <string name="support_email_item_device">Laitteen malli ja Android-versio</string>
+    <string name="support_email_item_version">AAAD-versiotiedot</string>
+    <string name="support_email_item_description">Tilaa ongelman kuvaamiseen</string>
+    <string name="support_include_logs">Sisällytä diagnostiikkaloki</string>
+    <string name="support_logs_explanation">Suositeltava - Auttaa meitä vianmäärityksessä nopeammin. Sisältää vain laitetiedot ja sovelluksen asetukset, ei henkilökohtaisia tietoja.</string>
+    <string name="support_send_email">Lähetä sähköposti tukeen</string>
+    <string name="support_privacy_note">Kunnioitamme yksityisyyttäsi. Lokeissa ei ole henkilökohtaisia tietoja, salasanoja tai maksutietoja.</string>
+    <string name="support_preparing_email">Valmistellaan sähköpostia…</string>
+    <string name="support_log_generation_failed">Lokien luominen epäonnistui, lähetetään sähköposti ilman liitettä</string>
+    <string name="support_email_failed">Sähköpostisovelluksen avaaminen epäonnistui. Lähetä sähköposti suoraan osoitteeseen help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Valitse sähköpostisovellus</string>
+    <string name="support_email_subject">AAAD-tukipyyntö</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Peilaussovellukset</string>
+    <string name="third_section_name">Muut</string>
+
+    <string name="privacy_policy">Tämä sovellus kunnioittaa yksityisyyttäsi. Emme kerää, tallenna tai jaa henkilökohtaisia tietoja ilman suostumustasi. Lisätietoja saat ottamalla meihin yhteyttä.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto kehittäjäasetukset</string>
+    <string name="android_auto_setup_icon">Android Auto -asennusoppaan kuvake</string>
+    <string name="android_auto_setup_subtitle">Seuraa näitä ohjeita ottaaksesi käyttöön tuntemattomat lähteet mukautetuille sovelluksille Android Autossa</string>
+    <string name="android_auto_open_settings">Avaa Android Auto -asetukset</string>
+    <string name="android_auto_setup_instructions_title">Asennusohjeet</string>
+    <string name="android_auto_step1_title">Napauta \"Versio\" 10 kertaa</string>
+    <string name="android_auto_step1_description">Vieritä Android Auto -asetuksissa alas ja napauta \"Versio\" (viimeinen kohta) 10 kertaa avataksesi kehittäjäasetukset.</string>
+    <string name="android_auto_step2_title">Vahvista kehittäjätila</string>
+    <string name="android_auto_step2_description">Kun kehotteita, napauta \"Salli\" tai \"Ota käyttöön\" aktivoidaksesi kehittäjäasetukset Android Autolle.</string>
+    <string name="android_auto_step3_title">Avaa kehittäjäasetukset</string>
+    <string name="android_auto_step3_description">Napauta kolmen pisteen valikkoikonia oikeassa yläkulmassa ja valitse \"Kehittäjäasetukset\" avautuvasta valikosta.</string>
+    <string name="android_auto_step4_title">Ota käyttöön tuntemattomat lähteet</string>
+    <string name="android_auto_step4_description">Kehittäjäasetukset-valikossa etsi ja ota käyttöön \"Tuntemattomat lähteet\" -vaihtoehto salliaksesi kolmansien osapuolten sovellusten asentamisen.</string>
+    <string name="android_auto_setup_done">Valmis</string>
+    <string name="android_auto_settings_opened">Android Auto -asetukset avattu. Seuraa yllä olevia ohjeita.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto avattu. Siirry asetuksiin manuaalisesti.</string>
+    <string name="android_auto_not_installed">Android Autoa ei ole asennettu. Asenna se ensin Play Storesta.</string>
+
+    <!-- Android Auto Setup Activity -->
+
+    <string name="action_download_update">Lataa päivitys</string>
+    <string name="action_install_update">Asenna päivitys</string>
+    <string name="action_skip_update">Ohita toistaiseksi</string>
+    <string name="action_download_manual">Manuaalinen lataus</string>
+    <string name="badge_update">PÄIVITYS</string>
+    <string name="check_for_updates">Tarkista päivitykset</string>
+    <string name="aaad_update_section">AAAD-päivitys saatavilla</string>
+    <string name="aaad_update_available_subtitle">Uusi versio ladattavissa</string>
+    <string name="aaad_update_downloaded">Päivitys ladattu! Asennetaan…</string>
+    <string name="aaad_update_failed">Päivityksen lataus epäonnistui. Yritä ladata manuaalisesti.</string>
+    <string name="aaad_current_version">Nykyinen: %1$s</string>
+    <string name="aaad_latest_version">Uusin: %1$s</string>
+    <string name="authorization_failed">Latauksen valtuutus epäonnistui. Yritä uudelleen.</string>
+    <string name="authorization_error">Valtuutusvirhe. Tarkista yhteytesi.</string>
+    <string name="aabrowser_description">Selaa verkkoa Android Autossa</string>
+    <string name="benefit_icon">Etu</string>
+    <string name="input_email">Syötä sähköpostiosoitteesi</string>
+    <string name="no_updates_available">Ei saatavilla olevia päivityksiä</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Parannettu asennus (Valinnainen)</string>
+    <string name="onboarding_shizuku_subtitle">Android 14+ -tehokäyttäjille</string>
+    <string name="onboarding_shizuku_standard_mode">Vakiotila (Suositeltu)</string>
+    <string name="onboarding_shizuku_standard_description">Käyttää järjestelmän asennusohjelmaa. Toimii kaikille. Näyttää asennuskehotteita.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Parannettu tila Shizukulla</string>
+    <string name="onboarding_shizuku_enhanced_description">Hiljainen asennus ilman kehotteita. Vaatii kertaalustuksen.</string>
+    <string name="onboarding_shizuku_status">Shizuku-tila:</string>
+    <string name="onboarding_shizuku_not_installed">Ei asennettu</string>
+    <string name="onboarding_shizuku_not_running">Asennettu mutta ei käynnissä</string>
+    <string name="onboarding_shizuku_no_permission">Käynnissä mutta lupaa ei myönnetty</string>
+    <string name="onboarding_shizuku_ready">Valmis käyttöön</string>
+    <string name="onboarding_shizuku_install">Asenna Shizuku</string>
+    <string name="onboarding_shizuku_start">Käynnistä Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Myönnä lupa</string>
+    <string name="onboarding_shizuku_start_service">Shizuku asennettu - napauta käynnistääksesi palvelun</string>
+    <string name="onboarding_shizuku_start_button">Käynnistä Shizuku-palvelu</string>
+    <string name="shizuku_service_not_started">Shizuku-palvelu ei ole käynnissä. Avaa Shizuku ja käynnistä palvelu.</string>
+    <string name="onboarding_shizuku_what_is_it">Mikä on Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku on työkalu, joka sallii sovellusten käyttää järjestelmätason oikeuksia langattoman virheenkorjauksen kautta. Se mahdollistaa hiljaisen sovellusten asennuksen Android 14+ -laitteisiin ilman root-oikeuksia. Voit silti käyttää AAAD:ia ilman sitä!</string>
+    <string name="onboarding_shizuku_steps_title">Asennusvaiheet:</string>
+    <string name="onboarding_shizuku_step1">1. Asenna Shizuku-sovellus</string>
+    <string name="onboarding_shizuku_step2">2. Ota kehittäjäasetukset käyttöön</string>
+    <string name="onboarding_shizuku_step3">3. Ota langaton virheenkorjaus käyttöön</string>
+    <string name="onboarding_shizuku_step4">4. Käynnistä Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Myönnä lupa AAAD:lle</string>
+    <string name="onboarding_shizuku_learn_more">Lue lisää</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_internet_title">Ei internet-yhteyttä</string>
+    <string name="error_no_internet_description">AAAD vaatii internet-yhteyden sovellusten tietojen lataamiseen. Yhdistä WiFi:hin tai mobiiliverkkoon ja yritä uudelleen.</string>
+    <string name="network_error">Verkkovirhe. Tarkista yhteytesi ja yritä uudelleen.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_catalog">Ladataan sovellusluetteloa…</string>
+    <string name="loading_fetching_icons">Ladataan sovelluskuvakkeita…</string>
+    <string name="loading_finalizing">Viimeistellään…</string>
+    <string name="loading_checking_internet">Tarkistetaan internet-yhteyttä…</string>
+    <string name="downloading_aaad_update">Ladataan AAAD-päivitystä…</string>
+    <string name="progress_downloading">Ladataan %1$s…</string>
+    <string name="progress_installing">Asennetaan %1$s…</string>
+    <string name="progress_checking_updates">Tarkistetaan päivityksiä…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Osta Pro</string>
+    <string name="pro_version_title">PRO-versio</string>
+    <string name="pro_version_icon">PRO-version merkki</string>
+    <string name="pro_thank_you_title">Kiitos!</string>
+    <string name="pro_thank_you_message">Kiitos AAAD:n tukemisesta PRO-ostoksellasi! Panoksesi auttaa pitämään tämän projektin elossa ja mahdollistaa parhaisiin Android Auto -sovelluksiin tutustumisen.</string>
+    <string name="pro_since">PRO-jäsen %s lähtien</string>
+    <string name="pro_since_legacy">PRO-jäsen</string>
+    <string name="pro_benefits_title">PRO-etusi</string>
+    <string name="pro_benefit_unlimited">Rajattomat sovellusten lataukset</string>
+    <string name="pro_benefit_no_cooldown">Ei odotusaikaa latausten välillä</string>
+    <string name="pro_benefit_support">Tue jatkuvaa kehitystä</string>
+    <string name="pro_closing_message">Arvostamme vilpittömästi luottamustasi ja tukeasi. Nauti rajattomasta pääsystäsi kaikkiin AAAD-sovelluksiin!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">Sähköpostisovellusta ei ole asennettu. Asenna sähköpostisovellus (Gmail, Outlook jne.) tai lähetä sähköpostia osoitteeseen help.aaad@gmail.com suoraan toiselta laitteelta.</string>
+    <string name="support_attachment_not_supported">Liitettä ei tueta, lähetetään sähköposti ilman lokeja</string>
+    <string name="support_attachment_failed_fallback">Lokien liittäminen epäonnistui, lähetetään sähköposti ilman liitettä</string>
+    <string name="support_email_body_greeting">Hei AAAD-tuki,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Päivitys saatavilla</string>
+    <string name="update_available_message">AAAD v%1$s on nyt saatavilla. Käytät versiota v%2$s.\n\nHaluatko ladata uusimman version?</string>
+    <string name="checking_for_aaad_updates">Tarkistetaan AAAD-päivityksiä…</string>
+    <string name="update_available_badge">PÄIVITYS</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque tuo OBD-II-ajoneuvon diagnostiikkasovelluksen Torque Pro Android Autoon. Seuraa autosi suorituskykyä, tarkastele diagnostiikkatietoja ja käytä reaaliaikaisia ajoneuvotietoja suoraan autosi näytöltä.</string>
+    <string name="warning_offline">Olet offline-tilassa - sovellustiedot saattavat olla vanhentuneita</string>
+    <string name="onboarding_preparing_catalog">Valmistellaan sovellusluetteloa taustalla…</string>
+    <string name="version_format">Versio %1$s</string>
+    <string name="installed_version_format">Asennettu: %1$s</string>
+    <string name="percentage_format">%1$d %%</string>
+    <string name="hero_title">Android Auto -sovellukset</string>
+    <string name="hero_subtitle">Asenna mukautettuja sovelluksia Android Auto -kokemukseesi</string>
+    <string name="refresh_apps">Päivitä sovellukset</string>
+    <string name="privacy">Tietosuojakäytäntö</string>
+    <string name="email_dialog">Sähköpostia käytetään ostoksesi vahvistamiseen tarvittaessa</string>
+    <string name="installation_failed">Asennus epäonnistui</string>
+    <string name="installation_timeout_message">Onnistuiko sovelluksen asennus?</string>
+    <string name="installation_succeeded">Kyllä, se asennettiin</string>
+    <string name="installation_failed_or_cancelled">Ei, se epäonnistui tai peruutettiin</string>
+    <string name="installation_timeout_message_secure">Asennuksen vahvistus aikakatkaistiin. Latauksesi on laskettu kuukausittaiseen rajoitukseesi turvallisuussyistä.</string>
+    <string name="download_was_counted">Lataus laskettiin kuukausittaiseen rajoitukseesi</string>
+    <string name="verifying_authorization">Vahvistetaan latausoikeutta…</string>
+    <string name="please_sign_in">Kirjaudu sisään ladataksesi sovelluksia</string>
+</resources>

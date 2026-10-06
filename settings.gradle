@@ -1,0 +1,2 @@
+rootProject.name = "AAINS"
+include ':app'

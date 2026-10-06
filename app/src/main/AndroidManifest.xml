@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.DELETE_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" 
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Request ability to query all packages (Android 11+) -->
+    <!-- This ensures we can detect ALL installed apps without declaring each one -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <queries>
+        <!-- Allow package installer intents -->
+        <intent>
+            <action android:name="android.intent.action.INSTALL_PACKAGE" />
+            <data android:scheme="package" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="content" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="file" />
+        </intent>
+
+        <!-- Email app queries - Required for Android 11+ to see email apps like Gmail, Spark, etc. -->
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="mailto" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="text/plain" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="message/rfc822" />
+        </intent>
+
+        <!-- Declare specific packages we want to detect as installed (Android 11+) -->
+        <!-- CarStream versions -->
+        <package android:name="maps.jaoloonda.android" />
+
+        <!-- Multimedia apps -->
+        <package android:name="me.aap.fermata.auto.dear.google.why" />
+
+        <!-- Mirroring apps -->
+        <package android:name="android.loandamaps.it" />
+        <package android:name="maps.kiao2client.android" />
+        <package android:name="maps.mobilejiohubclient.android" />
+        <package android:name="maps.mobilejiohub.android" />
+
+        <!-- Utility apps -->
+        <package android:name="com.github.martoreto.aaremote" />
+        <package android:name="de.nsvb.android.auto.w4a" />
+        <package android:name="nl.frankkie.nav2contacts" />
+        <package android:name="com.mqbcoding.stats" />
+        <package android:name="com.aatorque.stats" />
+        <package android:name="com.kododake.aabrowser" />
+
+        <!-- Shizuku - Required for Android 11+ package visibility -->
+        <package android:name="moe.shizuku.privileged.api" />
+
+        <!-- Android Auto - Required for accessing developer settings -->
+        <package android:name="com.google.android.projection.gearhead" />
+    </queries>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AA_Apps_Downloader">
+
+        <!-- Main Launcher Activity -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/Theme.AA_Apps_Downloader">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="Install Screen2Auto">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https"
+                    android:host="inceptive.ru"
+                    android:pathPrefix="/projects/s2a/download/" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="sksa.aa.customapps.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+
+        <!-- Shizuku Provider for Android 14+ installation support -->
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="${applicationId}.shizuku"
+            android:enabled="true"
+            android:exported="true"
+            android:multiprocess="false"
+            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+        <!-- BroadcastReceiver for PackageInstaller session callbacks -->
+        <receiver
+            android:name=".installer.InstallReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.legs.appsforaa.ACTION_INSTALL_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+
+
+
+
+</manifest>

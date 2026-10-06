@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">PRO Versija</string>
+    <string name="switch_to_pro_statement">Nemokama AAAD versija leidžia turėti vieną nemokamą atsisiuntimą kas mėnesį. Jei norite atsisiųsti daugiau, pereikite prie PRO.</string>
+    <string name="congratsPro">Sveikiname, turite PRO versiją!</string>    <string name="About">Apie</string>
+    <string name="have_promo_code">Turiu akcijos kodą</string>
+    <string name="promo_code">Įveskite akcijos kodą</string>
+    <string name="input_promo_code_here">Įveskite kodą čia</string>    <string name="about_to_download">Bus parsiunčiama %1$s. Ar norite tęsti?</string>
+    <string name="warning_payment">At the end of the payment please manually press \"Return to merchant\" for the transaction to be validated.</string>
+    <string name="attention">DĖMESIO</string>
+    <string name="next_download_available">Kitas atsisiuntimas galimas: %1$s</string>
+    <string name="connect_error">PRISIJUNGIMO KLAIDA</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">Liko 1 parsisiuntimas</item>
+        <item quantity="few">You have no download remaining</item>
+        <item quantity="many">You have no download remaining</item>
+        <item quantity="other">You have no download remaining</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) is developed and mantained by Shmykelsa.<br><br>The available apps are made possible by the following developers:<br>]]>"</string>
+    <string name="pro_unlocked">Sveikiname, PRO versija atrakinta</string>
+    <string name="cancelled_payment">Pirkimas atšauktas</string>
+    <string name="please_enter_code">Įveskite savo reklaminį kodą</string>
+    <string name="connection_error">Ryšio klaida, nepavyko patikrinti</string>
+    <string name="not_valid_code">Netinkamas kodas</string>    <string name="downloading_progress">Siunčiama…</string>
+    <string name="aa_mirror_plus_description">Alternatyva AAMirror su daugiau funkcionalumo.</string>
+    <string name="aapassenger_description">Atrakinkite Android Auto vairavimo režimu</string>
+    <string name="s2a_description">The most complete and full-featured mirroring app for Android Auto. Includes many features like a customizable launcher, split screen, custom screen sizes and much more!</string>
+    <string name="aamirror_description">Atspindėkite išmaniojo telefono ekraną į Android Auto</string>
+    <string name="aa_stream_description">Transliuokite vaizdo įrašus Android Auto</string>
+    <string name="carstream_description">Formerly known as \"YouTube Auto\", CarStream was one of the first apps made with the custom apps SDK. It was born with the main purpose of delivering YouTube to Android Auto and then it became a web browser with many capabilities.
+    </string>
+    <string name="fermata_description">Išeikite iš Android Auto neišlipant iš automobilio</string>
+    <string name="s2a_redirect">Geriausiam patyrimui rekomenduojame Screen2Auto</string>
+    <string name="screen2auto_download">Atsisiųsti Screen2Auto</string>    <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
+    <string name="performance_monitor_description">Stebėkite sistemos veikimą Android Auto</string>
+    <string name="promotion">Galite gauti 15% nuolaidą</string>    <string name="loading">Įkeliama…</string>
+    <string name="go_pro">ĮSIGYTI PRO</string>
+    <string name="i_m_good">Man gerai</string>
+    <string name="nav2contacts_description">Greitai pereikite prie kontaktų</string>    <string name="back_button_payment_close">Atšaukti mokėjimą ir uždaryti</string>
+    <string name="help">Pagalba</string>
+    <string name="help_dialog">Ar norite siųsti el. laišką pagalbai gauti?</string>    <string name="i_want_to_transfer_license_here">Noriu perkelti licenciją į šį įrenginį</string>
+    <string name="i_want_to_transfer_license_from_here">Noriu perkelti licenciją iš šio įrenginio</string>
+    <string name="license_transfer_help">Nuskaitykite QR kodą kitame įrenginyje, kad perkelti licenciją</string>
+    <string name="transfer_license">Perkelti licenciją</string>
+    <string name="debug_mode_activate">Aktyvuoti derinimą</string>
+    <string name="debug_mode_performance_warning">Derinimo režimas gali turėti įtakos našumui</string>
+    <string name="debug_mode_deactivated">Derinimo režimas išjungtas</string>
+    <string name="confirm">Patvirtinimas</string>
+    <string name="license_here_confirm">Ar norite perkelti licenciją į šį įrenginį?</string>
+    <string name="qr_tutorial">Atidarykite AAAD kitame įrenginyje ir nuskaitykite šį QR kodą</string>
+    <string name="license_done">Licencija sėkmingai perkelta!</string>
+    <string name="no_license_found">Nerasta galiojanti licencija</string>    <string name="qr_code_permission">Reikalingas kameros leidimas norit nuskenuoti QR kodą</string>
+    <string name="success_transfer">Perkėlimas sėkmingas</string>
+    <string name="days_remaining">Liko %d dienų iki kito atsisiuntimo</string>
+    <string name="hours_remaining">Liko %d valandų iki kito atsisiuntimo</string>
+    <string name="less_than_hour">Liko mažiau nei 1 valanda iki kito atsisiuntimo</string>
+    <string name="download_available_now">Atsisiuntimas galimas dabar!</string>
+    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Svarbus įspėjimas</string>
+    <string name="onboarding_warning_message">Ši programa NĖRA susijusi su softonic.com, uptodown.com ar aadapk.com, aadapk.app. Vienintelis oficialus šaltinis yra github.com</string>
+    <string name="onboarding_official_source">Oficialus šaltinis: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Sveiki atvykę į AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto programų atsisiuntiklis</string>
+    <string name="onboarding_welcome_description">Ši priemonė padės įdiegti pritaikytas programas į Android Auto telefonuose be root prieigos. Braukite, kad sužinotumėte, kaip naudoti programą, tada suteikite reikalingas leidimus, kad galėtumėte pradėti.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Pasirinkite ir įdiekite</string>
+    <string name="onboarding_page_selection_description">Pasirinkite programą, kurią norite įdiegti, ir palaukite, kol pasirodys sistemos diegimo programa.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Programos informacija</string>
+    <string name="onboarding_page_info_description">Jei nežinote, kurią programą įdiegti, ilgai paspauskite mygtuką, kad gautumėte aprašymą.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimedijos programos</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Veidrodinimo programos</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Kita</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Reikalinga sąranka</string>
+    <string name="onboarding_permissions_subtitle">Suteikite leidimus pritaikytoms programoms įdiegti</string>
+    <string name="onboarding_unknown_sources_title">Įdiekite nežinomas programas</string>
+    <string name="onboarding_unknown_sources_description">Reikalinga APK failams iš išorinių šaltinių diegti</string>
+    <string name="onboarding_notifications_title">Pranešimai</string>
+    <string name="onboarding_notifications_description">Gaukite pranešimus apie atsisiuntimų eigą ir programų atnaujinimus</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto kūrėjų nustatymai (Rekomenduojama)</string>
+    <string name="onboarding_aa_dev_description">Neprivalomas žingsnis, skirtas pagerinti jūsų Android Auto patirtį</string>
+    <string name="onboarding_aa_dev_warning">Geriausiai pritaikytų programų patirčiai Android Auto rekomenduojame įgalinti \"Nežinomus šaltinius\" Android Auto kūrėjų nustatymuose.</string>
+    <string name="onboarding_open_aa_dev">Peržiūrėti kūrėjų nustatymus</string>
+
+    <string name="onboarding_play_protect_title">Google Play Apsauga</string>
+    <string name="onboarding_play_protect_description">Laikinai išjunkite, kad leistumėte įdiegti pritaikytas programas</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect gali blokuoti pritaikytų programų įdiegimą. Turite laikinai jį išjungti arba leisti AAAD, kai bus paprašyta.</string>
+    <string name="onboarding_open_play_protect">Atidaryti Play Protect nustatymus</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Kitas</string>
+    <string name="onboarding_previous">Ankstesnis</string>
+    <string name="onboarding_skip">Praleisti</string>
+    <string name="onboarding_grant_permissions">Suteikti leidimus</string>
+    <string name="onboarding_continue">Tęsti į programą</string>
+    <string name="onboarding_get_started">Pradėti</string>
+    <string name="onboarding_finish">Užbaigti sąranką</string>
+    <string name="show_intro">Rodyti įvadą</string>
+    <string name="downloads_remaining">Likusieji atsisiuntimai</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Įdiegta</string>
+    <string name="status_update_available">Galimas atnaujinimas</string>
+    <string name="status_update_to_version">Atnaujinti į %1$s</string>
+    <string name="status_not_installed">Neįdiegta</string>
+    <string name="status_downloading">Atsiunčiama…</string>
+    <string name="status_installing">Įdiegiama…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Įdiegti</string>
+    <string name="action_update">Atnaujinti</string>
+    <string name="action_open">Atidaryti</string>
+    <string name="action_uninstall">Pašalinti</string>
+    <string name="action_cancel">Atšaukti</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Atsisiuntimas nepavyko</string>
+    <string name="error_installation_failed">Įdiegimas nepavyko</string>
+    <string name="error_network_unavailable">Tinklas nepasiekiamas</string>
+    <string name="error_insufficient_storage">Nepakanka saugyklos vietos</string>
+    <string name="error_cannot_open_app">Nepavyko atidaryti programos - nerasta paleidimo veikla</string>
+    <string name="error_download_tracking_failed">Nepavyko atnaujinti atsisiuntimo būsenos</string>
+    <string name="error_loading_catalog">Nepavyko įkelti programų katalogo</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Perkelti licenciją</string>
+    <string name="checking_license_status">Tikrinama licencijos būsena…</string>
+    <string name="qr_code_icon">QR kodo piktograma</string>
+    <string name="receiver_title">Gauti PRO licenciją</string>
+    <string name="receiver_subtitle">Parodykite šį QR kodą, kad perkeltumėte licenciją į šį įrenginį</string>
+    <string name="qr_code_to_scan">QR kodas licencijos perkėlimui</string>
+    <string name="receiver_instructions_title">Kaip tai veikia</string>
+    <string name="receiver_instructions_step1">Įrenginyje su PRO atidarykite AAAD ir eikite į Perkelti licenciją</string>
+    <string name="receiver_instructions_step2">Bakstelėkite mygtuką Skenuoti QR kodą tame įrenginyje</string>
+    <string name="receiver_instructions_step3">Nuskaitykite šį QR kodą, kad užbaigtumėte perkėlimą</string>
+    <string name="transfer_license_icon">Licencijos perkėlimo piktograma</string>
+    <string name="sender_title">Perkelti PRO licenciją</string>
+    <string name="sender_subtitle">Perkelkite savo licenciją į naują įrenginį</string>
+    <string name="sender_warning">⚠️ Įspėjimas: Perkėlus licenciją bus pašalintas PRO statusas iš šio įrenginio ir aktyvuotas naujame įrenginyje. Šio veiksmo negalima atšaukti.</string>
+    <string name="sender_instructions_title">Kaip perkelti</string>
+    <string name="sender_step_1">Atidarykite AAAD naujame įrenginyje</string>
+    <string name="sender_step_2">Eikite į meniu Perkelti licenciją</string>
+    <string name="sender_step_3">Naujame įrenginyje pasirodys QR kodas</string>
+    <string name="sender_step_4">Bakstelėkite mygtuką žemiau ir nuskaitykite tą QR kodą</string>
+    <string name="scan_qr_code">Skenuoti QR kodą</string>
+    <string name="camera_permission_required">Reikalingas kameros leidimas QR kodų skenavimui</string>
+    <string name="error_checking_license">Nepavyko patikrinti licencijos būsenos. Bandykite dar kartą.</string>
+    <string name="error_generating_qr">Nepavyko sugeneruoti QR kodo</string>
+    <string name="license_received_success">Licencija gauta sėkmingai!</string>
+    <string name="scan_error_title">Skenavimo klaida</string>
+    <string name="scan_error_message">Nepavyko nuskaityti QR kodo. Bandykite dar kartą.</string>
+    <string name="confirm_transfer_title">Patvirtinti perkėlimą</string>
+    <string name="confirm_transfer_message">Ar tikrai norite perkelti savo PRO licenciją į naują įrenginį? Tai pašalins PRO iš šio įrenginio.</string>
+    <string name="confirm_transfer_yes">Perkelti licenciją</string>
+    <string name="confirm_transfer_no">Atšaukti</string>
+    <string name="license_transferred_success">Licencija perkelta sėkmingai!</string>
+    <string name="error_transferring_license">Nepavyko perkelti licencijos. Bandykite dar kartą.</string>
+    <string name="support_title">Reikia pagalbos?</string>
+    <string name="support_icon">Pagalbos piktograma</string>
+    <string name="support_subtitle">Mes čia, kad jums padėtume!</string>
+    <string name="support_description">Kyla problemų su AAAD? Atsiųskite mums el. laišką ir atsakysime kuo greičiau. Kuo daugiau detalių pateiksite, tuo greičiau galėsime padėti!</string>
+    <string name="support_email_will_include">Jūsų el. laiške bus:</string>
+    <string name="support_email_item_device">Įrenginio modelis ir Android versija</string>
+    <string name="support_email_item_version">AAAD versijos informacija</string>
+    <string name="support_email_item_description">Vieta problemos aprašymui</string>
+    <string name="support_include_logs">Įtraukti diagnostikos žurnalus</string>
+    <string name="support_logs_explanation">Rekomenduojama - Padeda mums greičiau išspręsti problemas. Apima tik įrenginio informaciją ir programos konfigūraciją, jokių asmeninių duomenų.</string>
+    <string name="support_send_email">Siųsti el. laišką palaikymo tarnybai</string>
+    <string name="support_privacy_note">Gerbiame jūsų privatumą. Žurnaluose nėra asmeninės informacijos, slaptažodžių ar mokėjimo duomenų.</string>
+    <string name="support_preparing_email">Ruošiamas el. laiškas…</string>
+    <string name="support_log_generation_failed">Nepavyko sugeneruoti žurnalų, siunčiamas el. laiškas be priedų</string>
+    <string name="support_email_failed">Nepavyko atidaryti el. pašto programos. Atsiųskite el. laišką tiesiogiai adresu help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Pasirinkite el. pašto programą</string>
+    <string name="support_email_subject">AAAD palaikymo užklausa</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedija</string>
+    <string name="second_section_name">Veidrodinimo programos</string>
+    <string name="third_section_name">Kita</string>
+
+    <string name="privacy_policy">Ši programa gerbia jūsų privatumą. Mes nerenkame, nesaugome ir nesidalijame jokia asmenine informacija be jūsų sutikimo. Daugiau informacijos gausite susisiekę su mumis.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto kūrėjo nustatymai</string>
+    <string name="android_auto_setup_icon">Android Auto sąrankos vadovo piktograma</string>
+    <string name="android_auto_setup_subtitle">Atlikite šiuos veiksmus, kad įgalintumėte nežinomus šaltinius tinkintoms programoms Android Auto</string>
+    <string name="android_auto_open_settings">Atidaryti Android Auto nustatymus</string>
+    <string name="android_auto_setup_instructions_title">Sąrankos instrukcijos</string>
+    <string name="android_auto_step1_title">10 kartų bakstelėkite \"Versija\"</string>
+    <string name="android_auto_step1_description">Android Auto nustatymuose slinkite žemyn ir 10 kartų bakstelėkite \"Versija\" (paskutinis elementas), kad atrakintumėte kūrėjo nustatymus.</string>
+    <string name="android_auto_step2_title">Patvirtinkite kūrėjo režimą</string>
+    <string name="android_auto_step2_description">Kai būsite paraginti, bakstelėkite \"Leisti\" arba \"Įgalinti\", kad suaktyvintumėte kūrėjo nustatymus Android Auto.</string>
+    <string name="android_auto_step3_title">Atidaryti kūrėjo nustatymus</string>
+    <string name="android_auto_step3_description">Bakstelėkite trijų taškų meniu piktogramą viršutiniame dešiniajame kampe ir iš išskleidžiamojo meniu pasirinkite \"Kūrėjo nustatymai\".</string>
+    <string name="android_auto_step4_title">Įgalinti nežinomus šaltinius</string>
+    <string name="android_auto_step4_description">Meniu Kūrėjo nustatymai raskite ir įgalinkite parinktį \"Nežinomi šaltiniai\", kad leistumėte įdiegti trečiųjų šalių programas.</string>
+    <string name="android_auto_setup_done">Atlikta</string>
+    <string name="android_auto_settings_opened">Android Auto nustatymai atidaryti. Vadovaukitės aukščiau nurodytais veiksmais.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto atidaryta. Rankiniu būdu pereikite į Nustatymus.</string>
+    <string name="android_auto_not_installed">Android Auto neįdiegta. Pirmiausia įdiekite ją iš Play Store.</string>
+
+    <string name="action_retry">Bandyti iš naujo</string>
+    <string name="action_download_update">Atsisiųsti atnaujinimą</string>
+    <string name="action_install_update">Įdiegti atnaujinimą</string>
+    <string name="action_skip_update">Praleisti dabar</string>
+    <string name="action_download_manual">Rankinis atsisiuntimas</string>
+    <string name="action_continue_offline">Tęsti neprisijungus</string>
+    <string name="badge_update">ATNAUJINIMAS</string>
+    <string name="check_for_updates">Tikrinti atnaujinimus</string>
+    <string name="aaad_update_section">AAAD atnaujinimas prieinamas</string>
+    <string name="aaad_update_available_subtitle">Nauja versija prieinama atsisiuntimui</string>
+    <string name="aaad_update_downloaded">Atnaujinimas atsisiųstas! Įdiegiama…</string>
+    <string name="aaad_update_failed">Atnaujinimo atsisiuntimas nepavyko. Pabandykite atsisiųsti rankiniu būdu.</string>
+    <string name="aaad_current_version">Dabartinė: %1$s</string>
+    <string name="aaad_latest_version">Naujausia: %1$s</string>
+    <string name="authorization_failed">Atsisiuntimo autorizacija nepavyko. Bandykite dar kartą.</string>
+    <string name="authorization_error">Autorizacijos klaida. Patikrinkite ryšį.</string>
+    <string name="aabrowser_description">Naršykite internete su Android Auto</string>
+    <string name="benefit_icon">Nauda</string>
+    <string name="input_email">Įveskite savo el. pašto adresą</string>
+    <string name="no_updates_available">Nėra prieinamų atnaujinimų</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Patobulinta diegimas (pasirenkama)</string>
+    <string name="onboarding_shizuku_subtitle">Android 14+ pažangiems naudotojams</string>
+    <string name="onboarding_shizuku_standard_mode">Standartinis režimas (rekomenduojama)</string>
+    <string name="onboarding_shizuku_standard_description">Naudoja sistemos diegimo programą. Veikia visiems. Rodo diegimo užklausas.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Patobulintas režimas su Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Tylus diegimas be užklausų. Reikia vienkartinio nustatymo.</string>
+    <string name="onboarding_shizuku_status">Shizuku būsena:</string>
+    <string name="onboarding_shizuku_not_installed">Neįdiegta</string>
+    <string name="onboarding_shizuku_not_running">Įdiegta, bet neveikia</string>
+    <string name="onboarding_shizuku_no_permission">Veikia, bet leidimas nesuteiktas</string>
+    <string name="onboarding_shizuku_ready">Paruošta naudoti</string>
+    <string name="onboarding_shizuku_install">Įdiegti Shizuku</string>
+    <string name="onboarding_shizuku_start">Paleisti Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Suteikti leidimą</string>
+    <string name="onboarding_shizuku_start_service">Shizuku įdiegta - bakstelėkite, kad paleistumėte paslaugą</string>
+    <string name="onboarding_shizuku_start_button">Paleisti Shizuku paslaugą</string>
+    <string name="shizuku_service_not_started">Shizuku paslauga neveikia. Atidarykite Shizuku ir paleiskite paslaugą.</string>
+    <string name="onboarding_shizuku_what_is_it">Kas yra Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku yra įrankis, leidžiantis programoms naudoti sistemos lygio leidimus per belaidę derinimo funkciją. Jis įgalina tylų programų diegimą Android 14+ be root prieigos. Galite naudoti AAAD ir be jo!</string>
+    <string name="onboarding_shizuku_steps_title">Nustatymo žingsniai:</string>
+    <string name="onboarding_shizuku_step1">1. Įdiekite Shizuku programą</string>
+    <string name="onboarding_shizuku_step2">2. Įjunkite kūrėjų parinktis</string>
+    <string name="onboarding_shizuku_step3">3. Įjunkite belaidę derinimo funkciją</string>
+    <string name="onboarding_shizuku_step4">4. Paleiskite Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Suteikite leidimą AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Sužinoti daugiau</string>
+
+    <!-- Error Messages -->
+    <string name="error_not_eligible">Turite atnaujinti į PRO arba laukti kito nemokamo atsisiuntimo.</string>
+    <string name="error_no_internet">Nėra interneto ryšio</string>
+    <string name="error_no_internet_message">Prisijunkite prie interneto, kad įkeltumėte programos informaciją ir tęstumėte.</string>
+    <string name="error_initialization_failed">Nepavyko inicializuoti programos duomenų</string>
+    <string name="error_metadata_fetch_failed">Nepavyko gauti programų naujinimų</string>
+    <string name="error_metadata_fetch_failed_message">Nepavyko gauti naujausios programos informacijos. Patikrinkite interneto ryšį ir bandykite dar kartą.</string>
+    <string name="error_no_internet_title">Nėra interneto ryšio</string>
+    <string name="error_no_internet_description">AAAD reikia interneto ryšio, kad įkeltų programos informaciją. Prisijunkite prie WiFi arba mobiliųjų duomenų ir bandykite dar kartą.</string>
+    <string name="network_error">Tinklo klaida. Patikrinkite ryšį ir bandykite dar kartą.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_data">Įkeliama programos informacija…</string>
+    <string name="loading_checking_updates">Tikrinami naujinimai…</string>
+    <string name="loading_please_wait">Palaukite…</string>
+    <string name="loading_app_catalog">Įkeliamas programų katalogas…</string>
+    <string name="loading_fetching_icons">Įkeliamos programų piktogramos…</string>
+    <string name="loading_finalizing">Baigiama…</string>
+    <string name="loading_checking_internet">Tikrinamas interneto ryšys…</string>
+    <string name="downloading_aaad_update">Atsiunčiamas AAAD naujinimas…</string>
+    <string name="progress_downloading">Atsiunčiama %1$s…</string>
+    <string name="progress_installing">Diegiama %1$s…</string>
+    <string name="progress_checking_updates">Tikrinami naujinimai…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Įsigyti Pro</string>
+    <string name="pro_version_title">PRO versija</string>
+    <string name="pro_version_icon">PRO versijos ženklelis</string>
+    <string name="pro_thank_you_title">Ačiū!</string>
+    <string name="pro_thank_you_message">Ačiū, kad palaikote AAAD įsigydami PRO! Jūsų indėlis padeda išlaikyti šį projektą gyvą ir leidžia mums toliau teikti jums geriausias Android Auto programas.</string>
+    <string name="pro_since">PRO narys nuo %s</string>
+    <string name="pro_since_legacy">PRO narys</string>
+    <string name="pro_benefits_title">Jūsų PRO privilegijos</string>
+    <string name="pro_benefit_unlimited">Neriboti programų atsisiuntimai</string>
+    <string name="pro_benefit_no_cooldown">Nėra laukimo laiko tarp atsisiuntimų</string>
+    <string name="pro_benefit_support">Palaikykite tęstinę plėtrą</string>
+    <string name="pro_closing_message">Tikrai vertiname jūsų pasitikėjimą ir paramą. Mėgaukitės neribota prieiga prie visų AAAD programų!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">El. pašto programa neįdiegta. Įdiekite el. pašto programą (Gmail, Outlook ir kt.) arba siųskite el. laišką tiesiogiai į help.aaad@gmail.com iš kito įrenginio.</string>
+    <string name="support_attachment_not_supported">Priedas nepalaikomas, siunčiamas el. laiškas be žurnalų</string>
+    <string name="support_attachment_failed_fallback">Nepavyko pridėti žurnalų, siunčiamas el. laiškas be priedo</string>
+    <string name="support_email_body_greeting">Sveiki AAAD palaikymo komanda,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Galimas naujinimas</string>
+    <string name="update_available_message">AAAD v%1$s dabar galima. Jūs naudojate v%2$s.\n\nAr norite atsisiųsti naujausią versiją?</string>
+    <string name="checking_for_aaad_updates">Tikrinami AAAD naujinimai…</string>
+    <string name="update_available_badge">NAUJINIMAS</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque atneša OBD-II transporto priemonių diagnostikos programą Torque Pro į Android Auto. Stebėkite savo automobilio veikimą, peržiūrėkite diagnostikos duomenis ir pasiekite realaus laiko transporto priemonės informaciją tiesiogiai iš automobilio ekrano.</string>
+    <string name="warning_offline">Esate neprisijungę - programos duomenys gali būti pasenę</string>
+    <string name="onboarding_preparing_catalog">Programų katalogas ruošiamas fone…</string>
+    <string name="version_format">Versija %1$s</string>
+    <string name="installed_version_format">Įdiegta: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Android Auto programos</string>
+    <string name="hero_subtitle">Įdiekite pasirinktines programas savo Android Auto patirčiai</string>
+    <string name="refresh_apps">Atnaujinti programas</string>
+    <string name="privacy">Privatumo politika</string>
+    <string name="email_dialog">El. paštas bus naudojamas jūsų pirkimui patvirtinti, jei reikia</string>
+    <string name="installation_failed">Diegimas nepavyko</string>
+    <string name="installation_timeout_message">Ar programos diegimas baigėsi sėkmingai?</string>
+    <string name="installation_succeeded">Taip, įdiegta</string>
+    <string name="installation_failed_or_cancelled">Ne, nepavyko arba atšaukta</string>
+    <string name="installation_timeout_message_secure">Diegimo patikrinimo laikas baigėsi. Jūsų atsisiuntimas buvo įskaitytas į mėnesinę ribą saugumo sumetimais.</string>
+    <string name="download_was_counted">Atsisiuntimas buvo įskaitytas į jūsų mėnesinę ribą</string>
+    <string name="verifying_authorization">Tikrinama atsisiuntimo autorizacija…</string>
+    <string name="please_sign_in">Prisijunkite, kad galėtumėte atsisiųsti programas</string>
+</resources>

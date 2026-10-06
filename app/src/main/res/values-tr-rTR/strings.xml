@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">PRO sürümü</string>
+    <string name="switch_to_pro_statement">AAAD\'nin ücretsiz sürümü ayda bir ücretsiz indirme yapmanıza izin verir. Daha fazla indirmek istiyorsanız, PRO\'ya yükseltin.</string>
+    <string name="congratsPro">Tebrikler, PRO sürümüne sahipsiniz!</string>    <string name="About">Hakkında</string>
+    <string name="have_promo_code">Promosyon kodum var</string>
+    <string name="promo_code">Promosyon kodu gir</string>
+    <string name="input_promo_code_here">Kodu buraya girin</string>    <string name="about_to_download">%1$s dosyasını indirmek üzeresiniz. Devam etmek istiyor musunuz?</string>
+    <string name="warning_payment">Ödeme işleminin sonunda, işlemin onaylanması için lütfen manuel olarak \"Satıcıya geri dön\" seçeneğine basın.</string>
+    <string name="attention">DİKKAT</string>
+    <string name="next_download_available">Sonraki indirme tarihi: %1$s</string>
+    <string name="connect_error">BAĞLANTI HATASI</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">1 indirme hakkınız kaldı</item>
+        <item quantity="other">İndirme hakkınız kalmadı</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader), Shmykelsa tarafından geliştirilmekte ve sürdürülmektedir..<br><br>Mevcut uygulamalar aşağıdaki geliştiriciler tarafından mümkün kılınmıştır::<br>]]>"</string>
+    <string name="pro_unlocked">Tebrikler, PRO sürüm kilidi açıldı</string>
+    <string name="cancelled_payment">Satın alma iptal edildi</string>
+    <string name="please_enter_code">Lütfen promosyon kodunuzu girin</string>
+    <string name="connection_error">Bağlantı hatası, doğrulanamadı</string>
+    <string name="not_valid_code">Geçerli bir kod değil</string>    <string name="downloading_progress">İndiriliyor…</string>
+    <string name="aa_mirror_plus_description">AAMirror\'a alternatif, daha fazla işlevle.</string>
+    <string name="aapassenger_description">Sürüş modunda Android Auto\'nun kilidini açın</string>
+    <string name="s2a_description">Android Auto için en eksiksiz ve tam özellikli yansıtma uygulaması. Özelleştirilebilir bir başlatıcı, bölünmüş ekran, özel ekran boyutları ve çok daha fazlası gibi birçok özellik içerir!</string>
+    <string name="aamirror_description">Akıllı telefon ekranınızı Android Auto\'ya yansıtın</string>
+    <string name="aa_stream_description">Android Auto\'da video akışı yapın</string>
+    <string name="carstream_description">Eskiden \"YouTube Auto\" olarak bilinen CarStream, özel uygulamalar SDK\'sı ile yapılan ilk uygulamalardan biriydi. YouTube\'u Android Auto\'ya ulaştırmanın ana amacı ile doğdu ve daha sonra birçok özelliğe sahip bir web tarayıcısı oldu.    </string>
+    <string name="fermata_description">Araçtan inmeden Android Auto\'dan çıkın</string>
+    <string name="s2a_redirect">En iyi deneyim için Screen2Auto\'yu öneriyoruz</string>
+    <string name="screen2auto_download">Screen2Auto İndir</string>    <string name="aawidgets_description">Tek bir görevle doğdu. Android Auto\'ya bir widget getirin!</string>
+    <string name="performance_monitor_description">Android Auto\'da sistem performansını izleyin</string>
+    <string name="promotion">%15 indirim almaya hak kazandınız</string>    <string name="loading">Yükleniyor…</string>
+    <string name="go_pro">PRO OL</string>
+    <string name="i_m_good">İyiyim</string>
+    <string name="nav2contacts_description">Kişilerinize hızlıca gidin</string>    <string name="back_button_payment_close">Ödemeyi iptal et ve kapat</string>
+    <string name="help">Yardım</string>
+    <string name="help_dialog">Şu anda yardım için bir e-posta göndermek istiyor musunuz?</string>    <string name="i_want_to_transfer_license_here">Buradan lisansı transfer etmek istiyorum</string>
+    <string name="i_want_to_transfer_license_from_here">Lisansımı bu cihazdan aktarmak istiyorum</string>
+    <string name="license_transfer_help">Lisansınızı aktarmak için başka bir cihazda QR kodunu tarayın</string>
+    <string name="transfer_license">Lisansı transfer et</string>
+    <string name="debug_mode_activate">Hata ayıklamayı etkinleştir</string>
+    <string name="debug_mode_performance_warning">Hata ayıklama modu performansı etkileyebilir</string>
+    <string name="debug_mode_deactivated">Hata ayıklama modu devre dışı</string>
+    <string name="confirm">Onay</string>
+    <string name="license_here_confirm">Lisansınızı bu cihaza aktarmak istiyor musunuz?</string>
+    <string name="qr_tutorial">Diğer cihazınızda AAAD\'yi açın ve bu QR kodunu tarayın</string>
+    <string name="license_done">Lisans başarıyla aktarıldı!</string>
+    <string name="no_license_found">Geçerli lisans bulunamadı</string>    <string name="qr_code_permission">Kamera izini QR kodunu taramak için gereklidir</string>
+    <string name="success_transfer">Aktarım başarılı</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Bu email eğer ihtuyaç olursa satın alma onayı için kullanılacaktır</string>
+    <string name="input_email">E-posta adresinizi girin</string>
+    <string name="days_remaining">Sonraki indirmeye %d gün kaldı</string>
+    <string name="hours_remaining">Sonraki indirmeye %d saat kaldı</string>
+    <string name="less_than_hour">Sonraki indirmeye 1 saatten az kaldı</string>
+    <string name="download_available_now">İndirme şimdi mevcut!</string>    <string name="installation_failed">Yükleme başarısız</string>    <string name="installation_timeout_message">Uygulama yüklemesi başarıyla tamamlandı mı?</string>
+    <string name="installation_succeeded">Evet, yüklendi</string>
+    <string name="installation_failed_or_cancelled">Hayır, başarısız oldu veya iptal edildi</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Önemli uyarı</string>
+    <string name="onboarding_warning_message">Bu uygulama softonic.com, uptodown.com veya aadapk.com, aadapk.app ile bağlantılı DEĞİLDİR. Tek resmi kaynak github.com\'dur</string>
+    <string name="onboarding_official_source">Resmi kaynak: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">AAAD\'ye Hoş Geldiniz!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Uygulama İndirici</string>
+    <string name="onboarding_welcome_description">Bu yardımcı program, root erişimi olmayan telefonlar için Android Auto\'ya özel uygulamalar yüklemenize yardımcı olacaktır. Uygulamayı nasıl kullanacağınızı öğrenmek için kaydırın, ardından başlamak için gerekli izinleri verin.</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Seçin ve Yükleyin</string>
+    <string name="onboarding_page_selection_description">Yüklemek istediğiniz uygulamayı seçin ve sistem yükleyicisinin açılmasını bekleyin.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Uygulama Bilgisi</string>
+    <string name="onboarding_page_info_description">Hangi uygulamayı yükleyeceğinizden emin değilseniz, açıklama için düğmeye uzun basın.</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Gerekli kurulum</string>
+    <string name="onboarding_permissions_subtitle">Özel uygulamaları yüklemek için izin verin</string>
+    <string name="onboarding_unknown_sources_title">Bilinmeyen Uygulamaları Yükle</string>
+    <string name="onboarding_unknown_sources_description">Harici kaynaklardan APK dosyaları yüklemek için gerekli</string>
+    <string name="onboarding_notifications_title">Bildirimler</string>
+    <string name="onboarding_notifications_description">İndirme ilerlemesi ve uygulama güncellemeleri hakkında bildirim alın</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto Geliştirici Ayarları (Önerilen)</string>
+    <string name="onboarding_aa_dev_description">Android Auto deneyiminizi geliştirmek için isteğe bağlı adım</string>
+    <string name="onboarding_aa_dev_warning">Android Auto\'da özel uygulamalarla en iyi deneyimi yaşamak için Android Auto geliştirici ayarlarında \"Bilinmeyen kaynaklar\"ı etkinleştirmenizi öneririz.</string>
+    <string name="onboarding_open_aa_dev">Geliştirici ayarlarını görüntüle</string>
+
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Özel uygulama yüklemesine izin vermek için geçici olarak devre dışı bırakın</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect özel uygulama yüklemesini engelleyebilir. Geçici olarak devre dışı bırakmanız veya istendiğinde AAAD\'ye izin vermeniz gerekir.</string>
+    <string name="onboarding_open_play_protect">Play Protect ayarlarını aç</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">İleri</string>
+    <string name="onboarding_previous">Geri</string>
+    <string name="onboarding_skip">Atla</string>
+    <string name="onboarding_grant_permissions">İzinleri Ver</string>
+    <string name="onboarding_continue">Uygulamaya Devam Et</string>
+    <string name="onboarding_get_started">Başla</string>
+    <string name="onboarding_finish">Kurulumu tamamla</string>
+    <string name="show_intro">Tanıtımı göster</string>
+    <string name="downloads_remaining">Kalan indirmeler</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Yüklü</string>
+    <string name="status_update_available">Güncelleme mevcut</string>
+    <string name="status_update_to_version">%1$s sürümüne güncelle</string>
+    <string name="status_not_installed">Yüklü değil</string>
+    <string name="status_downloading">İndiriliyor…</string>
+    <string name="status_installing">Yükleniyor…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Yükle</string>
+    <string name="action_update">Güncelle</string>
+    <string name="action_open">Aç</string>
+    <string name="action_uninstall">Kaldır</string>
+    <string name="action_cancel">İptal</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">İndirme başarısız</string>
+    <string name="error_installation_failed">Yükleme başarısız</string>
+    <string name="error_network_unavailable">Ağ kullanılamıyor</string>
+    <string name="error_insufficient_storage">Yetersiz depolama alanı</string>
+    <string name="error_cannot_open_app">Uygulama açılamıyor - başlatma etkinliği bulunamadı</string>
+    <string name="error_download_tracking_failed">İndirme durumu güncellenemedi</string>
+    <string name="error_loading_catalog">Uygulama kataloğu yüklenemedi</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Lisansı Aktar</string>
+    <string name="checking_license_status">Lisans durumu kontrol ediliyor…</string>
+    <string name="qr_code_icon">QR kod simgesi</string>
+    <string name="receiver_title">PRO Lisansı Al</string>
+    <string name="receiver_subtitle">Bu cihaza lisans aktarmak için bu QR kodunu göster</string>
+    <string name="qr_code_to_scan">Lisans aktarımı için QR kodu</string>
+    <string name="receiver_instructions_title">Nasıl çalışır</string>
+    <string name="receiver_instructions_step1">PRO bulunan cihazda AAAD\'yi açın ve Lisansı Aktar\'a gidin</string>
+    <string name="receiver_instructions_step2">O cihazda QR Kodunu Tara düğmesine dokunun</string>
+    <string name="receiver_instructions_step3">Aktarımı tamamlamak için bu QR kodunu tarayın</string>
+    <string name="transfer_license_icon">Lisans aktarım simgesi</string>
+    <string name="sender_title">PRO Lisansını Aktar</string>
+    <string name="sender_subtitle">Lisansınızı yeni bir cihaza aktarın</string>
+    <string name="sender_warning">⚠️ Uyarı: Lisansınızı aktarmak bu cihazdan PRO durumunu kaldıracak ve yeni cihazda etkinleştirecektir. Bu işlem geri alınamaz.</string>
+    <string name="sender_instructions_title">Nasıl aktarılır</string>
+    <string name="sender_step_1">Yeni cihazınızda AAAD\'yi açın</string>
+    <string name="sender_step_2">Lisansı Aktar menüsüne gidin</string>
+    <string name="sender_step_3">Yeni cihazda bir QR kodu görünecek</string>
+    <string name="sender_step_4">Aşağıdaki düğmeye dokunun ve o QR kodunu tarayın</string>
+    <string name="scan_qr_code">QR Kodunu Tara</string>
+    <string name="camera_permission_required">QR kodlarını taramak için kamera izni gereklidir</string>
+    <string name="error_checking_license">Lisans durumu kontrol edilemedi. Lütfen tekrar deneyin.</string>
+    <string name="error_generating_qr">QR kodu oluşturulamadı</string>
+    <string name="license_received_success">Lisans başarıyla alındı!</string>
+    <string name="scan_error_title">Tarama Hatası</string>
+    <string name="scan_error_message">QR kodu taranamadı. Lütfen tekrar deneyin.</string>
+    <string name="confirm_transfer_title">Aktarımı Onayla</string>
+    <string name="confirm_transfer_message">PRO lisansınızı yeni cihaza aktarmak istediğinizden emin misiniz? Bu, bu cihazdan PRO\'yu kaldıracaktır.</string>
+    <string name="confirm_transfer_yes">Lisansı Aktar</string>
+    <string name="confirm_transfer_no">İptal</string>
+    <string name="license_transferred_success">Lisans başarıyla aktarıldı!</string>
+    <string name="error_transferring_license">Lisans aktarılamadı. Lütfen tekrar deneyin.</string>
+    <string name="support_title">Yardıma mı İhtiyacınız Var?</string>
+    <string name="support_icon">Yardım simgesi</string>
+    <string name="support_subtitle">Size yardımcı olmak için buradayız!</string>
+    <string name="support_description">AAAD ile ilgili sorun mu yaşıyorsunuz? Bize bir e-posta gönderin, en kısa sürede size geri döneceğiz. Ne kadar çok ayrıntı verirseniz, o kadar hızlı yardımcı olabiliriz!</string>
+    <string name="support_email_will_include">E-postanız şunları içerecektir:</string>
+    <string name="support_email_item_device">Cihaz modeli ve Android sürümü</string>
+    <string name="support_email_item_version">AAAD sürüm bilgisi</string>
+    <string name="support_email_item_description">Sorununuzu açıklayabileceğiniz alan</string>
+    <string name="support_include_logs">Tanı günlüklerini dahil et</string>
+    <string name="support_logs_explanation">Önerilir - Sorunları daha hızlı çözmemize yardımcı olur. Yalnızca cihaz bilgilerini ve uygulama yapılandırmasını içerir, kişisel veri içermez.</string>
+    <string name="support_send_email">Desteğe E-posta Gönder</string>
+    <string name="support_privacy_note">Gizliliğinize saygı duyuyoruz. Günlüklerde kişisel bilgi, şifre veya ödeme verileri bulunmamaktadır.</string>
+    <string name="support_preparing_email">E-posta hazırlanıyor…</string>
+    <string name="support_log_generation_failed">Günlükler oluşturulamadı, e-posta ek olmadan gönderiliyor</string>
+    <string name="support_email_failed">E-posta uygulaması açılamadı. Lütfen doğrudan help.aaad@gmail.com adresine e-posta gönderin.</string>
+    <string name="support_choose_email_app">E-posta uygulamasını seçin</string>
+    <string name="support_email_subject">AAAD Destek Talebi</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedya</string>
+    <string name="second_section_name">Yansıtma Uygulamaları</string>
+    <string name="third_section_name">Diğerleri</string>
+
+    <string name="privacy_policy">Bu uygulama gizliliğinize saygı duyar. Onayınız olmadan hiçbir kişisel bilgi toplamaz, saklamaz veya paylaşmayız. Daha fazla bilgi için lütfen bizimle iletişime geçin.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto Geliştirici Ayarları</string>
+    <string name="android_auto_setup_icon">Android Auto kurulum kılavuzu simgesi</string>
+    <string name="android_auto_setup_subtitle">Android Auto\'da özel uygulamalar için bilinmeyen kaynakları etkinleştirmek üzere bu adımları izleyin</string>
+    <string name="android_auto_open_settings">Android Auto Ayarlarını Aç</string>
+    <string name="android_auto_setup_instructions_title">Kurulum Talimatları</string>
+    <string name="android_auto_step1_title">\"Sürüm\"e 10 Kez Dokunun</string>
+    <string name="android_auto_step1_description">Android Auto ayarlarında en alta kaydırın ve geliştirici ayarlarının kilidini açmak için \"Sürüm\"e (son öğe) 10 kez dokunun.</string>
+    <string name="android_auto_step2_title">Geliştirici Modunu Onaylayın</string>
+    <string name="android_auto_step2_description">İstendiğinde, Android Auto için geliştirici ayarlarını etkinleştirmek üzere \"İzin Ver\" veya \"Etkinleştir\"e dokunun.</string>
+    <string name="android_auto_step3_title">Geliştirici Ayarlarını Açın</string>
+    <string name="android_auto_step3_description">Sağ üst köşedeki üç nokta menü simgesine dokunun ve açılır menüden \"Geliştirici ayarları\"nı seçin.</string>
+    <string name="android_auto_step4_title">Bilinmeyen Kaynakları Etkinleştirin</string>
+    <string name="android_auto_step4_description">Geliştirici ayarları menüsünde, üçüncü taraf uygulamaların yüklenmesine izin vermek için \"Bilinmeyen kaynaklar\" seçeneğini bulun ve etkinleştirin.</string>
+    <string name="android_auto_setup_done">Tamamlandı</string>
+    <string name="android_auto_settings_opened">Android Auto ayarları açıldı. Yukarıdaki adımları izleyin.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto açıldı. Lütfen Ayarlar\'a manuel olarak gidin.</string>
+    <string name="android_auto_not_installed">Android Auto yüklü değil. Lütfen önce Play Store\'dan yükleyin.</string>
+
+    <string name="onboarding_page_multimedia_title">Multimedya uygulamaları</string>
+    <string name="onboarding_page_mirroring_title">Yansıtma uygulamaları</string>
+    <string name="onboarding_page_others_title">Diğerleri</string>
+    <string name="action_retry">Yeniden dene</string>
+    <string name="action_download_update">Güncellemeyi indir</string>
+    <string name="action_install_update">Güncellemeyi yükle</string>
+    <string name="action_skip_update">Şimdilik atla</string>
+    <string name="action_download_manual">Manuel indirme</string>
+    <string name="action_continue_offline">Çevrimdışı devam et</string>
+    <string name="badge_update">GÜNCELLEME</string>
+    <string name="check_for_updates">Güncellemeleri kontrol et</string>
+    <string name="aaad_update_section">AAAD güncellemesi mevcut</string>
+    <string name="aaad_update_available_subtitle">İndirme için yeni sürüm mevcut</string>
+    <string name="aaad_update_downloaded">Güncelleme indirildi! Yükleniyor…</string>
+    <string name="aaad_update_failed">Güncelleme indirme başarısız. Lütfen manuel olarak indirmeyi deneyin.</string>
+    <string name="aaad_current_version">Mevcut: %1$s</string>
+    <string name="aaad_latest_version">En son: %1$s</string>
+    <string name="authorization_failed">İndirme yetkilendirmesi başarısız. Lütfen tekrar deneyin.</string>
+    <string name="authorization_error">Yetkilendirme hatası. Bağlantınızı kontrol edin.</string>
+    <string name="aabrowser_description">Android Auto\'da web\'de gezinin</string>
+    <string name="benefit_icon">Avantaj</string>
+    <string name="no_updates_available">Kullanılabilir güncelleme yok</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Gelişmiş Kurulum (İsteğe Bağlı)</string>
+    <string name="onboarding_shizuku_subtitle">Android 14+ ileri düzey kullanıcılar için</string>
+    <string name="onboarding_shizuku_standard_mode">Standart Mod (Önerilen)</string>
+    <string name="onboarding_shizuku_standard_description">Sistem yükleyiciyi kullanır. Herkes için çalışır. Yükleme istemlerini gösterir.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Shizuku ile Gelişmiş Mod</string>
+    <string name="onboarding_shizuku_enhanced_description">İstemsiz sessiz yükleme. Tek seferlik kurulum gerektirir.</string>
+    <string name="onboarding_shizuku_status">Shizuku Durumu:</string>
+    <string name="onboarding_shizuku_not_installed">Yüklü değil</string>
+    <string name="onboarding_shizuku_not_running">Yüklü ancak çalışmıyor</string>
+    <string name="onboarding_shizuku_no_permission">Çalışıyor ancak izin verilmemiş</string>
+    <string name="onboarding_shizuku_ready">Kullanıma hazır</string>
+    <string name="onboarding_shizuku_install">Shizuku\'yu Yükle</string>
+    <string name="onboarding_shizuku_start">Shizuku\'yu Başlat</string>
+    <string name="onboarding_shizuku_grant_permission">İzin Ver</string>
+    <string name="onboarding_shizuku_start_service">Shizuku yüklendi - hizmeti başlatmak için dokunun</string>
+    <string name="onboarding_shizuku_start_button">Shizuku Hizmetini Başlat</string>
+    <string name="shizuku_service_not_started">Shizuku hizmeti çalışmıyor. Lütfen Shizuku\'yu açın ve hizmeti başlatın.</string>
+    <string name="onboarding_shizuku_what_is_it">Shizuku nedir?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku, uygulamaların kablosuz hata ayıklama aracılığıyla sistem düzeyinde izinleri kullanmasına izin veren bir araçtır. Android 14+ üzerinde root olmadan sessiz uygulama yüklemesini sağlar. Shizuku olmadan da AAAD\'yi kullanabilirsiniz!</string>
+    <string name="onboarding_shizuku_steps_title">Kurulum Adımları:</string>
+    <string name="onboarding_shizuku_step1">1. Shizuku uygulamasını yükleyin</string>
+    <string name="onboarding_shizuku_step2">2. Geliştirici Seçeneklerini Etkinleştirin</string>
+    <string name="onboarding_shizuku_step3">3. Kablosuz Hata Ayıklamayı Etkinleştirin</string>
+    <string name="onboarding_shizuku_step4">4. Shizuku\'yu Başlatın</string>
+    <string name="onboarding_shizuku_step5">5. AAAD\'ye izin verin</string>
+    <string name="onboarding_shizuku_learn_more">Daha Fazla Bilgi</string>
+
+    <!-- Error Messages -->
+    <string name="error_not_eligible">PRO\'ya yükseltmeniz veya bir sonraki ücretsiz indirmenizi beklemeniz gerekiyor.</string>
+    <string name="error_no_internet">İnternet bağlantısı yok</string>
+    <string name="error_no_internet_message">Uygulama bilgilerini yüklemek ve devam etmek için lütfen internete bağlanın.</string>
+    <string name="error_initialization_failed">Uygulama verileri başlatılamadı</string>
+    <string name="error_metadata_fetch_failed">Uygulama güncellemeleri alınamadı</string>
+    <string name="error_metadata_fetch_failed_message">En son uygulama bilgileri alınamadı. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="error_no_internet_title">İnternet Bağlantısı Yok</string>
+    <string name="error_no_internet_description">AAAD, uygulama bilgilerini yüklemek için internet bağlantısı gerektirir. Lütfen WiFi veya mobil veriye bağlanın ve tekrar deneyin.</string>
+    <string name="network_error">Ağ hatası. Lütfen bağlantınızı kontrol edin ve tekrar deneyin.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_data">Uygulama bilgileri yükleniyor…</string>
+    <string name="loading_checking_updates">Güncellemeler kontrol ediliyor…</string>
+    <string name="loading_please_wait">Lütfen bekleyin…</string>
+    <string name="loading_app_catalog">Uygulama kataloğu yükleniyor…</string>
+    <string name="loading_fetching_icons">Uygulama simgeleri yükleniyor…</string>
+    <string name="loading_finalizing">Tamamlanıyor…</string>
+    <string name="loading_checking_internet">İnternet bağlantısı kontrol ediliyor…</string>
+    <string name="downloading_aaad_update">AAAD güncellemesi indiriliyor…</string>
+    <string name="progress_downloading">%1$s indiriliyor…</string>
+    <string name="progress_installing">%1$s yükleniyor…</string>
+    <string name="progress_checking_updates">Güncellemeler kontrol ediliyor…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Pro Satın Al</string>
+    <string name="pro_version_title">PRO Sürümü</string>
+    <string name="pro_version_icon">PRO sürüm rozeti</string>
+    <string name="pro_thank_you_title">Teşekkür Ederiz!</string>
+    <string name="pro_thank_you_message">PRO satın alımınızla AAAD\'yi desteklediğiniz için teşekkür ederiz! Katkınız bu projeyi canlı tutmamıza ve size en iyi Android Auto uygulamalarını sunmaya devam etmemize yardımcı oluyor.</string>
+    <string name="pro_since">%s tarihinden beri PRO üyesi</string>
+    <string name="pro_since_legacy">PRO üyesi</string>
+    <string name="pro_benefits_title">PRO Avantajlarınız</string>
+    <string name="pro_benefit_unlimited">Sınırsız uygulama indirme</string>
+    <string name="pro_benefit_no_cooldown">İndirmeler arasında bekleme süresi yok</string>
+    <string name="pro_benefit_support">Devam eden geliştirmeyi destekleyin</string>
+    <string name="pro_closing_message">Güven ve desteğiniz için gerçekten minnettarız. Tüm AAAD uygulamalarına sınırsız erişiminizin keyfini çıkarın!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">E-posta uygulaması yüklü değil. Lütfen bir e-posta uygulaması (Gmail, Outlook, vb.) yükleyin veya başka bir cihazdan doğrudan help.aaad@gmail.com adresine e-posta gönderin.</string>
+    <string name="support_attachment_not_supported">Ek desteklenmiyor, e-posta günlükler olmadan gönderiliyor</string>
+    <string name="support_attachment_failed_fallback">Günlükler eklenemedi, e-posta ek olmadan gönderiliyor</string>
+    <string name="support_email_body_greeting">Merhaba AAAD Destek,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Güncelleme Mevcut</string>
+    <string name="update_available_message">AAAD v%1$s şimdi kullanılabilir. v%2$s kullanıyorsunuz.\n\nEn son sürümü indirmek ister misiniz?</string>
+    <string name="checking_for_aaad_updates">AAAD güncellemeleri kontrol ediliyor…</string>
+    <string name="update_available_badge">GÜNCELLEME</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque, OBD-II araç teşhis uygulaması Torque Pro\'yu Android Auto\'ya getiriyor. Aracınızın performansını izleyin, teşhis verilerini görüntüleyin ve araç ekranınızdan doğrudan gerçek zamanlı araç bilgilerine erişin.</string>
+    <string name="warning_offline">Çevrimdışısınız - uygulama verileri güncel olmayabilir</string>
+    <string name="onboarding_preparing_catalog">Uygulama kataloğu arka planda hazırlanıyor…</string>
+    <string name="version_format">Sürüm %1$s</string>
+    <string name="installed_version_format">Yüklü: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Android Auto Uygulamaları</string>
+    <string name="hero_subtitle">Android Auto deneyiminiz için özel uygulamalar yükleyin</string>
+    <string name="refresh_apps">Uygulamaları yenile</string>
+    <string name="privacy">Gizlilik Politikası</string>
+    <string name="installation_timeout_message_secure">Yükleme doğrulaması zaman aşımına uğradı. Güvenlik nedeniyle indirmeniz aylık limitinize sayıldı.</string>
+    <string name="download_was_counted">İndirme aylık limitinize sayıldı</string>
+    <string name="verifying_authorization">İndirme yetkilendirmesi doğrulanıyor…</string>
+    <string name="please_sign_in">Uygulama indirmek için lütfen oturum açın</string>
+</resources>

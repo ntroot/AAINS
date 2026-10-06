@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">PRO Vers13ion</string>
+    <string name="switch_to_pro_statement">النسخة المجانية من AAAD تسمح لك بتنزيل مجاني واحد كل شهر. إذا كنت تريد تنزيل المزيد، قم بالترقية إلى PRO.</string>
+    <string name="congratsPro">تهانينا، لديك النسخة PRO!</string>    <string name="About">حول</string>
+    <string name="have_promo_code">لدي رمز ترويجي</string>
+    <string name="promo_code">أدخل الرمز الترويجي</string>
+    <string name="input_promo_code_here">أدخل الرمز هنا</string>    <string name="about_to_download">أنت على وشك تنزيل %1$s. هل ترغب في المتابعة؟</string>
+    <string name="warning_payment">At the end of the payment please manually press \"Return to merchant\" for the transaction to be validated.</string>
+    <string name="attention">تنبيه</string>
+    <string name="next_download_available">التنزيل التالي متاح في: %1$s</string>
+    <string name="connect_error">خطأ في عملية الإتصال</string>
+    <plurals name="remaining_downloads">
+        <item quantity="zero">You have 1 download remaining</item>
+        <item quantity="one">لا يزال لديك تحميل واحد</item>
+        <item quantity="two">لديك تحميل واحد متبق</item>
+        <item quantity="few">You have no download remaining</item>
+        <item quantity="many">لديك 1 تحميل متبقي</item>
+        <item quantity="other">ليس لديك تحميل متبقي</item>
+    </plurals>
+    <string name="about_part_one">"&lt;br&gt;<![CDATA[AAAAD (تحميل تطبيقات أندرويد اوتو) تم تطويره و دعمه بواسطة Shmykelsa.<br><br>التطبيقات المتاحة تم تزويدها من قبل المطورين التاليين:<br>]]>"</string>
+    <string name="pro_unlocked">تهانينا، تم فتح النسخة PRO</string>
+    <string name="cancelled_payment">تم إلغاء الشراء</string>
+    <string name="please_enter_code">الرجاء إدخال رمز الترويج الخاص بك</string>
+    <string name="connection_error">خطأ في الاتصال، تعذر التحقق</string>
+    <string name="not_valid_code">رمز غير صحيح</string>    <string name="downloading_progress">جارٍ التنزيل…</string>
+    <string name="aa_mirror_plus_description">Alternative to AAMirror with some more functionalities.</string>
+    <string name="aapassenger_description">فتح Android Auto في وضع القيادة</string>
+    <string name="s2a_description">التطبيق الأكثر اكتمالا و المحتوي على الكثير من المميزات لبث الشاشة للأندرويد اوتو. يتضمن العديد من الميزات مثل مشغل قابل للتخصيص، تقسيم الشاشة، أحجام الشاشة المخصصة والكثير من المميزات!</string>
+    <string name="aamirror_description">انعكاس شاشة هاتفك الذكي على Android Auto</string>
+    <string name="aa_stream_description">بث مقاطع الفيديو على Android Auto</string>
+    <string name="carstream_description">كان كارستريم الذي كان يعرف سابقا باسم \"يوتيوب أوتو\"، أحد التطبيقات الأولى التي تم إنشاؤها مع تطبيقات SDK. ولدت مع الهدف الأساسي لتسليم يوتيوب إلى أندرويد تلقائي ثم أصبحت متصفح ويب مع العديد من القدرات. (.
+    </string>
+    <string name="fermata_description">اخرج من Android Auto دون مغادرة السيارة</string>
+    <string name="s2a_redirect">للحصول على أفضل تجربة، نوصي بـ Screen2Auto</string>
+    <string name="screen2auto_download">تنزيل Screen2Auto</string>    <string name="aawidgets_description">وُلد مع مهمة واحدة. أحضر عنصر واجهة المستخدم إلى أندرويد تلقائيًا!</string>
+    <string name="performance_monitor_description">مراقبة أداء النظام على Android Auto</string>
+    <string name="promotion">أنت مؤهل للحصول على خصم 15%</string>    <string name="loading">جار التحميل…</string>
+    <string name="go_pro">احصل على PRO</string>
+    <string name="i_m_good">أنا بخير</string>
+    <string name="nav2contacts_description">الانتقال السريع إلى جهات الاتصال</string>    <string name="back_button_payment_close">إلغاء الدفع وإغلاق</string>
+    <string name="help">مساعدة</string>
+    <string name="help_dialog">هل تريد إرسال بريد إلكتروني للحصول على مساعدة الآن؟</string>    <string name="i_want_to_transfer_license_here">أريد نقل الترخيص هنا</string>
+    <string name="i_want_to_transfer_license_from_here">أريد نقل ترخيصي من هذا الجهاز</string>
+    <string name="license_transfer_help">امسح رمز QR على جهاز آخر لنقل الترخيص</string>
+    <string name="transfer_license">ترخيص التحويل</string>
+    <string name="debug_mode_activate">تفعيل وضع التصحيح</string>
+    <string name="debug_mode_performance_warning">قد يؤثر وضع التصحيح على الأداء</string>
+    <string name="debug_mode_deactivated">تم إلغاء تفعيل وضع التصحيح</string>
+    <string name="confirm">تأكيد</string>
+    <string name="license_here_confirm">هل تريد نقل ترخيصك إلى هذا الجهاز؟</string>
+    <string name="qr_tutorial">افتح AAAD على جهازك الآخر وامسح رمز QR هذا</string>
+    <string name="license_done">تم نقل الترخيص بنجاح!</string>
+    <string name="no_license_found">لم يتم العثور على ترخيص صالح</string>    <string name="qr_code_permission">إذن الكاميرا مطلوب لمسح رمز QR</string>
+    <string name="success_transfer">النقل ناجح</string>
+    <string name="email_dialog" comment="&#10;Dialog window">سيتم استخدام البريد الإلكتروني للتحقق من عملية الشراء الخاصة بك، إذا لزم الأمر</string>
+    <string name="input_email">أدخل بريدك الإلكتروني</string>
+    <string name="days_remaining">متبقي %d أيام حتى التحميل التالي</string>
+    <string name="hours_remaining">متبقي %d ساعات حتى التحميل التالي</string>
+    <string name="less_than_hour">أقل من ساعة واحدة متبقية حتى التحميل التالي</string>
+    <string name="download_available_now">التحميل متاح الآن!</string>    <string name="installation_failed">فشل التثبيت</string>    <string name="installation_timeout_message">هل تم إكمال تثبيت التطبيق بنجاح؟</string>
+    <string name="installation_succeeded">نعم، تم تثبيته</string>
+    <string name="installation_failed_or_cancelled">لا، فشل أو تم إلغاؤه</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ تحذير مهم</string>
+    <string name="onboarding_warning_message">هذا التطبيق ليس تابعاً لـ softonic.com أو uptodown.com أو aadapk.com, aadapk.app. المصدر الرسمي الوحيد هو github.com</string>
+    <string name="onboarding_official_source">المصدر الرسمي: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">مرحبًا بك في AAAD!</string>
+    <string name="onboarding_welcome_subtitle">برنامج تنزيل تطبيقات Android Auto</string>
+    <string name="onboarding_welcome_description">ستساعد هذه الأداة في تثبيت التطبيقات المخصصة على Android Auto للهواتف غير المجذرة. اسحب لتتعلم كيفية استخدام التطبيق، ثم امنح الأذونات المطلوبة للبدء.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">اختر وثبّت</string>
+    <string name="onboarding_page_selection_description">حدد التطبيق الذي تريد تثبيته وانتظر حتى يظهر مثبت النظام.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">معلومات التطبيق</string>
+    <string name="onboarding_page_info_description">إذا لم تكن متأكداً من التطبيق الذي تريد تثبيته، اضغط طويلاً على الزر للحصول على وصف.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">تطبيقات الوسائط المتعددة</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">تطبيقات النسخ المتطابق</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">أخرى</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">الإعداد المطلوب</string>
+    <string name="onboarding_permissions_subtitle">منح الأذونات لتثبيت التطبيقات المخصصة</string>
+    <string name="onboarding_unknown_sources_title">تثبيت التطبيقات غير المعروفة</string>
+    <string name="onboarding_unknown_sources_description">مطلوب لتثبيت ملفات APK من مصادر خارجية</string>
+    <string name="onboarding_notifications_title">الإشعارات</string>
+    <string name="onboarding_notifications_description">احصل على إشعارات حول تقدم التنزيل وتحديثات التطبيقات</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">إعدادات المطور في Android Auto (موصى به)</string>
+    <string name="onboarding_aa_dev_description">خطوة اختيارية لتحسين تجربة Android Auto الخاصة بك</string>
+    <string name="onboarding_aa_dev_warning">للحصول على أفضل تجربة مع التطبيقات المخصصة على Android Auto، نوصي بتمكين \"مصادر غير معروفة\" في إعدادات المطور في Android Auto.</string>
+    <string name="onboarding_open_aa_dev">عرض إعدادات المطور</string>
+
+    <string name="onboarding_play_protect_title">Google Play حماية</string>
+    <string name="onboarding_play_protect_description">تعطيل مؤقتًا للسماح بتثبيت التطبيقات المخصصة</string>
+    <string name="onboarding_play_protect_warning">قد يحظر Google Play Protect تثبيت التطبيقات المخصصة. تحتاج إلى تعطيله مؤقتًا أو السماح لـ AAAD عند المطالبة.</string>
+    <string name="onboarding_open_play_protect">فتح إعدادات Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">التالي</string>
+    <string name="onboarding_previous">السابق</string>
+    <string name="onboarding_skip">تخطي</string>
+    <string name="onboarding_grant_permissions">منح الأذونات</string>
+    <string name="onboarding_continue">المتابعة إلى التطبيق</string>
+    <string name="onboarding_get_started">ابدأ</string>
+    <string name="onboarding_finish">إنهاء الإعداد</string>
+    <string name="show_intro">عرض المقدمة</string>
+    <string name="downloads_remaining">التنزيلات المتبقية</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">مثبت</string>
+    <string name="status_update_available">التحديث متاح</string>
+    <string name="status_update_to_version">التحديث إلى %1$s</string>
+    <string name="status_not_installed">غير مثبت</string>
+    <string name="status_downloading">جارٍ التنزيل…</string>
+    <string name="status_installing">جارٍ التثبيت…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">تثبيت</string>
+    <string name="action_update">تحديث</string>
+    <string name="action_open">فتح</string>
+    <string name="action_uninstall">إلغاء التثبيت</string>
+    <string name="action_cancel">إلغاء</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">فشل التنزيل</string>
+    <string name="error_installation_failed">فشل التثبيت</string>
+    <string name="error_network_unavailable">الشبكة غير متوفرة</string>
+    <string name="error_insufficient_storage">مساحة التخزين غير كافية</string>
+    <string name="error_cannot_open_app">لا يمكن فتح التطبيق - لم يتم العثور على نشاط التشغيل</string>
+    <string name="error_download_tracking_failed">فشل تحديث حالة التنزيل</string>
+    <string name="error_loading_catalog">فشل تحميل كتالوج التطبيقات</string>
+    <string name="error_not_eligible">تحتاج إلى الترقية إلى PRO أو الانتظار حتى التنزيل المجاني التالي.</string>
+    <string name="error_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_no_internet_message">يرجى الاتصال بالإنترنت لتحميل معلومات التطبيق والمتابعة.</string>
+    <string name="error_initialization_failed">فشل تهيئة بيانات التطبيق</string>
+    <string name="error_metadata_fetch_failed">فشل جلب تحديثات التطبيق</string>
+    <string name="error_metadata_fetch_failed_message">تعذر استرجاع أحدث معلومات التطبيق. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_continue_offline">متابعة دون اتصال</string>
+    <string name="loading_app_data">تحميل معلومات التطبيق…</string>
+    <string name="loading_checking_updates">البحث عن تحديثات…</string>
+    <string name="loading_please_wait">يرجى الانتظار…</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">نقل الترخيص</string>
+    <string name="checking_license_status">جارٍ التحقق من حالة الترخيص…</string>
+    <string name="qr_code_icon">أيقونة رمز الاستجابة السريعة</string>
+    <string name="receiver_title">استلام ترخيص PRO</string>
+    <string name="receiver_subtitle">اعرض رمز الاستجابة السريعة هذا لنقل ترخيص إلى هذا الجهاز</string>
+    <string name="qr_code_to_scan">رمز الاستجابة السريعة لنقل الترخيص</string>
+    <string name="receiver_instructions_title">كيف يعمل</string>
+    <string name="receiver_instructions_step1">على الجهاز الذي يحتوي على PRO، افتح AAAD وانتقل إلى نقل الترخيص</string>
+    <string name="receiver_instructions_step2">اضغط على زر مسح رمز الاستجابة السريعة على ذلك الجهاز</string>
+    <string name="receiver_instructions_step3">امسح رمز الاستجابة السريعة هذا لإكمال النقل</string>
+    <string name="transfer_license_icon">أيقونة نقل الترخيص</string>
+    <string name="sender_title">نقل ترخيص PRO</string>
+    <string name="sender_subtitle">انقل ترخيصك إلى جهاز جديد</string>
+    <string name="sender_warning">⚠️ تحذير: سيؤدي نقل ترخيصك إلى إزالة حالة PRO من هذا الجهاز وتفعيلها على الجهاز الجديد. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="sender_instructions_title">كيفية النقل</string>
+    <string name="sender_step_1">افتح AAAD على جهازك الجديد</string>
+    <string name="sender_step_2">انتقل إلى قائمة نقل الترخيص</string>
+    <string name="sender_step_3">سيظهر رمز استجابة سريعة على الجهاز الجديد</string>
+    <string name="sender_step_4">اضغط على الزر أدناه وامسح رمز الاستجابة السريعة ذاك</string>
+    <string name="scan_qr_code">مسح رمز الاستجابة السريعة</string>
+    <string name="camera_permission_required">يتطلب إذن الكاميرا لمسح رموز QR</string>
+    <string name="error_checking_license">فشل التحقق من حالة الترخيص. حاول مرة أخرى.</string>
+    <string name="error_generating_qr">فشل إنشاء رمز الاستجابة السريعة</string>
+    <string name="license_received_success">تم استلام الترخيص بنجاح!</string>
+    <string name="scan_error_title">خطأ في المسح</string>
+    <string name="scan_error_message">فشل مسح رمز الاستجابة السريعة. حاول مرة أخرى.</string>
+    <string name="confirm_transfer_title">تأكيد النقل</string>
+    <string name="confirm_transfer_message">هل أنت متأكد من رغبتك في نقل ترخيص PRO إلى الجهاز الجديد؟ سيؤدي هذا إلى إزالة PRO من هذا الجهاز.</string>
+    <string name="confirm_transfer_yes">نقل الترخيص</string>
+    <string name="confirm_transfer_no">إلغاء</string>
+    <string name="license_transferred_success">تم نقل الترخيص بنجاح!</string>
+    <string name="error_transferring_license">فشل نقل الترخيص. حاول مرة أخرى.</string>
+    <string name="support_title">هل تحتاج إلى مساعدة؟</string>
+    <string name="support_icon">أيقونة المساعدة</string>
+    <string name="support_subtitle">نحن هنا لمساعدتك!</string>
+    <string name="support_description">هل تواجه مشاكل مع AAAD؟ أرسل لنا بريدًا إلكترونيًا وسنرد عليك في أقرب وقت ممكن. كلما قدمت تفاصيل أكثر، كلما تمكنا من المساعدة بشكل أسرع!</string>
+    <string name="support_email_will_include">سيتضمن بريدك الإلكتروني:</string>
+    <string name="support_email_item_device">طراز الجهاز وإصدار Android</string>
+    <string name="support_email_item_version">معلومات إصدار AAAD</string>
+    <string name="support_email_item_description">مساحة لوصف مشكلتك</string>
+    <string name="support_include_logs">تضمين سجلات التشخيص</string>
+    <string name="support_logs_explanation">موصى به - يساعدنا على استكشاف المشاكل وإصلاحها بشكل أسرع. يحتوي فقط على معلومات الجهاز وتكوين التطبيق، بدون بيانات شخصية.</string>
+    <string name="support_send_email">إرسال بريد إلكتروني للدعم</string>
+    <string name="support_privacy_note">نحن نحترم خصوصيتك. لا توجد معلومات شخصية أو كلمات مرور أو بيانات دفع مضمنة في السجلات.</string>
+    <string name="support_preparing_email">جارٍ تحضير البريد الإلكتروني…</string>
+    <string name="support_log_generation_failed">فشل إنشاء السجلات، إرسال البريد الإلكتروني بدون مرفق</string>
+    <string name="support_email_failed">فشل فتح تطبيق البريد الإلكتروني. يرجى إرسال بريد إلكتروني مباشرة إلى help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">اختر تطبيق البريد الإلكتروني</string>
+    <string name="support_email_subject">طلب دعم AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">الوسائط المتعددة</string>
+    <string name="second_section_name">تطبيقات النسخ المتطابق</string>
+    <string name="third_section_name">أخرى</string>
+
+    <string name="privacy_policy">يحترم هذا التطبيق خصوصيتك. نحن لا نجمع أو نخزن أو نشارك أي معلومات شخصية دون موافقتك. لمزيد من المعلومات، يرجى الاتصال بنا.</string>
+
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">إعدادات مطور Android Auto</string>
+    <string name="android_auto_setup_icon">رمز دليل إعداد Android Auto</string>
+    <string name="android_auto_setup_subtitle">اتبع هذه الخطوات لتمكين المصادر غير المعروفة للتطبيقات المخصصة على Android Auto</string>
+    <string name="android_auto_open_settings">فتح إعدادات Android Auto</string>
+    <string name="android_auto_setup_instructions_title">تعليمات الإعداد</string>
+    <string name="android_auto_step1_title">انقر على "الإصدار" 10 مرات</string>
+    <string name="android_auto_step1_description">في إعدادات Android Auto، قم بالتمرير إلى الأسفل وانقر على "الإصدار" (العنصر الأخير) 10 مرات لفتح إعدادات المطور.</string>
+    <string name="android_auto_step2_title">تأكيد وضع المطور</string>
+    <string name="android_auto_step2_description">عند المطالبة، انقر على "السماح" أو "تمكين" لتنشيط إعدادات المطور لـ Android Auto.</string>
+    <string name="android_auto_step3_title">فتح إعدادات المطور</string>
+    <string name="android_auto_step3_description">انقر على أيقونة القائمة ذات النقاط الثلاث في الزاوية العلوية اليمنى وحدد "إعدادات المطور" من القائمة المنسدلة.</string>
+    <string name="android_auto_step4_title">تمكين المصادر غير المعروفة</string>
+    <string name="android_auto_step4_description">في قائمة إعدادات المطور، ابحث عن خيار "المصادر غير المعروفة" وقم بتمكينه للسماح بتثبيت تطبيقات الطرف الثالث.</string>
+    <string name="android_auto_setup_done">تم</string>
+    <string name="android_auto_settings_opened">تم فتح إعدادات Android Auto. اتبع الخطوات أعلاه.</string>
+    <string name="android_auto_opened_navigate_to_settings">تم فتح Android Auto. يرجى الانتقال إلى الإعدادات يدويًا.</string>
+    <string name="android_auto_not_installed">Android Auto غير مثبت. يرجى تثبيته أولاً من متجر Play.</string>
+
+    <string name="action_download_update">تنزيل التحديث</string>
+    <string name="action_install_update">تثبيت التحديث</string>
+    <string name="action_skip_update">تخطي الآن</string>
+    <string name="action_download_manual">تنزيل يدوي</string>
+    <string name="badge_update">تحديث</string>
+    <string name="check_for_updates">التحقق من التحديثات</string>
+    <string name="aaad_update_section">تحديث AAAD متاح</string>
+    <string name="aaad_update_available_subtitle">إصدار جديد متاح للتنزيل</string>
+    <string name="aaad_update_downloaded">تم تنزيل التحديث! جاري التثبيت…</string>
+    <string name="aaad_update_failed">فشل تنزيل التحديث. يرجى المحاولة للتنزيل يدويًا.</string>
+    <string name="aaad_current_version">الحالي: %1$s</string>
+    <string name="aaad_latest_version">الأحدث: %1$s</string>
+    <string name="authorization_failed">فشل تفويض التنزيل. يرجى المحاولة مرة أخرى.</string>
+    <string name="authorization_error">خطأ في التفويض. يرجى التحقق من الاتصال.</string>
+    <string name="aabrowser_description">تصفح الويب على Android Auto</string>
+    <string name="benefit_icon">فائدة</string>
+    <string name="no_updates_available">لا توجد تحديثات متاحة</string>
+
+    <!-- Professional translations added by Claude -->
+    <string name="aatorque_description">يجلب AATorque تطبيق تشخيص المركبات OBD-II Torque Pro إلى Android Auto. راقب أداء سيارتك، واعرض بيانات التشخيص، واحصل على معلومات السيارة في الوقت الفعلي مباشرة من شاشة سيارتك.</string>
+    <string name="onboarding_shizuku_title">🚀 تثبيت محسّن (اختياري)</string>
+    <string name="onboarding_shizuku_subtitle">لمستخدمي Android 14+ المتقدمين</string>
+    <string name="onboarding_shizuku_standard_mode">الوضع القياسي (موصى به)</string>
+    <string name="onboarding_shizuku_standard_description">يستخدم مثبت النظام. يعمل للجميع. يعرض مطالبات التثبيت.</string>
+    <string name="onboarding_shizuku_enhanced_mode">الوضع المحسّن مع Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">تثبيت صامت بدون مطالبات. يتطلب إعدادًا لمرة واحدة.</string>
+    <string name="onboarding_shizuku_status">حالة Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">غير مثبت</string>
+    <string name="onboarding_shizuku_not_running">مثبت ولكن غير قيد التشغيل</string>
+    <string name="onboarding_shizuku_no_permission">قيد التشغيل ولكن لم يتم منح الإذن</string>
+    <string name="onboarding_shizuku_ready">جاهز للاستخدام</string>
+    <string name="onboarding_shizuku_install">تثبيت Shizuku</string>
+    <string name="onboarding_shizuku_start">تشغيل Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">منح الإذن</string>
+    <string name="onboarding_shizuku_start_service">Shizuku مثبت - اضغط لبدء الخدمة</string>
+    <string name="onboarding_shizuku_start_button">بدء خدمة Shizuku</string>
+    <string name="shizuku_service_not_started">خدمة Shizuku غير قيد التشغيل. يرجى فتح Shizuku وبدء الخدمة.</string>
+    <string name="onboarding_shizuku_what_is_it">ما هو Shizuku؟</string>
+    <string name="onboarding_shizuku_explanation">Shizuku هي أداة تسمح للتطبيقات باستخدام أذونات على مستوى النظام عبر التصحيح اللاسلكي. تمكّن من تثبيت التطبيقات بصمت على Android 14+ بدون root. لا يزال بإمكانك استخدام AAAD بدونها!</string>
+    <string name="onboarding_shizuku_steps_title">خطوات الإعداد:</string>
+    <string name="onboarding_shizuku_step1">1. تثبيت تطبيق Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. تفعيل خيارات المطور</string>
+    <string name="onboarding_shizuku_step3">3. تفعيل التصحيح اللاسلكي</string>
+    <string name="onboarding_shizuku_step4">4. تشغيل Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. منح الإذن لـ AAAD</string>
+    <string name="onboarding_shizuku_learn_more">معرفة المزيد</string>
+    <string name="loading_app_catalog">تحميل كتالوج التطبيقات…</string>
+    <string name="loading_fetching_icons">تحميل رموز التطبيقات…</string>
+    <string name="loading_finalizing">الانتهاء…</string>
+    <string name="loading_checking_internet">التحقق من اتصال الإنترنت…</string>
+    <string name="error_no_internet_title">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_no_internet_description">يتطلب AAAD اتصالاً بالإنترنت لتحميل معلومات التطبيق. يرجى الاتصال بشبكة WiFi أو بيانات الجوال والمحاولة مرة أخرى.</string>
+    <string name="warning_offline">أنت غير متصل - قد تكون بيانات التطبيق قديمة</string>
+    <string name="update_available_title">يتوفر تحديث</string>
+    <string name="update_available_message">AAAD الإصدار %1$s متاح الآن. أنت تستخدم الإصدار %2$s.\n\nهل ترغب في تنزيل أحدث إصدار؟</string>
+    <string name="downloading_aaad_update">تنزيل تحديث AAAD…</string>
+    <string name="onboarding_preparing_catalog">إعداد كتالوج التطبيقات في الخلفية…</string>
+    <string name="progress_downloading">تنزيل %1$s…</string>
+    <string name="progress_installing">تثبيت %1$s…</string>
+    <string name="progress_checking_updates">التحقق من التحديثات…</string>
+    <string name="checking_for_aaad_updates">التحقق من تحديثات AAAD…</string>
+    <string name="version_format">الإصدار %1$s</string>
+    <string name="installed_version_format">المثبت: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">تطبيقات Android Auto</string>
+    <string name="hero_subtitle">تثبيت تطبيقات مخصصة لتجربة Android Auto الخاصة بك</string>
+    <string name="refresh_apps">تحديث التطبيقات</string>
+    <string name="privacy">سياسة الخصوصية</string>
+    <string name="purchase_pro">شراء النسخة الاحترافية</string>
+    <string name="support_no_email_app">لم يتم تثبيت تطبيق بريد إلكتروني. يرجى تثبيت تطبيق بريد إلكتروني (Gmail، Outlook، إلخ) أو إرسال بريد إلكتروني إلى help.aaad@gmail.com مباشرة من جهاز آخر.</string>
+    <string name="support_attachment_not_supported">المرفق غير مدعوم، إرسال البريد الإلكتروني بدون السجلات</string>
+    <string name="support_attachment_failed_fallback">تعذر إرفاق السجلات، إرسال البريد الإلكتروني بدون مرفق</string>
+    <string name="support_email_body_greeting">مرحبًا دعم AAAD،</string>
+    <string name="installation_timeout_message_secure">انتهت مهلة التحقق من التثبيت. تم احتساب تنزيلك ضمن حدك الشهري لأسباب أمنية.</string>
+    <string name="download_was_counted">تم احتساب التنزيل ضمن حدك الشهري</string>
+    <string name="pro_version_title">النسخة الاحترافية</string>
+    <string name="pro_version_icon">شارة النسخة الاحترافية</string>
+    <string name="pro_thank_you_title">شكرًا لك!</string>
+    <string name="pro_thank_you_message">شكرًا لك على دعم AAAD من خلال شرائك للنسخة الاحترافية! مساهمتك تساعد في الحفاظ على هذا المشروع حيًا وتتيح لنا الاستمرار في تقديم أفضل تطبيقات Android Auto لك.</string>
+    <string name="pro_since">عضو احترافي منذ %s</string>
+    <string name="pro_since_legacy">عضو احترافي</string>
+    <string name="pro_benefits_title">مزاياك الاحترافية</string>
+    <string name="pro_benefit_unlimited">تنزيلات تطبيقات غير محدودة</string>
+    <string name="pro_benefit_no_cooldown">لا توجد فترة انتظار بين التنزيلات</string>
+    <string name="pro_benefit_support">دعم التطوير المستمر</string>
+    <string name="pro_closing_message">نحن نقدر حقًا ثقتك ودعمك. استمتع بوصولك غير المحدود إلى جميع تطبيقات AAAD!</string>
+    <string name="update_available_badge">تحديث</string>
+    <string name="verifying_authorization">التحقق من تصريح التنزيل…</string>
+    <string name="please_sign_in">يرجى تسجيل الدخول لتنزيل التطبيقات</string>
+    <string name="network_error">خطأ في الشبكة. يرجى التحقق من اتصالك والمحاولة مرة أخرى.</string>
+</resources>

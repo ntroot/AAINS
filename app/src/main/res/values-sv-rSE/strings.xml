@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">Pro version</string>
+    <string name="switch_to_pro_statement">Den kostnadsfria versionen av AAAD tillåter en gratis nedladdning varje månad. Om du vill ladda ner mer, uppgradera till PRO.</string>
+    <string name="congratsPro">Grattis, du har PRO-versionen!</string>    <string name="About">Om</string>
+    <string name="have_promo_code">Jag har en kampanjkod</string>
+    <string name="promo_code">Ange kampanjkod</string>
+    <string name="input_promo_code_here">Ange kod här</string>    <string name="about_to_download">Du håller på att ladda ner %1$s. Vill du fortsätta?</string>
+    <string name="warning_payment">Vid slutet av betalningen, tryck manuellt på \"Återgå till handlaren\" för att transaktionen ska valideras.</string>
+    <string name="attention">OBS</string>
+    <string name="next_download_available">Nästa nedladdning tillgänglig: %1$s</string>
+    <string name="connect_error">ANSLUTNINGS FEL</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">Du har 1 nedladdning kvar</item>
+        <item quantity="other">Du har ingen nedladdning kvar</item>
+    </plurals>
+    <string name="about_part_one">"&lt;br&gt;<![CDATA[AAAD (Android Auto Apps Downloader) is developed and mantained by Shmykelsa.<br><br>The available apps are made possible by the following developers:<br>]]>"</string>
+    <string name="pro_unlocked">Grattis, PRO-version upplåst</string>
+    <string name="cancelled_payment">Köp avbrutet</string>
+    <string name="please_enter_code">Ange din kampanjkod</string>
+    <string name="connection_error">Anslutningsfel, kunde inte verifiera</string>
+    <string name="not_valid_code">Inte en giltig kod</string>    <string name="downloading_progress">Laddar ner…</string>
+    <string name="aa_mirror_plus_description">Alternativ till AAMirror med några fler funktioner.</string>
+    <string name="aapassenger_description">Lås upp Android Auto i körläge</string>
+    <string name="s2a_description">Den mest kompletta och fullfjädrade speglingsappen för Android Auto. Innehåller många funktioner som en anpassningsbar launcher, delad skärm, anpassade skärmstorlekar och mycket mer!</string>
+    <string name="aamirror_description">Spegla din smartphones skärm till Android Auto</string>
+    <string name="aa_stream_description">Strömma videor på Android Auto</string>
+    <string name="carstream_description">Tidigare känd som \"YouTube Arto\", Streama var en av de första apparna som gjordes med anpassat app SDK. Det föddes med det huvudsakliga syftet att leverera YouTube till Android Arto och sedan blev det en webbläsare med många funktioner.
+    </string>
+    <string name="fermata_description">Avsluta Android Auto utan att lämna bilen</string>
+    <string name="s2a_redirect">För bästa upplevelse rekommenderar vi Screen2Auto</string>
+    <string name="screen2auto_download">Ladda ner Screen2Auto</string>    <string name="aawidgets_description">Född med en enda uppgift. Möjliggöra widgets till Android Auto!</string>
+    <string name="performance_monitor_description">Övervaka systemprestanda på Android Auto</string>
+    <string name="promotion">Du är berättigad till 15% rabatt</string>    <string name="loading">Laddar…</string>
+    <string name="go_pro">BLI PRO</string>
+    <string name="i_m_good">Jag är nöjd</string>
+    <string name="nav2contacts_description">Navigera snabbt till dina kontakter</string>    <string name="back_button_payment_close">Avbryt betalning och stäng</string>
+    <string name="help">Hjälp</string>
+    <string name="help_dialog">Vill du skicka ett mail för att få hjälp nu?</string>    <string name="i_want_to_transfer_license_here">Jag vill överföra licensen hit</string>
+    <string name="i_want_to_transfer_license_from_here">Jag vill överföra min licens från denna enhet</string>
+    <string name="license_transfer_help">Skanna QR-koden på en annan enhet för att överföra din licens</string>
+    <string name="transfer_license">Överför licens</string>
+    <string name="debug_mode_activate">Aktivera felsökning</string>
+    <string name="debug_mode_performance_warning">Felsökningsläget kan påverka prestandan</string>
+    <string name="debug_mode_deactivated">Felsökningsläge inaktiverat</string>
+    <string name="confirm">Bekräftelse</string>
+    <string name="license_here_confirm">Vill du överföra din licens till denna enhet?</string>
+    <string name="qr_tutorial">Öppna AAAD på din andra enhet och skanna denna QR-kod</string>
+    <string name="license_done">Licens överförd framgångsrikt!</string>
+    <string name="no_license_found">Ingen giltig licens hittades</string>    <string name="qr_code_permission">Behörigheten till kameran behövs för att skanna QR-koder</string>
+    <string name="success_transfer">Överföring lyckades</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Epostadressen kommer vid behov att användas för att verifiera ditt köp</string>
+    <string name="input_email">Ange din e-postadress</string>
+    <string name="days_remaining">%d dagar kvar till nästa nedladdning</string>
+    <string name="hours_remaining">%d timmar kvar till nästa nedladdning</string>
+    <string name="less_than_hour">Mindre än 1 timme kvar till nästa nedladdning</string>
+    <string name="download_available_now">Nedladdning tillgänglig nu!</string>    <string name="installation_failed">Installation misslyckades</string>    <string name="installation_timeout_message">Slutfördes appinstallationen framgångsrikt?</string>
+    <string name="installation_succeeded">Ja, den installerades</string>
+    <string name="installation_failed_or_cancelled">Nej, den misslyckades eller avbröts</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Viktig varning</string>
+    <string name="onboarding_warning_message">Denna app är INTE ansluten till softonic.com, uptodown.com eller aadapk.com, aadapk.app. Den enda officiella källan är github.com</string>
+    <string name="onboarding_official_source">Officiell källa: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Välkommen till AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Android Auto Apps Downloader</string>
+    <string name="onboarding_welcome_description">Detta verktyg hjälper dig att installera anpassade appar på Android Auto för telefoner utan root. Svep igenom för att lära dig hur du använder appen och ge sedan de behörigheter som krävs för att komma igång.</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Välj och installera</string>
+    <string name="onboarding_page_selection_description">Välj den app du vill installera och vänta på att systeminstallatören ska visas.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Appinformation</string>
+    <string name="onboarding_page_info_description">Om du är osäker på vilken app du ska installera, tryck länge på knappen för att se en beskrivning.</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Nödvändig installation</string>
+    <string name="onboarding_permissions_subtitle">Ge behörigheter för att installera anpassade appar</string>
+    <string name="onboarding_unknown_sources_title">Installera okända appar</string>
+    <string name="onboarding_unknown_sources_description">Krävs för att installera APK-filer från externa källor</string>
+    <string name="onboarding_notifications_title">Aviseringar</string>
+    <string name="onboarding_notifications_description">Få aviseringar om nedladdningsförlopp och appuppdateringar</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Android Auto utvecklarinställningar (Rekommenderas)</string>
+    <string name="onboarding_aa_dev_description">Valfritt steg för att förbättra din Android Auto-upplevelse</string>
+    <string name="onboarding_aa_dev_warning">För bästa upplevelse med anpassade appar på Android Auto rekommenderar vi att du aktiverar \"Okända källor\" i Android Auto utvecklarinställningar.</string>
+    <string name="onboarding_open_aa_dev">Visa utvecklarinställningar</string>
+
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Inaktivera tillfälligt för att tillåta installation av anpassade appar</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect kan blockera installation av anpassade appar. Du måste tillfälligt inaktivera den eller tillåta AAAD när du uppmanas.</string>
+    <string name="onboarding_open_play_protect">Öppna Play Protect-inställningar</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Nästa</string>
+    <string name="onboarding_previous">Föregående</string>
+    <string name="onboarding_skip">Hoppa över</string>
+    <string name="onboarding_grant_permissions">Bevilja behörigheter</string>
+    <string name="onboarding_continue">Fortsätt till appen</string>
+    <string name="onboarding_get_started">Kom igång</string>
+    <string name="onboarding_finish">Slutför installation</string>
+    <string name="show_intro">Visa intro</string>
+    <string name="downloads_remaining">Återstående nedladdningar</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Installerad</string>
+    <string name="status_update_available">Uppdatering tillgänglig</string>
+    <string name="status_update_to_version">Uppdatera till %1$s</string>
+    <string name="status_not_installed">Inte installerad</string>
+    <string name="status_downloading">Laddar ner…</string>
+    <string name="status_installing">Installerar…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Installera</string>
+    <string name="action_update">Uppdatera</string>
+    <string name="action_open">Öppna</string>
+    <string name="action_uninstall">Avinstallera</string>
+    <string name="action_cancel">Avbryt</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Nedladdning misslyckades</string>
+    <string name="error_installation_failed">Installation misslyckades</string>
+    <string name="error_network_unavailable">Nätverket är inte tillgängligt</string>
+    <string name="error_insufficient_storage">Otillräckligt lagringsutrymme</string>
+    <string name="error_cannot_open_app">Kan inte öppna appen - ingen startaktivitet hittades</string>
+    <string name="error_download_tracking_failed">Det gick inte att uppdatera nedladdningsstatus</string>
+    <string name="error_loading_catalog">Det gick inte att läsa in appkatalogen</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Överför licens</string>
+    <string name="checking_license_status">Kontrollerar licensstatus…</string>
+    <string name="qr_code_icon">QR-kodikon</string>
+    <string name="receiver_title">Ta emot PRO-licens</string>
+    <string name="receiver_subtitle">Visa denna QR-kod för att överföra en licens till denna enhet</string>
+    <string name="qr_code_to_scan">QR-kod för licensöverföring</string>
+    <string name="receiver_instructions_title">Så här fungerar det</string>
+    <string name="receiver_instructions_step1">På enheten med PRO, öppna AAAD och gå till Överför licens</string>
+    <string name="receiver_instructions_step2">Tryck på knappen Skanna QR-kod på den enheten</string>
+    <string name="receiver_instructions_step3">Skanna denna QR-kod för att slutföra överföringen</string>
+    <string name="transfer_license_icon">Licensöverföringsikon</string>
+    <string name="sender_title">Överför PRO-licens</string>
+    <string name="sender_subtitle">Överför din licens till en ny enhet</string>
+    <string name="sender_warning">⚠️ Varning: Att överföra din licens tar bort PRO-status från denna enhet och aktiverar den på den nya enheten. Denna åtgärd kan inte ångras.</string>
+    <string name="sender_instructions_title">Hur man överför</string>
+    <string name="sender_step_1">Öppna AAAD på din nya enhet</string>
+    <string name="sender_step_2">Gå till menyn Överför licens</string>
+    <string name="sender_step_3">En QR-kod visas på den nya enheten</string>
+    <string name="sender_step_4">Tryck på knappen nedan och skanna den QR-koden</string>
+    <string name="scan_qr_code">Skanna QR-kod</string>
+    <string name="camera_permission_required">Kameratillstånd krävs för att skanna QR-koder</string>
+    <string name="error_checking_license">Kunde inte kontrollera licensstatus. Försök igen.</string>
+    <string name="error_generating_qr">Kunde inte generera QR-kod</string>
+    <string name="license_received_success">Licens mottagen!</string>
+    <string name="scan_error_title">Skanningsfel</string>
+    <string name="scan_error_message">Kunde inte skanna QR-kod. Försök igen.</string>
+    <string name="confirm_transfer_title">Bekräfta överföring</string>
+    <string name="confirm_transfer_message">Är du säker på att du vill överföra din PRO-licens till den nya enheten? Detta tar bort PRO från denna enhet.</string>
+    <string name="confirm_transfer_yes">Överför licens</string>
+    <string name="confirm_transfer_no">Avbryt</string>
+    <string name="license_transferred_success">Licens överförd!</string>
+    <string name="error_transferring_license">Kunde inte överföra licens. Försök igen.</string>
+    <string name="support_title">Behöver du hjälp?</string>
+    <string name="support_icon">Hjälpikon</string>
+    <string name="support_subtitle">Vi är här för att hjälpa dig!</string>
+    <string name="support_description">Har du problem med AAAD? Skicka oss ett e-postmeddelande så återkommer vi så snart som möjligt. Ju mer detaljer du ger, desto snabbare kan vi hjälpa!</string>
+    <string name="support_email_will_include">Ditt e-postmeddelande kommer att innehålla:</string>
+    <string name="support_email_item_device">Enhetsmodell och Android-version</string>
+    <string name="support_email_item_version">AAAD-versionsinformation</string>
+    <string name="support_email_item_description">Utrymme för att beskriva ditt problem</string>
+    <string name="support_include_logs">Inkludera diagnostikloggar</string>
+    <string name="support_logs_explanation">Rekommenderat - Hjälper oss att felsöka snabbare. Innehåller endast enhetsinformation och appkonfiguration, inga personuppgifter.</string>
+    <string name="support_send_email">Skicka e-post till support</string>
+    <string name="support_privacy_note">Vi respekterar din integritet. Inga personuppgifter, lösenord eller betalningsdata ingår i loggarna.</string>
+    <string name="support_preparing_email">Förbereder e-post…</string>
+    <string name="support_log_generation_failed">Kunde inte generera loggar, skickar e-post utan bilaga</string>
+    <string name="support_email_failed">Kunde inte öppna e-postapp. Skicka e-post direkt till help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Välj e-postapp</string>
+    <string name="support_email_subject">AAAD Supportbegäran</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Speglingsappar</string>
+    <string name="third_section_name">Övrigt</string>
+
+    <string name="privacy_policy">Denna app respekterar din integritet. Vi samlar inte in, lagrar eller delar någon personlig information utan ditt samtycke. För mer information, vänligen kontakta oss.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Android Auto utvecklarinställningar</string>
+    <string name="android_auto_setup_icon">Android Auto installationsguide ikon</string>
+    <string name="android_auto_setup_subtitle">Följ dessa steg för att aktivera okända källor för anpassade appar på Android Auto</string>
+    <string name="android_auto_open_settings">Öppna Android Auto inställningar</string>
+    <string name="android_auto_setup_instructions_title">Installationsinstruktioner</string>
+    <string name="android_auto_step1_title">Tryck på \"Version\" 10 gånger</string>
+    <string name="android_auto_step1_description">I Android Auto-inställningarna, rulla längst ner och tryck på \"Version\" (sista objektet) 10 gånger för att låsa upp utvecklarinställningar.</string>
+    <string name="android_auto_step2_title">Bekräfta utvecklarläge</string>
+    <string name="android_auto_step2_description">När du uppmanas, tryck på \"Tillåt\" eller \"Aktivera\" för att aktivera utvecklarinställningar för Android Auto.</string>
+    <string name="android_auto_step3_title">Öppna utvecklarinställningar</string>
+    <string name="android_auto_step3_description">Tryck på tre-punkts-menyikonen i övre högra hörnet och välj \"Utvecklarinställningar\" från rullgardinsmenyn.</string>
+    <string name="android_auto_step4_title">Aktivera okända källor</string>
+    <string name="android_auto_step4_description">I menyn Utvecklarinställningar, hitta och aktivera alternativet \"Okända källor\" för att tillåta installation av tredjepartsappar.</string>
+    <string name="android_auto_setup_done">Klar</string>
+    <string name="android_auto_settings_opened">Android Auto-inställningar öppnade. Följ stegen ovan.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto öppnad. Navigera manuellt till Inställningar.</string>
+    <string name="android_auto_not_installed">Android Auto är inte installerad. Installera det först från Play Store.</string>
+
+    <string name="onboarding_page_multimedia_title">Multimediaappar</string>
+    <string name="onboarding_page_mirroring_title">Speglingsappar</string>
+    <string name="onboarding_page_others_title">Övrigt</string>
+    <string name="action_retry">Försök igen</string>
+    <string name="action_download_update">Ladda ner uppdatering</string>
+    <string name="action_install_update">Installera uppdatering</string>
+    <string name="action_skip_update">Hoppa över nu</string>
+    <string name="action_download_manual">Manuell nedladdning</string>
+    <string name="action_continue_offline">Fortsätt offline</string>
+    <string name="badge_update">UPPDATERING</string>
+    <string name="check_for_updates">Sök efter uppdateringar</string>
+    <string name="aaad_update_section">AAAD-uppdatering tillgänglig</string>
+    <string name="aaad_update_available_subtitle">Ny version tillgänglig för nedladdning</string>
+    <string name="aaad_update_downloaded">Uppdatering nedladdad! Installerar…</string>
+    <string name="aaad_update_failed">Uppdateringsne dladdning misslyckades. Försök ladda ner manuellt.</string>
+    <string name="aaad_current_version">Aktuell: %1$s</string>
+    <string name="aaad_latest_version">Senaste: %1$s</string>
+    <string name="authorization_failed">Nedladdningsauktorisering misslyckades. Försök igen.</string>
+    <string name="authorization_error">Auktoriseringsfel. Kontrollera din anslutning.</string>
+    <string name="aabrowser_description">Surfa på webben med Android Auto</string>
+    <string name="benefit_icon">Fördel</string>
+
+    <!-- Shizuku Setup (Android 14+ Enhancement) -->
+    <string name="onboarding_shizuku_title">🚀 Förbättrad installation (valfritt)</string>
+    <string name="onboarding_shizuku_subtitle">För Android 14+ avancerade användare</string>
+    <string name="onboarding_shizuku_standard_mode">Standardläge (rekommenderas)</string>
+    <string name="onboarding_shizuku_standard_description">Använder systeminstalleraren. Fungerar för alla. Visar installationsprompter.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Förbättrat läge med Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Tyst installation utan prompter. Kräver engångsinstallation.</string>
+    <string name="onboarding_shizuku_status">Shizuku-status:</string>
+    <string name="onboarding_shizuku_not_installed">Ej installerad</string>
+    <string name="onboarding_shizuku_not_running">Installerad men körs inte</string>
+    <string name="onboarding_shizuku_no_permission">Körs men behörighet ej beviljad</string>
+    <string name="onboarding_shizuku_ready">Redo att använda</string>
+    <string name="onboarding_shizuku_install">Installera Shizuku</string>
+    <string name="onboarding_shizuku_start">Starta Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Bevilja behörighet</string>
+    <string name="onboarding_shizuku_start_service">Shizuku installerad - tryck för att starta tjänsten</string>
+    <string name="onboarding_shizuku_start_button">Starta Shizuku-tjänst</string>
+    <string name="shizuku_service_not_started">Shizuku-tjänsten körs inte. Öppna Shizuku och starta tjänsten.</string>
+    <string name="onboarding_shizuku_what_is_it">Vad är Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku är ett verktyg som tillåter appar att använda systemnivåbehörigheter via trådlös felsökning. Det möjliggör tyst appinstallation på Android 14+ utan root. Du kan fortfarande använda AAAD utan det!</string>
+    <string name="onboarding_shizuku_steps_title">Installationssteg:</string>
+    <string name="onboarding_shizuku_step1">1. Installera Shizuku-app</string>
+    <string name="onboarding_shizuku_step2">2. Aktivera Utvecklaralternativ</string>
+    <string name="onboarding_shizuku_step3">3. Aktivera Trådlös felsökning</string>
+    <string name="onboarding_shizuku_step4">4. Starta Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Bevilja behörighet till AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Läs mer</string>
+
+    <!-- Additional Strings -->
+    <string name="loading_app_catalog">Laddar appkatalog…</string>
+    <string name="loading_fetching_icons">Laddar appikoner…</string>
+    <string name="loading_finalizing">Avslutar…</string>
+    <string name="loading_checking_internet">Kontrollerar internetanslutning…</string>
+    <string name="error_no_internet_title">Ingen internetanslutning</string>
+    <string name="error_no_internet_description">AAAD kräver en internetanslutning för att ladda appinformation. Anslut till WiFi eller mobildata och försök igen.</string>
+    <string name="warning_offline">Du är offline - appdata kan vara inaktuell</string>
+    <string name="update_available_title">Uppdatering tillgänglig</string>
+    <string name="update_available_message">AAAD v%1$s är nu tillgänglig. Du använder v%2$s.\n\nVill du ladda ner den senaste versionen?</string>
+    <string name="downloading_aaad_update">Laddar ner AAAD-uppdatering…</string>
+    <string name="onboarding_preparing_catalog">Förbereder appkatalog i bakgrunden…</string>
+    <string name="progress_downloading">Laddar ner %1$s…</string>
+    <string name="progress_installing">Installerar %1$s…</string>
+    <string name="progress_checking_updates">Kontrollerar uppdateringar…</string>
+    <string name="checking_for_aaad_updates">Kontrollerar AAAD-uppdateringar…</string>
+    <string name="no_updates_available">Du använder den senaste versionen!</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="installed_version_format">Installerad: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Android Auto-appar</string>
+    <string name="hero_subtitle">Installera anpassade appar för din Android Auto-upplevelse</string>
+    <string name="refresh_apps">Uppdatera appar</string>
+    <string name="privacy">Integritetspolicy</string>
+    <string name="purchase_pro">Köp Pro</string>
+    <string name="aatorque_description">AATorque för OBD-II fordonsdiagnostikappen Torque Pro till Android Auto. Övervaka bilens prestanda, visa diagnostikdata och få åtkomst till fordonsinformation i realtid direkt från bilens display.</string>
+    <string name="installation_timeout_message_secure">Installationsverifieringen löpte ut. Din nedladdning har räknats mot din månadsgräns av säkerhetsskäl.</string>
+    <string name="download_was_counted">Nedladdningen räknades mot din månadsgräns</string>
+    <string name="pro_version_title">PRO-version</string>
+    <string name="pro_version_icon">PRO-versions märke</string>
+    <string name="pro_thank_you_title">Tack!</string>
+    <string name="pro_thank_you_message">Tack för att du stödjer AAAD med ditt PRO-köp! Ditt bidrag hjälper till att hålla detta projekt vid liv och låter oss fortsätta att ge dig de bästa Android Auto-apparna.</string>
+    <string name="pro_since">PRO-medlem sedan %s</string>
+    <string name="pro_since_legacy">PRO-medlem</string>
+    <string name="pro_benefits_title">Dina PRO-förmåner</string>
+    <string name="pro_benefit_unlimited">Obegränsade appnedladdningar</string>
+    <string name="pro_benefit_no_cooldown">Ingen väntetid mellan nedladdningar</string>
+    <string name="pro_benefit_support">Stöd pågående utveckling</string>
+    <string name="pro_closing_message">Vi uppskattar verkligen ditt förtroende och stöd. Njut av din obegränsade åtkomst till alla AAAD-appar!</string>
+    <string name="verifying_authorization">Verifierar nedladdningsauktorisering…</string>
+    <string name="please_sign_in">Logga in för att ladda ner appar</string>
+    <string name="network_error">Nätverksfel. Kontrollera din anslutning och försök igen.</string>
+    <string name="support_no_email_app">Ingen e-postapp installerad. Installera en e-postapp (Gmail, Outlook, etc.) eller e-posta help.aaad@gmail.com direkt från en annan enhet.</string>
+    <string name="support_attachment_not_supported">Bilaga stöds inte, skickar e-post utan loggar</string>
+    <string name="support_attachment_failed_fallback">Kunde inte bifoga loggar, skickar e-post utan bilaga</string>
+    <string name="support_email_body_greeting">Hej AAAD Support,</string>
+    <string name="update_available_badge">UPPDATERING</string>
+    <string name="error_not_eligible">Du måste uppgradera till PRO eller vänta på nästa gratis nedladdning.</string>
+    <string name="error_no_internet">Ingen internetanslutning</string>
+    <string name="error_no_internet_message">Anslut till internet för att ladda ner appdata och fortsätta.</string>
+    <string name="error_initialization_failed">Det gick inte att initiera appdata</string>
+    <string name="error_metadata_fetch_failed">Det gick inte att hämta appuppdateringar</string>
+    <string name="error_metadata_fetch_failed_message">Kunde inte hämta den senaste appinformationen. Kontrollera din internetanslutning och försök igen.</string>
+    <string name="loading_app_data">Laddar appdata…</string>
+    <string name="loading_checking_updates">Kontrollerar uppdateringar…</string>
+    <string name="loading_please_wait">Vänta ett ögonblick…</string>
+</resources>

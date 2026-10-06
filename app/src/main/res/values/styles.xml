@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Legacy AppTheme moved to themes.xml to avoid conflicts -->
+
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dialog_text_color</item>
+    </style>
+
+
+    <style name="ButtonStyle">
+        <item name="android:elevation">7dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+
+    <style name="MenuTheme">
+        <item name="android:colorBackground">@color/menu_background</item>
+        <item name="android:textColor">@color/menu_text_color</item>
+    </style>
+
+    <style name="MyActionBarTheme">
+        <item name="android:background">?backgroundColor</item>
+        <item name="popupTheme">?titleTextColor</item>
+        <item name="tint">?titleTextColor</item>
+    </style>
+
+
+    <style name="NormalTextAppeareance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/raleway_medium</item>
+        <item name="android:textColor">@color/dialog_text_color</item>
+    </style>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_bg</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <!-- Material3 Component Styles -->
+    
+    <!-- Circular ImageView Style -->
+    <style name="CircularImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Rounded Square ImageView for App Icons -->
+    <style name="RoundedSquareImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.Material3.Button.TonalButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">?attr/colorSecondaryContainer</item>
+        <item name="android:textColor">?attr/colorOnSecondaryContainer</item>
+    </style>
+
+    <!-- Status Chip Styles -->
+    <style name="StatusChip.Installed" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">?attr/colorSecondary</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="StatusChip.UpdateAvailable" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">?attr/colorError</item>
+        <item name="android:textColor">?attr/colorOnError</item>
+    </style>
+
+    <style name="StatusChip.NotInstalled" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">?attr/colorSurface</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+</resources>

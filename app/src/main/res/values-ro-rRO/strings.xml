@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">Versiunea Pro</string>
+    <string name="switch_to_pro_statement">Versiunea gratuită a AAAD vă permite o descărcare gratuită în fiecare lună. Dacă doriți să descărcați mai mult, actualizați la PRO.</string>
+    <string name="congratsPro">Felicitări, aveți versiunea PRO!</string>    <string name="About">Despre</string>
+    <string name="have_promo_code">Am un cod promoțional</string>
+    <string name="promo_code">Introduceți codul promoțional</string>
+    <string name="input_promo_code_here">Introduceți codul aici</string>    <string name="about_to_download">Sunteți pe cale să descărcați %1$s. Doriți să continuați?</string>
+    <string name="warning_payment">La sfârșitul plății te rugăm să apeși manual \"Revino la comerciant\" pentru ca tranzacția să fie validată.</string>
+    <string name="attention">ATENȚIE</string>
+    <string name="next_download_available">Următoarea descărcare disponibilă: %1$s</string>
+    <string name="connect_error">EROARE DE CONEXIUNE</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">You have 1 download remaining</item>
+        <item quantity="few">You have 1 download remaining</item>
+        <item quantity="other">Nu ai nici o descărcare rămasă</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) este dezvoltat și întreținut de Shmykelsa. <br> <br> Aplicațiile disponibile sunt posibile datorită următorilor dezvoltatori: <br>]]>"</string>
+    <string name="pro_unlocked">Felicitări, versiune PRO deblocată</string>
+    <string name="cancelled_payment">Achiziție anulată</string>
+    <string name="please_enter_code">Introduceți codul promoțional</string>
+    <string name="connection_error">Eroare de conexiune, nu s-a putut verifica</string>
+    <string name="not_valid_code">Codul nu este valid</string>    <string name="downloading_progress">Descărcare…</string>
+    <string name="aa_mirror_plus_description">Alternativă la AAMirror cu mai multe funcționalități.</string>
+    <string name="aapassenger_description">Deblochează Android Auto în modul de conducere</string>
+    <string name="s2a_description">Cea completă aplicație de oglindire pentru Android Auto.Include multe funcții precum un lansator personalizabil,ecran divizat, dimensiuni personalizate ale ecranului și multe altele!</string>
+    <string name="aamirror_description">Oglindește ecranul smartphone-ului pe Android Auto</string>
+    <string name="aa_stream_description">Redă videoclipuri pe Android Auto</string>
+    <string name="carstream_description">Cunoscut anterior ca \"YouTube Auto\", CarStream a fost una din primele aplicații făcute cu SDK pentru aplicații personalizate. S-a născut cu scopul principal de a livra YouTube pe Android Auto și apoi a devenit un browser web cu multe capabilități.
+    
+    </string>
+    <string name="fermata_description">Ieși din Android Auto fără să părăsești mașina</string>
+    <string name="s2a_redirect">Pentru cea mai bună experiență, recomandăm Screen2Auto</string>
+    <string name="screen2auto_download">Descarcă Screen2Auto</string>    <string name="aawidgets_description">Născut cu o singură sarcină. Aduce un widget pe Android Auto!</string>
+    <string name="performance_monitor_description">Monitorizează performanța sistemului pe Android Auto</string>
+    <string name="promotion">Sunteți eligibil pentru o reducere de 15%</string>    <string name="loading">Se încarcă…</string>
+    <string name="go_pro">DEVINO PRO</string>
+    <string name="i_m_good">Sunt bine</string>
+    <string name="nav2contacts_description">Navighează rapid la contacte</string>    <string name="back_button_payment_close">Anulează plata și închide</string>
+    <string name="help">Ajutor</string>
+    <string name="help_dialog">Doriți să trimiteți un e-mail pentru ajutor chiar acum?</string>    <string name="i_want_to_transfer_license_here">Vreau să transfer licența aici</string>
+    <string name="i_want_to_transfer_license_from_here">Vreau să transfer licența de pe acest dispozitiv</string>
+    <string name="license_transfer_help">Scanează codul QR pe un alt dispozitiv pentru a transfera licența</string>
+    <string name="transfer_license">Transferă licența</string>
+    <string name="debug_mode_activate">Activează depanarea</string>
+    <string name="debug_mode_performance_warning">Modul de depanare poate afecta performanța</string>
+    <string name="debug_mode_deactivated">Modul de depanare dezactivat</string>
+    <string name="confirm">Confirmare</string>
+    <string name="license_here_confirm">Vrei să transferi licența pe acest dispozitiv?</string>
+    <string name="qr_tutorial">Deschide AAAD pe celălalt dispozitiv și scanează acest cod QR</string>
+    <string name="license_done">Licență transferată cu succes!</string>
+    <string name="no_license_found">Nu s-a găsit licență validă</string>    <string name="qr_code_permission">Permisiunea camerei este necesară pentru a scana un cod QR</string>
+    <string name="success_transfer">Transfer reușit</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Grecusorin70@gmail. com</string>
+    <string name="input_email">Introduceți adresa de e-mail</string>
+    <string name="days_remaining">%d zile rămân până la următoarea descărcare</string>
+    <string name="hours_remaining">%d ore rămân până la următoarea descărcare</string>
+    <string name="less_than_hour">Mai puțin de 1 oră rămâne până la următoarea descărcare</string>
+    <string name="download_available_now">Descărcare disponibilă acum!</string>    <string name="installation_failed">Instalarea a eșuat</string>    <string name="installation_timeout_message">S-a finalizat cu succes instalarea aplicației?</string>
+    <string name="installation_succeeded">Da, a fost instalată</string>
+    <string name="installation_failed_or_cancelled">Nu, a eșuat sau a fost anulată</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Avertisment important</string>
+    <string name="onboarding_warning_message">Această aplicație NU este afiliată cu softonic.com, uptodown.com sau aadapk.com, aadapk.app. Singura sursă oficială este github.com</string>
+    <string name="onboarding_official_source">Sursă oficială: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Bine ați venit la AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Descărcător de aplicații pentru Android Auto</string>
+    <string name="onboarding_welcome_description">Acest utilitar va ajuta la instalarea aplicațiilor personalizate pe Android Auto pentru telefoane fără root. Glisați pentru a învăța cum să utilizați aplicația, apoi acordați permisiunile necesare pentru a începe.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Selectați și instalați</string>
+    <string name="onboarding_page_selection_description">Selectați aplicația pe care doriți să o instalați și așteptați ca programul de instalare al sistemului să apară.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informații despre aplicație</string>
+    <string name="onboarding_page_info_description">Dacă nu sunteți sigur ce aplicație să instalați, apăsați lung butonul pentru a obține o descriere.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Aplicații multimedia</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Aplicații de oglindire</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Altele</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Configurare necesară</string>
+    <string name="onboarding_permissions_subtitle">Acordați permisiuni pentru a instala aplicații personalizate</string>
+    <string name="onboarding_unknown_sources_title">Instalați aplicații necunoscute</string>
+    <string name="onboarding_unknown_sources_description">Necesar pentru instalarea fișierelor APK din surse externe</string>
+    <string name="onboarding_notifications_title">Notificări</string>
+    <string name="onboarding_notifications_description">Primiți notificări despre progresul descărcării și actualizările aplicațiilor</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Setări dezvoltator Android Auto (Recomandat)</string>
+    <string name="onboarding_aa_dev_description">Pas opțional pentru îmbunătățirea experienței Android Auto</string>
+    <string name="onboarding_aa_dev_warning">Pentru cea mai bună experiență cu aplicații personalizate pe Android Auto, recomandăm activarea \"Surse necunoscute\" în setările dezvoltator Android Auto.</string>
+    <string name="onboarding_open_aa_dev">Vizualizare setări dezvoltator</string>
+
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Dezactivați temporar pentru a permite instalarea aplicațiilor personalizate</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect poate bloca instalarea aplicațiilor personalizate. Trebuie să îl dezactivați temporar sau să permiteți AAAD când vi se solicită.</string>
+    <string name="onboarding_open_play_protect">Deschideți setările Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Următorul</string>
+    <string name="onboarding_previous">Anterior</string>
+    <string name="onboarding_skip">Omite</string>
+    <string name="onboarding_grant_permissions">Acordați permisiuni</string>
+    <string name="onboarding_continue">Continuați la aplicație</string>
+    <string name="onboarding_get_started">Începeți</string>
+    <string name="onboarding_finish">Finalizare configurare</string>
+    <string name="show_intro">Afișează introducerea</string>
+    <string name="downloads_remaining">Descărcări rămase</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Instalat</string>
+    <string name="status_update_available">Actualizare disponibilă</string>
+    <string name="status_update_to_version">Actualizează la %1$s</string>
+    <string name="status_not_installed">Neinstalat</string>
+    <string name="status_downloading">Se descarcă…</string>
+    <string name="status_installing">Se instalează…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Instalează</string>
+    <string name="action_update">Actualizează</string>
+    <string name="action_open">Deschide</string>
+    <string name="action_uninstall">Dezinstalează</string>
+    <string name="action_cancel">Anulează</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Descărcare eșuată</string>
+    <string name="error_installation_failed">Instalare eșuată</string>
+    <string name="error_network_unavailable">Rețea indisponibilă</string>
+    <string name="error_insufficient_storage">Spațiu de stocare insuficient</string>
+    <string name="error_cannot_open_app">Nu se poate deschide aplicația - nu s-a găsit activitatea de lansare</string>
+    <string name="error_download_tracking_failed">Actualizarea stării descărcării a eșuat</string>
+    <string name="error_loading_catalog">Încărcarea catalogului de aplicații a eșuat</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Transferă licența</string>
+    <string name="checking_license_status">Se verifică starea licenței…</string>
+    <string name="qr_code_icon">Pictogramă cod QR</string>
+    <string name="receiver_title">Primește licență PRO</string>
+    <string name="receiver_subtitle">Afișează acest cod QR pentru a transfera o licență pe acest dispozitiv</string>
+    <string name="qr_code_to_scan">Cod QR pentru transferul licenței</string>
+    <string name="receiver_instructions_title">Cum funcționează</string>
+    <string name="receiver_instructions_step1">Pe dispozitivul cu PRO, deschide AAAD și accesează Transferă licența</string>
+    <string name="receiver_instructions_step2">Apasă butonul Scanează cod QR pe acel dispozitiv</string>
+    <string name="receiver_instructions_step3">Scanează acest cod QR pentru a finaliza transferul</string>
+    <string name="transfer_license_icon">Pictogramă transfer licență</string>
+    <string name="sender_title">Transferă licența PRO</string>
+    <string name="sender_subtitle">Transferă licența ta pe un dispozitiv nou</string>
+    <string name="sender_warning">⚠️ Avertisment: Transferarea licenței va elimina statutul PRO de pe acest dispozitiv și îl va activa pe dispozitivul nou. Această acțiune nu poate fi anulată.</string>
+    <string name="sender_instructions_title">Cum se transferă</string>
+    <string name="sender_step_1">Deschide AAAD pe dispozitivul nou</string>
+    <string name="sender_step_2">Accesează meniul Transferă licența</string>
+    <string name="sender_step_3">Un cod QR va apărea pe dispozitivul nou</string>
+    <string name="sender_step_4">Apasă butonul de mai jos și scanează acel cod QR</string>
+    <string name="scan_qr_code">Scanează cod QR</string>
+    <string name="camera_permission_required">Permisiunea camerei necesară pentru scanarea codurilor QR</string>
+    <string name="error_checking_license">Nu s-a putut verifica starea licenței. Încercați din nou.</string>
+    <string name="error_generating_qr">Nu s-a putut genera codul QR</string>
+    <string name="license_received_success">Licență primită cu succes!</string>
+    <string name="scan_error_title">Eroare de scanare</string>
+    <string name="scan_error_message">Nu s-a putut scana codul QR. Încercați din nou.</string>
+    <string name="confirm_transfer_title">Confirmă transferul</string>
+    <string name="confirm_transfer_message">Sigur doriți să transferați licența PRO pe dispozitivul nou? Aceasta va elimina PRO de pe acest dispozitiv.</string>
+    <string name="confirm_transfer_yes">Transferă licența</string>
+    <string name="confirm_transfer_no">Anulează</string>
+    <string name="license_transferred_success">Licență transferată cu succes!</string>
+    <string name="error_transferring_license">Nu s-a putut transfera licența. Încercați din nou.</string>
+    <string name="support_title">Ai nevoie de ajutor?</string>
+    <string name="support_icon">Pictogramă ajutor</string>
+    <string name="support_subtitle">Suntem aici să te ajutăm!</string>
+    <string name="support_description">Ai probleme cu AAAD? Trimite-ne un e-mail și îți vom răspunde cât mai curând posibil. Cu cât oferi mai multe detalii, cu atât mai rapid te putem ajuta!</string>
+    <string name="support_email_will_include">E-mailul tău va include:</string>
+    <string name="support_email_item_device">Modelul dispozitivului și versiunea Android</string>
+    <string name="support_email_item_version">Informații despre versiunea AAAD</string>
+    <string name="support_email_item_description">Spațiu pentru a-ți descrie problema</string>
+    <string name="support_include_logs">Include jurnale de diagnosticare</string>
+    <string name="support_logs_explanation">Recomandat - Ne ajută să depanăm mai rapid. Conține doar informații despre dispozitiv și configurația aplicației, fără date personale.</string>
+    <string name="support_send_email">Trimite e-mail către asistență</string>
+    <string name="support_privacy_note">Respectăm confidențialitatea ta. Nu sunt incluse informații personale, parole sau date de plată în jurnale.</string>
+    <string name="support_preparing_email">Se pregătește e-mailul…</string>
+    <string name="support_log_generation_failed">Nu s-au putut genera jurnale, se trimite e-mail fără atașament</string>
+    <string name="support_email_failed">Nu s-a putut deschide aplicația de e-mail. Trimite e-mail direct la help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Alege aplicația de e-mail</string>
+    <string name="support_email_subject">Cerere de asistență AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimedia</string>
+    <string name="second_section_name">Aplicații de oglindire</string>
+    <string name="third_section_name">Altele</string>
+
+    <string name="privacy_policy">Această aplicație respectă confidențialitatea dumneavoastră. Nu colectăm, stocăm sau partajăm informații personale fără consimțământul dumneavoastră. Pentru mai multe informații, vă rugăm să ne contactați.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Setări dezvoltator Android Auto</string>
+    <string name="android_auto_setup_icon">Pictogramă ghid de configurare Android Auto</string>
+    <string name="android_auto_setup_subtitle">Urmați acești pași pentru a activa surse necunoscute pentru aplicații personalizate pe Android Auto</string>
+    <string name="android_auto_open_settings">Deschide setările Android Auto</string>
+    <string name="android_auto_setup_instructions_title">Instrucțiuni de configurare</string>
+    <string name="android_auto_step1_title">Apăsați \"Versiune\" de 10 ori</string>
+    <string name="android_auto_step1_description">În setările Android Auto, derulați în jos și apăsați \"Versiune\" (ultimul element) de 10 ori pentru a debloca setările dezvoltatorului.</string>
+    <string name="android_auto_step2_title">Confirmați modul dezvoltator</string>
+    <string name="android_auto_step2_description">Când vi se solicită, apăsați \"Permitere\" sau \"Activare\" pentru a activa setările dezvoltatorului pentru Android Auto.</string>
+    <string name="android_auto_step3_title">Deschideți setările dezvoltatorului</string>
+    <string name="android_auto_step3_description">Apăsați pictograma meniului cu trei puncte din colțul din dreapta sus și selectați \"Setări dezvoltator\" din meniul derulant.</string>
+    <string name="android_auto_step4_title">Activați surse necunoscute</string>
+    <string name="android_auto_step4_description">În meniul Setări dezvoltator, găsiți și activați opțiunea \"Surse necunoscute\" pentru a permite instalarea aplicațiilor terțe.</string>
+    <string name="android_auto_setup_done">Terminat</string>
+    <string name="android_auto_settings_opened">Setări Android Auto deschise. Urmați pașii de mai sus.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto deschis. Navigați manual la Setări.</string>
+    <string name="android_auto_not_installed">Android Auto nu este instalat. Instalați-l mai întâi din Play Store.</string>
+
+    <string name="action_retry">Reîncearcă</string>
+    <string name="action_download_update">Descarcă actualizare</string>
+    <string name="action_install_update">Instalează actualizare</string>
+    <string name="action_skip_update">Omite acum</string>
+    <string name="action_download_manual">Descărcare manuală</string>
+    <string name="action_continue_offline">Continuă offline</string>
+    <string name="badge_update">ACTUALIZARE</string>
+    <string name="check_for_updates">Verifică actualizări</string>
+    <string name="aaad_update_section">Actualizare AAAD disponibilă</string>
+    <string name="aaad_update_available_subtitle">Versiune nouă disponibilă pentru descărcare</string>
+    <string name="aaad_update_downloaded">Actualizare descărcată! Se instalează…</string>
+    <string name="aaad_update_failed">Descărcarea actualizării a eșuat. Încercați să descărcați manual.</string>
+    <string name="aaad_current_version">Curentă: %1$s</string>
+    <string name="aaad_latest_version">Cea mai recentă: %1$s</string>
+    <string name="authorization_failed">Autorizarea descărcării a eșuat. Încercați din nou.</string>
+    <string name="authorization_error">Eroare de autorizare. Verificați conexiunea.</string>
+    <string name="aabrowser_description">Navighează pe web cu Android Auto</string>
+    <string name="benefit_icon">Beneficiu</string>
+
+    <!-- Shizuku Setup (Android 14+ Enhancement) -->
+    <string name="onboarding_shizuku_title">🚀 Instalare îmbunătățită (opțional)</string>
+    <string name="onboarding_shizuku_subtitle">Pentru utilizatorii avansați Android 14+</string>
+    <string name="onboarding_shizuku_standard_mode">Mod standard (recomandat)</string>
+    <string name="onboarding_shizuku_standard_description">Utilizează programul de instalare al sistemului. Funcționează pentru toți. Afișează solicitări de instalare.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Mod îmbunătățit cu Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Instalare silențioasă fără solicitări. Necesită configurare unică.</string>
+    <string name="onboarding_shizuku_status">Stare Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">Neinstalat</string>
+    <string name="onboarding_shizuku_not_running">Instalat dar nu rulează</string>
+    <string name="onboarding_shizuku_no_permission">Rulează dar permisiunea nu a fost acordată</string>
+    <string name="onboarding_shizuku_ready">Pregătit pentru utilizare</string>
+    <string name="onboarding_shizuku_install">Instalează Shizuku</string>
+    <string name="onboarding_shizuku_start">Pornește Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Acordă permisiune</string>
+    <string name="onboarding_shizuku_start_service">Shizuku instalat - apasă pentru a porni serviciul</string>
+    <string name="onboarding_shizuku_start_button">Pornește serviciul Shizuku</string>
+    <string name="shizuku_service_not_started">Serviciul Shizuku nu rulează. Deschide Shizuku și pornește serviciul.</string>
+    <string name="onboarding_shizuku_what_is_it">Ce este Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku este un instrument care permite aplicațiilor să utilizeze permisiuni la nivel de sistem prin debugging wireless. Permite instalarea silențioasă a aplicațiilor pe Android 14+ fără root. Poți folosi în continuare AAAD fără el!</string>
+    <string name="onboarding_shizuku_steps_title">Pași de configurare:</string>
+    <string name="onboarding_shizuku_step1">1. Instalează aplicația Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. Activează opțiunile pentru dezvoltatori</string>
+    <string name="onboarding_shizuku_step3">3. Activează debugging wireless</string>
+    <string name="onboarding_shizuku_step4">4. Pornește Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Acordă permisiune pentru AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Află mai multe</string>
+
+    <!-- Additional Strings -->
+    <string name="loading_app_catalog">Se încarcă catalogul de aplicații…</string>
+    <string name="loading_fetching_icons">Se încarcă pictogramele aplicațiilor…</string>
+    <string name="loading_finalizing">Se finalizează…</string>
+    <string name="loading_checking_internet">Se verifică conexiunea la internet…</string>
+    <string name="error_no_internet_title">Fără conexiune la internet</string>
+    <string name="error_no_internet_description">AAAD necesită o conexiune la internet pentru a încărca informații despre aplicații. Conectați-vă la WiFi sau la date mobile și încercați din nou.</string>
+    <string name="warning_offline">Sunteți offline - datele aplicației pot fi învechite</string>
+    <string name="update_available_title">Actualizare disponibilă</string>
+    <string name="update_available_message">AAAD v%1$s este acum disponibil. Utilizați v%2$s.\n\nDoriți să descărcați ultima versiune?</string>
+    <string name="downloading_aaad_update">Se descarcă actualizarea AAAD…</string>
+    <string name="onboarding_preparing_catalog">Se pregătește catalogul de aplicații în fundal…</string>
+    <string name="progress_downloading">Se descarcă %1$s…</string>
+    <string name="progress_installing">Se instalează %1$s…</string>
+    <string name="progress_checking_updates">Se verifică actualizări…</string>
+    <string name="checking_for_aaad_updates">Se verifică actualizări AAAD…</string>
+    <string name="no_updates_available">Utilizați ultima versiune!</string>
+    <string name="version_format">Versiunea %1$s</string>
+    <string name="installed_version_format">Instalat: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Aplicații Android Auto</string>
+    <string name="hero_subtitle">Instalați aplicații personalizate pentru experiența Android Auto</string>
+    <string name="refresh_apps">Reîmprospătare aplicații</string>
+    <string name="privacy">Politica de confidențialitate</string>
+    <string name="purchase_pro">Cumpără Pro</string>
+    <string name="aatorque_description">AATorque aduce aplicația de diagnosticare OBD-II Torque Pro la Android Auto. Monitorizați performanța mașinii, vizualizați datele de diagnosticare și accesați informații despre vehicul în timp real direct de pe afișajul mașinii.</string>
+    <string name="installation_timeout_message_secure">Verificarea instalării a expirat. Descărcarea dvs. a fost contorizată în limita lunară din motive de securitate.</string>
+    <string name="download_was_counted">Descărcarea a fost contorizată în limita lunară</string>
+    <string name="pro_version_title">Versiune PRO</string>
+    <string name="pro_version_icon">Insignă versiune PRO</string>
+    <string name="pro_thank_you_title">Mulțumim!</string>
+    <string name="pro_thank_you_message">Mulțumim pentru sprijinirea AAAD cu achiziția PRO! Contribuția dvs. ajută la menținerea în viață a acestui proiect și ne permite să vă aducem cele mai bune aplicații Android Auto.</string>
+    <string name="pro_since">Membru PRO din %s</string>
+    <string name="pro_since_legacy">Membru PRO</string>
+    <string name="pro_benefits_title">Beneficiile tale PRO</string>
+    <string name="pro_benefit_unlimited">Descărcări nelimitate de aplicații</string>
+    <string name="pro_benefit_no_cooldown">Fără perioadă de așteptare între descărcări</string>
+    <string name="pro_benefit_support">Sprijin pentru dezvoltare continuă</string>
+    <string name="pro_closing_message">Apreciem cu adevărat încrederea și sprijinul dvs. Bucurați-vă de acces nelimitat la toate aplicațiile AAAD!</string>
+    <string name="verifying_authorization">Se verifică autorizarea descărcării…</string>
+    <string name="please_sign_in">Conectați-vă pentru a descărca aplicații</string>
+    <string name="network_error">Eroare de rețea. Verificați conexiunea și încercați din nou.</string>
+    <string name="support_no_email_app">Nu există aplicație de e-mail instalată. Instalați o aplicație de e-mail (Gmail, Outlook, etc.) sau trimiteți e-mail la help.aaad@gmail.com direct de pe alt dispozitiv.</string>
+    <string name="support_attachment_not_supported">Atașament neacceptat, se trimite e-mail fără jurnale</string>
+    <string name="support_attachment_failed_fallback">Nu s-au putut atașa jurnale, se trimite e-mail fără atașament</string>
+    <string name="support_email_body_greeting">Bună ziua Echipa de Asistență AAAD,</string>
+    <string name="update_available_badge">ACTUALIZARE</string>
+    <string name="error_not_eligible">Trebuie să faceți upgrade la PRO sau să așteptați următoarea descărcare gratuită.</string>
+    <string name="error_no_internet">Fără conexiune la internet</string>
+    <string name="error_no_internet_message">Conectați-vă la internet pentru a descărca datele aplicației și a continua.</string>
+    <string name="error_initialization_failed">Inițializarea datelor aplicației a eșuat</string>
+    <string name="error_metadata_fetch_failed">Obținerea actualizărilor aplicației a eșuat</string>
+    <string name="error_metadata_fetch_failed_message">Nu s-au putut obține cele mai recente informații despre aplicație. Verificați conexiunea la internet și încercați din nou.</string>
+    <string name="loading_app_data">Se încarcă datele aplicației…</string>
+    <string name="loading_checking_updates">Se verifică actualizările…</string>
+    <string name="loading_please_wait">Vă rugăm așteptați…</string>
+</resources>

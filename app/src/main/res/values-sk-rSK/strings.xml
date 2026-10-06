@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">PRO Verzia palermo</string>
+    <string name="switch_to_pro_statement">Bezplatná verzia AAAD umožňuje jedno bezplatné stiahnutie každý mesiac. Ak chcete stiahnuť viac, prejdite na PRO.</string>
+    <string name="congratsPro">Blahoželáme, máte PRO verziu!</string>    <string name="About">1</string>
+    <string name="have_promo_code">Mám promo kód</string>
+    <string name="promo_code">Zadajte promo kód</string>
+    <string name="input_promo_code_here">Zadajte kód tu</string>    <string name="about_to_download">Chystáte sa stiahnuť %1%1AS$s. Chcete pokračovať?</string>
+    <string name="warning_payment">Na konci platby prosím manuálne stlačte tlačidlo „Späť k obchodníkovi“, aby sa transakcia prijala.</string>
+    <string name="attention">UPOZORNENIE</string>
+    <string name="next_download_available">Ďalšie stiahnutie dostupné: %1$s</string>
+    <string name="connect_error">CHYBA PRIPOJENIA</string>
+    <plurals name="remaining_downloads">
+        <item quantity="one">Zostáva vám 1 stiahnutie</item>
+        <item quantity="few">Nezostáva vám žiadne stiahnutie</item>
+        <item quantity="many">Nezostáva vám žiadne stiahnutie</item>
+        <item quantity="other">Nezostáva vám žiadne sťahovanie</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) je vyvíjaný a udržiavaný od Shmykelsa.<br><br>Dostupné aplikácie umožňujú nasledujúci vývojári:<br>]]>"</string>
+    <string name="pro_unlocked">Blahoželáme, PRO verzia odomknutá</string>
+    <string name="cancelled_payment">Nákup zrušený</string>
+    <string name="please_enter_code">Zadajte prosím svoj propagačný kód</string>
+    <string name="connection_error">Chyba pripojenia, nemožno overiť</string>
+    <string name="not_valid_code">Nie je platný kód</string>    <string name="downloading_progress">Sťahujem…</string>
+    <string name="aa_mirror_plus_description">Alternatíva k AAMirror s niektorými ďalšími funkciami.</string>
+    <string name="aapassenger_description">Odomknite Android Auto v režime jazdy</string>
+    <string name="s2a_description">Najkompletnejšia a najkompletnejšia zrkadlová aplikácia pre Android Auto. Zahŕňa mnoho funkcií, ako je prispôsobiteľný spúšťač, rozdelená obrazovka, vlastné veľkosti obrazovky a oveľa viac!</string>
+    <string name="aamirror_description">Zrkadlite obrazovku smartfónu do Android Auto</string>
+    <string name="aa_stream_description">Streamujte videá v Android Auto</string>
+    <string name="carstream_description">Predtým známe ako \"YouTube Auto\", CarStrem bola jedna z prvých aplikácií pomocou vlastnej aplikácie SDK. Zrodil sa s hlavným účelom poskytovania služby YouTube pre Android Auto a potom sa stal webovým prehliadačom s mnohými funkciami.    </string>
+    <string name="fermata_description">Ukončite Android Auto bez opustenia auta</string>
+    <string name="s2a_redirect">Pre najlepší zážitok odporúčame Screen2Auto</string>
+    <string name="screen2auto_download">Stiahnuť Screen2Auto</string>    <string name="aawidgets_description">Stvorený na jedinú úlohu. Priniesť widget do Android Auto!</string>
+    <string name="performance_monitor_description">Monitorujte výkon systému v Android Auto</string>
+    <string name="promotion">Máte nárok na 15% zľavu</string>    <string name="loading">Načítavam…</string>
+    <string name="go_pro">ZÍSKAŤ PRO</string>
+    <string name="i_m_good">Som v poriadku</string>
+    <string name="nav2contacts_description">Rýchlo prejdite na kontakty</string>    <string name="back_button_payment_close">Zrušiť platbu a zavrieť</string>
+    <string name="help">Pomoc</string>
+    <string name="help_dialog">Chcete poslať e-mail pre pomoc teraz?</string>    <string name="i_want_to_transfer_license_here">Chcem preniesť licenciu sem</string>
+    <string name="i_want_to_transfer_license_from_here">Chcem preniesť licenciu z tohto zariadenia</string>
+    <string name="license_transfer_help">Naskenujte QR kód na inom zariadení pre prenos licencie</string>
+    <string name="transfer_license">Preniesť licenciu</string>
+    <string name="debug_mode_activate">Aktivovať ladenie</string>
+    <string name="debug_mode_performance_warning">Režim ladenia môže ovplyvniť výkon</string>
+    <string name="debug_mode_deactivated">Režim ladenia deaktivovaný</string>
+    <string name="confirm">Potvrdenie</string>
+    <string name="license_here_confirm">Chcete preniesť licenciu na toto zariadenie?</string>
+    <string name="qr_tutorial">Otvorte AAAD na druhom zariadení a naskenujte tento QR kód</string>
+    <string name="license_done">Licencia úspešne prenesená!</string>
+    <string name="no_license_found">Nebola nájdená platná licencia</string>    <string name="qr_code_permission">Pre skenovanie QR kódu je potrebné udeliť oprávnenie pre prístup k fotoaparátu</string>
+    <string name="success_transfer">Prenos úspešný</string>
+    <string name="email_dialog" comment="&#10;Dialog window">Tento e-mail bude použitý v prípade potreby na účel kontroly Vášho nákupu</string>
+    <string name="input_email">Zadajte svoj e-mail</string>
+    <string name="days_remaining">%d dní zostáva do ďalšieho sťahovania</string>
+    <string name="hours_remaining">%d hodín zostáva do ďalšieho sťahovania</string>
+    <string name="less_than_hour">Menej ako hodina zostáva do ďalšieho sťahovania</string>
+    <string name="download_available_now">Sťahovanie je teraz k dispozícii!</string>    <string name="installation_failed">Inštalácia zlyhala</string>    <string name="installation_timeout_message">Dokončila sa inštalácia aplikácie úspešne?</string>
+    <string name="installation_succeeded">Áno, bola nainštalovaná</string>
+    <string name="installation_failed_or_cancelled">Nie, zlyhala alebo bola zrušená</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Dôležité upozornenie</string>
+    <string name="onboarding_warning_message">Táto aplikácia NIE JE spojená so softonic.com, uptodown.com alebo aadapk.com, aadapk.app. Jediným oficiálnym zdrojom je github.com</string>
+    <string name="onboarding_official_source">Oficiálny zdroj: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Vitajte v AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Sťahovač aplikácií pre Android Auto</string>
+    <string name="onboarding_welcome_description">Tento nástroj pomôže nainštalovať vlastné aplikácie do Android Auto pre telefóny bez rootu. Prejdite si, ako používať aplikáciu, a potom udeľte požadované povolenia na začiatok.</string>
+
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Vybrať a nainštalovať</string>
+    <string name="onboarding_page_selection_description">Vyberte aplikáciu, ktorú chcete nainštalovať, a počkajte, kým sa zobrazí systémový inštalátor.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Informácie o aplikácii</string>
+    <string name="onboarding_page_info_description">Ak si nie ste istí, ktorú aplikáciu nainštalovať, dlho stlačte tlačidlo na získanie popisu.</string>
+
+    <!-- Page 2: Multimedia Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_multimedia_title">Multimediálne aplikácie</string>
+    <!-- Reusing existing descriptions: carstream_description, fermata_description, performance_monitor_description, aatorque_description, nav2contacts_description -->
+
+    <!-- Page 3: Mirroring Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_mirroring_title">Aplikácie pre zrkadlenie</string>
+    <!-- Reusing existing descriptions: s2a_description, aamirror_description, aa_mirror_plus_description, aa_stream_description -->
+
+    <!-- Page 4: Other Apps (using exact descriptions from MainActivity) -->
+    <string name="onboarding_page_others_title">Ostatné</string>
+    <!-- Reusing existing descriptions: aapassenger_description, aawidgets_description -->
+
+    <!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Požadované nastavenie</string>
+    <string name="onboarding_permissions_subtitle">Udeľte povolenia na inštaláciu vlastných aplikácií</string>
+    <string name="onboarding_unknown_sources_title">Inštalovať neznáme aplikácie</string>
+    <string name="onboarding_unknown_sources_description">Vyžadované na inštaláciu APK súborov z externých zdrojov</string>
+    <string name="onboarding_notifications_title">Oznámenia</string>
+    <string name="onboarding_notifications_description">Prijímajte oznámenia o priebehu sťahovania a aktualizáciách aplikácií</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Nastavenia pre vývojárov Android Auto (Odporúčané)</string>
+    <string name="onboarding_aa_dev_description">Voliteľný krok na vylepšenie vášho zážitku s Android Auto</string>
+    <string name="onboarding_aa_dev_warning">Pre najlepší zážitok s vlastnými aplikáciami na Android Auto odporúčame povoliť \"Neznáme zdroje\" v nastaveniach pre vývojárov Android Auto.</string>
+    <string name="onboarding_open_aa_dev">Zobraziť nastavenia pre vývojárov</string>
+
+    <string name="onboarding_play_protect_title">Google Play Protect</string>
+    <string name="onboarding_play_protect_description">Dočasne deaktivujte, aby ste umožnili inštaláciu vlastných aplikácií</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect môže blokovať inštaláciu vlastných aplikácií. Musíte ho dočasne deaktivovať alebo povoliť AAAD, keď sa zobrazí výzva.</string>
+    <string name="onboarding_open_play_protect">Otvoriť nastavenia Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Ďalej</string>
+    <string name="onboarding_previous">Späť</string>
+    <string name="onboarding_skip">Preskočiť</string>
+    <string name="onboarding_grant_permissions">Udeliť povolenia</string>
+    <string name="onboarding_continue">Pokračovať do aplikácie</string>
+    <string name="onboarding_get_started">Začať</string>
+    <string name="onboarding_finish">Dokončiť nastavenie</string>
+    <string name="show_intro">Zobraziť úvod</string>
+    <string name="downloads_remaining">Zostávajúce stiahnutia</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Nainštalované</string>
+    <string name="status_update_available">Aktualizácia k dispozícii</string>
+    <string name="status_update_to_version">Aktualizovať na %1$s</string>
+    <string name="status_not_installed">Nenainštalované</string>
+    <string name="status_downloading">Sťahovanie…</string>
+    <string name="status_installing">Inštalácia…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Inštalovať</string>
+    <string name="action_update">Aktualizovať</string>
+    <string name="action_open">Otvoriť</string>
+    <string name="action_uninstall">Odinštalovať</string>
+    <string name="action_cancel">Zrušiť</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Sťahovanie zlyhalo</string>
+    <string name="error_installation_failed">Inštalácia zlyhala</string>
+    <string name="error_network_unavailable">Sieť nie je k dispozícii</string>
+    <string name="error_insufficient_storage">Nedostatok úložného priestoru</string>
+    <string name="error_cannot_open_app">Nie je možné otvoriť aplikáciu - nebola nájdená spúšťacia aktivita</string>
+    <string name="error_download_tracking_failed">Aktualizácia stavu sťahovania zlyhala</string>
+    <string name="error_loading_catalog">Načítanie katalógu aplikácií zlyhalo</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Preniesť licenciu</string>
+    <string name="checking_license_status">Kontrola stavu licencie…</string>
+    <string name="qr_code_icon">Ikona QR kódu</string>
+    <string name="receiver_title">Prijať PRO licenciu</string>
+    <string name="receiver_subtitle">Zobrazte tento QR kód na prenos licencie na toto zariadenie</string>
+    <string name="qr_code_to_scan">QR kód na prenos licencie</string>
+    <string name="receiver_instructions_title">Ako to funguje</string>
+    <string name="receiver_instructions_step1">Na zariadení s PRO otvorte AAAD a prejdite do Preniesť licenciu</string>
+    <string name="receiver_instructions_step2">Klepnite na tlačidlo Naskenovať QR kód na tomto zariadení</string>
+    <string name="receiver_instructions_step3">Naskenujte tento QR kód na dokončenie prenosu</string>
+    <string name="transfer_license_icon">Ikona prenosu licencie</string>
+    <string name="sender_title">Preniesť PRO licenciu</string>
+    <string name="sender_subtitle">Preneste svoju licenciu na nové zariadenie</string>
+    <string name="sender_warning">⚠️ Upozornenie: Prenosom licencie odstránite PRO stav z tohto zariadenia a aktivujete ho na novom zariadení. Túto akciu nemožno vrátiť späť.</string>
+    <string name="sender_instructions_title">Ako preniesť</string>
+    <string name="sender_step_1">Otvorte AAAD na novom zariadení</string>
+    <string name="sender_step_2">Prejdite do ponuky Preniesť licenciu</string>
+    <string name="sender_step_3">Na novom zariadení sa zobrazí QR kód</string>
+    <string name="sender_step_4">Klepnite na tlačidlo nižšie a naskenujte tento QR kód</string>
+    <string name="scan_qr_code">Naskenovať QR kód</string>
+    <string name="camera_permission_required">Na skenovanie QR kódov je potrebné povolenie kamery</string>
+    <string name="error_checking_license">Nepodarilo sa skontrolovať stav licencie. Skúste to znova.</string>
+    <string name="error_generating_qr">Nepodarilo sa vygenerovať QR kód</string>
+    <string name="license_received_success">Licencia úspešne prijatá!</string>
+    <string name="scan_error_title">Chyba skenovania</string>
+    <string name="scan_error_message">Nepodarilo sa naskenovať QR kód. Skúste to znova.</string>
+    <string name="confirm_transfer_title">Potvrdiť prenos</string>
+    <string name="confirm_transfer_message">Naozaj chcete preniesť svoju PRO licenciu na nové zariadenie? Tým odstránite PRO z tohto zariadenia.</string>
+    <string name="confirm_transfer_yes">Preniesť licenciu</string>
+    <string name="confirm_transfer_no">Zrušiť</string>
+    <string name="license_transferred_success">Licencia úspešne prenesená!</string>
+    <string name="error_transferring_license">Nepodarilo sa preniesť licenciu. Skúste to znova.</string>
+    <string name="support_title">Potrebujete pomoc?</string>
+    <string name="support_icon">Ikona pomoci</string>
+    <string name="support_subtitle">Sme tu, aby sme vám pomohli!</string>
+    <string name="support_description">Máte problémy s AAAD? Pošlite nám e-mail a my vám odpovieme čo najskôr. Čím viac podrobností poskytnete, tým rýchlejšie vám môžeme pomôcť!</string>
+    <string name="support_email_will_include">Váš e-mail bude obsahovať:</string>
+    <string name="support_email_item_device">Model zariadenia a verzia Android</string>
+    <string name="support_email_item_version">Informácie o verzii AAAD</string>
+    <string name="support_email_item_description">Priestor na popis vášho problému</string>
+    <string name="support_include_logs">Zahrnúť diagnostické protokoly</string>
+    <string name="support_logs_explanation">Odporúčané - Pomáha nám rýchlejšie riešiť problémy. Obsahuje iba informácie o zariadení a konfiguráciu aplikácie, žiadne osobné údaje.</string>
+    <string name="support_send_email">Odoslať e-mail na podporu</string>
+    <string name="support_privacy_note">Rešpektujeme vaše súkromie. Protokoly neobsahujú osobné údaje, heslá ani platobné údaje.</string>
+    <string name="support_preparing_email">Príprava e-mailu…</string>
+    <string name="support_log_generation_failed">Nepodarilo sa vygenerovať protokoly, odosielanie e-mailu bez prílohy</string>
+    <string name="support_email_failed">Nepodarilo sa otvoriť e-mailovú aplikáciu. Pošlite e-mail priamo na help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Vybrať e-mailovú aplikáciu</string>
+    <string name="support_email_subject">Žiadosť o podporu AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Multimédiá</string>
+    <string name="second_section_name">Aplikácie pre zrkadlenie</string>
+    <string name="third_section_name">Ostatné</string>
+
+    <string name="privacy_policy">Táto aplikácia rešpektuje vaše súkromie. Nezhromažďujeme, neukladáme ani nezdieľame žiadne osobné údaje bez vášho súhlasu. Pre viac informácií nás prosím kontaktujte.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Vývojárske nastavenia Android Auto</string>
+    <string name="android_auto_setup_icon">Ikona sprievodcu nastavením Android Auto</string>
+    <string name="android_auto_setup_subtitle">Postupujte podľa týchto krokov a povoľte neznáme zdroje pre vlastné aplikácie v Android Auto</string>
+    <string name="android_auto_open_settings">Otvoriť nastavenia Android Auto</string>
+    <string name="android_auto_setup_instructions_title">Pokyny na nastavenie</string>
+    <string name="android_auto_step1_title">10-krát klepnite na \"Verzia\"</string>
+    <string name="android_auto_step1_description">V nastavení Android Auto prejdite nadol a 10-krát klepnite na \"Verzia\" (posledná položka), aby ste odomkli vývojárske nastavenia.</string>
+    <string name="android_auto_step2_title">Potvrďte režim vývojára</string>
+    <string name="android_auto_step2_description">Po zobrazení výzvy klepnite na \"Povoliť\" alebo \"Aktivovať\" a aktivujte vývojárske nastavenia pre Android Auto.</string>
+    <string name="android_auto_step3_title">Otvoriť vývojárske nastavenia</string>
+    <string name="android_auto_step3_description">Klepnite na ikonu ponuky s tromi bodkami v pravom hornom rohu a z rozbaľovacej ponuky vyberte \"Vývojárske nastavenia\".</string>
+    <string name="android_auto_step4_title">Povoliť neznáme zdroje</string>
+    <string name="android_auto_step4_description">V ponuke Vývojárske nastavenia nájdite a povoľte možnosť \"Neznáme zdroje\", aby ste umožnili inštaláciu aplikácií tretích strán.</string>
+    <string name="android_auto_setup_done">Hotovo</string>
+    <string name="android_auto_settings_opened">Nastavenia Android Auto otvorené. Postupujte podľa vyššie uvedených krokov.</string>
+    <string name="android_auto_opened_navigate_to_settings">Android Auto otvorené. Prejdite ručne do Nastavení.</string>
+    <string name="android_auto_not_installed">Android Auto nie je nainštalované. Najskôr ho nainštalujte z Play Store.</string>
+
+    <string name="action_retry">Skúsiť znova</string>
+    <string name="action_download_update">Stiahnuť aktualizáciu</string>
+    <string name="action_install_update">Inštalovať aktualizáciu</string>
+    <string name="action_skip_update">Preskočiť teraz</string>
+    <string name="action_download_manual">Manuálne stiahnutie</string>
+    <string name="action_continue_offline">Pokračovať offline</string>
+    <string name="badge_update">AKTUALIZÁCIA</string>
+    <string name="check_for_updates">Skontrolovať aktualizácie</string>
+    <string name="aaad_update_section">Aktualizácia AAAD k dispozícii</string>
+    <string name="aaad_update_available_subtitle">Nová verzia k dispozícii na stiahnutie</string>
+    <string name="aaad_update_downloaded">Aktualizácia stiahnutá! Inštaluje sa…</string>
+    <string name="aaad_update_failed">Stiahnutie aktualizácie zlyhalo. Skúste stiahnuť manuálne.</string>
+    <string name="aaad_current_version">Aktuálna: %1$s</string>
+    <string name="aaad_latest_version">Najnovšia: %1$s</string>
+    <string name="authorization_failed">Autorizácia sťahovania zlyhala. Skúste znova.</string>
+    <string name="authorization_error">Chyba autorizácie. Skontrolujte pripojenie.</string>
+    <string name="aabrowser_description">Prehliadajte web v Android Auto</string>
+    <string name="benefit_icon">Výhoda</string>
+    <string name="no_updates_available">Žiadne dostupné aktualizácie</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Vylepšená inštalácia (voliteľné)</string>
+    <string name="onboarding_shizuku_subtitle">Pre pokročilých používateľov Android 14+</string>
+    <string name="onboarding_shizuku_standard_mode">Štandardný režim (odporúčaný)</string>
+    <string name="onboarding_shizuku_standard_description">Používa systémový inštalátor. Funguje pre každého. Zobrazuje výzvy na inštaláciu.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Vylepšený režim so Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Tichá inštalácia bez výziev. Vyžaduje jednorazové nastavenie.</string>
+    <string name="onboarding_shizuku_status">Stav Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">Nie je nainštalované</string>
+    <string name="onboarding_shizuku_not_running">Nainštalované, ale nespustené</string>
+    <string name="onboarding_shizuku_no_permission">Spustené, ale povolenie neudelené</string>
+    <string name="onboarding_shizuku_ready">Pripravené na použitie</string>
+    <string name="onboarding_shizuku_install">Nainštalovať Shizuku</string>
+    <string name="onboarding_shizuku_start">Spustiť Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Udeliť povolenie</string>
+    <string name="onboarding_shizuku_start_service">Shizuku nainštalované - klepnutím spustite službu</string>
+    <string name="onboarding_shizuku_start_button">Spustiť službu Shizuku</string>
+    <string name="shizuku_service_not_started">Služba Shizuku nie je spustená. Prosím, otvorte Shizuku a spustite službu.</string>
+    <string name="onboarding_shizuku_what_is_it">Čo je Shizuku?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku je nástroj, ktorý umožňuje aplikáciám používať systémové oprávnenia prostredníctvom bezdrôtového ladenia. Umožňuje tichú inštaláciu aplikácií na Android 14+ bez root prístupu. AAAD môžete stále používať aj bez neho!</string>
+    <string name="onboarding_shizuku_steps_title">Kroky nastavenia:</string>
+    <string name="onboarding_shizuku_step1">1. Nainštalujte aplikáciu Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. Povoľte možnosti pre vývojárov</string>
+    <string name="onboarding_shizuku_step3">3. Povoľte bezdrôtové ladenie</string>
+    <string name="onboarding_shizuku_step4">4. Spustite Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Udeľte povolenie pre AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Zistiť viac</string>
+
+    <!-- Error Messages -->
+    <string name="error_not_eligible">Musíte prejsť na PRO alebo počkať na vaše ďalšie bezplatné stiahnutie.</string>
+    <string name="error_no_internet">Žiadne internetové pripojenie</string>
+    <string name="error_no_internet_message">Pripojte sa na internet, aby ste načítali informácie o aplikácii a pokračovali.</string>
+    <string name="error_initialization_failed">Nepodarilo sa inicializovať údaje aplikácie</string>
+    <string name="error_metadata_fetch_failed">Nepodarilo sa načítať aktualizácie aplikácií</string>
+    <string name="error_metadata_fetch_failed_message">Nepodarilo sa získať najnovšie informácie o aplikácii. Skontrolujte svoje internetové pripojenie a skúste to znova.</string>
+    <string name="error_no_internet_title">Žiadne internetové pripojenie</string>
+    <string name="error_no_internet_description">AAAD vyžaduje internetové pripojenie na načítanie informácií o aplikácii. Pripojte sa k WiFi alebo mobilným dátam a skúste to znova.</string>
+    <string name="network_error">Chyba siete. Skontrolujte svoje pripojenie a skúste to znova.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_data">Načítavajú sa informácie o aplikácii…</string>
+    <string name="loading_checking_updates">Kontrolujú sa aktualizácie…</string>
+    <string name="loading_please_wait">Počkajte prosím…</string>
+    <string name="loading_app_catalog">Načítava sa katalóg aplikácií…</string>
+    <string name="loading_fetching_icons">Načítavajú sa ikony aplikácií…</string>
+    <string name="loading_finalizing">Dokončuje sa…</string>
+    <string name="loading_checking_internet">Kontroluje sa internetové pripojenie…</string>
+    <string name="downloading_aaad_update">Sťahuje sa aktualizácia AAAD…</string>
+    <string name="progress_downloading">Sťahuje sa %1$s…</string>
+    <string name="progress_installing">Inštaluje sa %1$s…</string>
+    <string name="progress_checking_updates">Kontrolujú sa aktualizácie…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Kúpiť Pro</string>
+    <string name="pro_version_title">PRO verzia</string>
+    <string name="pro_version_icon">Odznak PRO verzie</string>
+    <string name="pro_thank_you_title">Ďakujeme!</string>
+    <string name="pro_thank_you_message">Ďakujeme, že podporujete AAAD nákupom PRO! Váš príspevok pomáha udržať tento projekt nažive a umožňuje nám naďalej vám prinášať najlepšie aplikácie pre Android Auto.</string>
+    <string name="pro_since">PRO člen od %s</string>
+    <string name="pro_since_legacy">PRO člen</string>
+    <string name="pro_benefits_title">Vaše PRO výhody</string>
+    <string name="pro_benefit_unlimited">Neobmedzené sťahovanie aplikácií</string>
+    <string name="pro_benefit_no_cooldown">Žiadna čakacia doba medzi sťahovaniami</string>
+    <string name="pro_benefit_support">Podpora prebiehajúceho vývoja</string>
+    <string name="pro_closing_message">Naozaj si vážime vašu dôveru a podporu. Užívajte si neobmedzený prístup k všetkým aplikáciám AAAD!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">Nie je nainštalovaná žiadna e-mailová aplikácia. Nainštalujte si e-mailovú aplikáciu (Gmail, Outlook atď.) alebo pošlite e-mail priamo na help.aaad@gmail.com z iného zariadenia.</string>
+    <string name="support_attachment_not_supported">Príloha nie je podporovaná, e-mail sa odosiela bez záznamov</string>
+    <string name="support_attachment_failed_fallback">Nepodarilo sa pripojiť záznamy, e-mail sa odosiela bez prílohy</string>
+    <string name="support_email_body_greeting">Ahoj AAAD Support,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Aktualizácia je k dispozícii</string>
+    <string name="update_available_message">AAAD v%1$s je teraz k dispozícii. Používate v%2$s.\n\nChcete stiahnuť najnovšiu verziu?</string>
+    <string name="checking_for_aaad_updates">Kontrolujú sa aktualizácie AAAD…</string>
+    <string name="update_available_badge">AKTUALIZÁCIA</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque prináša diagnostickú aplikáciu vozidla OBD-II Torque Pro do Android Auto. Monitorujte výkon vášho auta, zobrazujte diagnostické údaje a pristupujte k informáciám o vozidle v reálnom čase priamo z displeja vášho auta.</string>
+    <string name="warning_offline">Ste offline - údaje aplikácie môžu byť zastarané</string>
+    <string name="onboarding_preparing_catalog">Katalóg aplikácií sa pripravuje na pozadí…</string>
+    <string name="version_format">Verzia %1$s</string>
+    <string name="installed_version_format">Nainštalované: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Aplikácie pre Android Auto</string>
+    <string name="hero_subtitle">Nainštalujte si vlastné aplikácie pre váš zážitok s Android Auto</string>
+    <string name="refresh_apps">Obnoviť aplikácie</string>
+    <string name="privacy">Zásady ochrany osobných údajov</string>
+    <string name="installation_timeout_message_secure">Čas na overenie inštalácie vypršal. Vaše stiahnutie bolo započítané do vášho mesačného limitu z bezpečnostných dôvodov.</string>
+    <string name="download_was_counted">Stiahnutie bolo započítané do vášho mesačného limitu</string>
+    <string name="verifying_authorization">Overuje sa autorizácia stiahnutia…</string>
+    <string name="please_sign_in">Prihláste sa, aby ste mohli sťahovať aplikácie</string>
+</resources>

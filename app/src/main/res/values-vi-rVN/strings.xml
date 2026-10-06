@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about_payment">PRO Version</string>
+    <string name="switch_to_pro_statement">Phiên bản miễn phí của AAAD cho phép bạn có một lượt tải miễn phí mỗi tháng. Nếu bạn muốn tải nhiều hơn, hãy nâng cấp lên PRO.</string>
+    <string name="congratsPro">Chúc mừng, bạn có phiên bản PRO!</string>    <string name="About">Thông tin</string>
+    <string name="have_promo_code">Tôi có mã khuyến mãi</string>
+    <string name="promo_code">Nhập mã khuyến mãi</string>
+    <string name="input_promo_code_here">Nhập mã tại đây</string>    <string name="about_to_download">You are about to download %1$s. Do you wish to continue?</string>
+    <string name="warning_payment">Sau khi hoàn tất thanh toán, hãy nhấn vào \"Return to merchant\" để xác thực giao dịch.</string>
+    <string name="attention">CHÚ Ý</string>
+    <string name="next_download_available">Lượt tải tiếp theo có sẵn vào: %1$s</string>
+    <string name="connect_error">LỖI KẾT NỐI</string>
+    <plurals name="remaining_downloads">
+        <item quantity="other">Bạn còn 1 lần tải miễn phí</item>
+    </plurals>
+    <string name="about_part_one">"<![CDATA[AAAD (Android Auto Apps Downloader) được phát triển và bảo trì bởi Shmykelsa.<br><br>Các ứng dụng khác được tích hợp bởi các nhà phát triển sau:<br>]]>"</string>
+    <string name="pro_unlocked">Chúc mừng, đã mở khóa phiên bản PRO</string>
+    <string name="cancelled_payment">Mua hàng đã bị hủy</string>
+    <string name="please_enter_code">Vui lòng nhập mã khuyến mãi</string>
+    <string name="connection_error">Lỗi kết nối, không thể xác minh</string>
+    <string name="not_valid_code">Mã vừa nhập không đúng</string>    <string name="downloading_progress">Đang tải…</string>
+    <string name="aa_mirror_plus_description">Giống AAMirror nhưng nhiều chức năng hơn.</string>
+    <string name="aapassenger_description">Mở khóa Android Auto ở chế độ lái xe</string>
+    <string name="s2a_description">Để ứng dụng chia sẻ màn hình hoàn thành và đầy đủ tính năng cho Android Auto. Bao gồm nhiều tính năng như tùy chỉnh chương trình chạy, chia màn hình, tùy chỉnh kích thước màn hình và nhiều tính năng nữa!</string>
+    <string name="aamirror_description">Chiếu màn hình điện thoại lên Android Auto</string>
+    <string name="aa_stream_description">Phát video trên Android Auto</string>
+    <string name="carstream_description">Formerly known as \"YouTube Auto\", CarStream was one of the first apps made with the custom apps SDK. It was born with the main purpose of delivering YouTube to Android Auto and then it became a web browser with many capabilities.
+    </string>
+    <string name="fermata_description">Thoát Android Auto mà không cần rời khỏi xe</string>
+    <string name="s2a_redirect">Để có trải nghiệm tốt nhất, chúng tôi khuyên dùng Screen2Auto</string>
+    <string name="screen2auto_download">Tải Screen2Auto</string>    <string name="aawidgets_description">Born with one single task. Bring a widget to Android Auto!</string>
+    <string name="performance_monitor_description">Giám sát hiệu suất hệ thống trên Android Auto</string>
+    <string name="promotion">Bạn đủ điều kiện được giảm 15%</string>    <string name="loading">Đang tải…</string>
+    <string name="go_pro">NÂNG CẤP PRO</string>
+    <string name="i_m_good">Tôi ổn</string>
+    <string name="nav2contacts_description">Điều hướng nhanh đến danh bạ</string>    <string name="back_button_payment_close">Hủy thanh toán và đóng</string>
+    <string name="help">Trợ giúp</string>
+    <string name="help_dialog">Bạn có muốn gửi một e-mail yêu cầu giúp đỡ ngay bây giờ không?</string>    <string name="i_want_to_transfer_license_here">I want to transfer license here</string>
+    <string name="i_want_to_transfer_license_from_here">Tôi muốn chuyển giấy phép từ thiết bị này</string>
+    <string name="license_transfer_help">Quét mã QR trên thiết bị khác để chuyển giấy phép</string>
+    <string name="transfer_license">Chuyển tiếp giấy phép</string>
+    <string name="debug_mode_activate">Kích hoạt gỡ lỗi</string>
+    <string name="debug_mode_performance_warning">Chế độ gỡ lỗi có thể ảnh hưởng đến hiệu suất</string>
+    <string name="debug_mode_deactivated">Chế độ gỡ lỗi đã tắt</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="license_here_confirm">Bạn có muốn chuyển giấy phép sang thiết bị này không?</string>
+    <string name="qr_tutorial">Mở AAAD trên thiết bị khác và quét mã QR này</string>
+    <string name="license_done">Chuyển giấy phép thành công!</string>
+    <string name="no_license_found">Không tìm thấy giấy phép hợp lệ</string>    <string name="qr_code_permission">Cần trao quyền sử dụng camera để quét mã QR</string>
+    <string name="success_transfer">Chuyển thành công</string>
+    <string name="email_dialog" comment="&#10;Dialog window">The e-mail will be used in order to verify your purchase, if needed</string>
+    <string name="input_email">Nhập địa chỉ email</string>
+    <string name="days_remaining">Còn %d ngày nữa đến lần tải xuống tiếp theo</string>
+    <string name="hours_remaining">Còn %d giờ nữa đến lần tải xuống tiếp theo</string>
+    <string name="less_than_hour">Còn ít hơn 1 giờ nữa đến lần tải xuống tiếp theo</string>
+    <string name="download_available_now">Tải xuống có sẵn ngay bây giờ!</string>    <string name="installation_failed">Cài đặt thất bại</string>    <string name="installation_timeout_message">Việc cài đặt ứng dụng đã hoàn thành thành công chưa?</string>
+    <string name="installation_succeeded">Có, đã được cài đặt</string>
+    <string name="installation_failed_or_cancelled">Không, thất bại hoặc đã bị hủy</string>    <!-- Onboarding Strings -->
+        <!-- Page 1: Warning -->
+    <string name="onboarding_warning_title">⚠️ Cảnh báo quan trọng</string>
+    <string name="onboarding_warning_message">Ứng dụng này KHÔNG liên kết với softonic.com, uptodown.com hoặc aadapk.com, aadapk.app. Nguồn chính thức duy nhất là github.com</string>
+    <string name="onboarding_official_source">Nguồn chính thức: github.com/shmykelsa/AAAD</string>
+
+    <!-- Page 2: Welcome -->
+    <string name="onboarding_welcome_title">Chào mừng đến với AAAD!</string>
+    <string name="onboarding_welcome_subtitle">Trình tải ứng dụng Android Auto</string>
+    <string name="onboarding_welcome_description">Tiện ích này sẽ giúp cài đặt các ứng dụng tùy chỉnh trên Android Auto cho điện thoại không root. Vuốt qua để tìm hiểu cách sử dụng ứng dụng, sau đó cấp các quyền cần thiết để bắt đầu.</string>
+
+    
+    <!-- Page 2: App Selection -->
+    <string name="onboarding_page_selection_title">Chọn và cài đặt</string>
+    <string name="onboarding_page_selection_description">Chọn ứng dụng bạn muốn cài đặt và đợi trình cài đặt hệ thống xuất hiện.</string>
+
+    <!-- Page 3: App Info -->
+    <string name="onboarding_page_info_title">Thông tin ứng dụng</string>
+    <string name="onboarding_page_info_description">Nếu bạn không chắc chắn về ứng dụng nào cần cài đặt, hãy nhấn giữ nút để xem mô tả.</string>
+
+    <!-- Page 4: Permissions & Setup --><!-- Page 5: Permissions & Setup -->
+    <string name="onboarding_permissions_title">Thiết lập bắt buộc</string>
+    <string name="onboarding_permissions_subtitle">Cấp quyền để cài đặt ứng dụng tùy chỉnh</string>
+    <string name="onboarding_unknown_sources_title">Cài đặt ứng dụng không xác định</string>
+    <string name="onboarding_unknown_sources_description">Cần thiết để cài đặt tệp APK từ nguồn bên ngoài</string>
+    <string name="onboarding_notifications_title">Thông báo</string>
+    <string name="onboarding_notifications_description">Nhận thông báo về tiến trình tải xuống và cập nhật ứng dụng</string>
+
+    <!-- Android Auto Developer Options -->
+    <string name="onboarding_aa_dev_title">Cài đặt nhà phát triển Android Auto (Được đề xuất)</string>
+    <string name="onboarding_aa_dev_description">Bước tùy chọn để nâng cao trải nghiệm Android Auto của bạn</string>
+    <string name="onboarding_aa_dev_warning">Để có trải nghiệm tốt nhất với các ứng dụng tùy chỉnh trên Android Auto, chúng tôi khuyên bạn nên bật \"Nguồn không xác định\" trong cài đặt nhà phát triển Android Auto.</string>
+    <string name="onboarding_open_aa_dev">Xem cài đặt nhà phát triển</string>
+
+    <string name="onboarding_play_protect_title">Google Play Bảo vệ</string>
+    <string name="onboarding_play_protect_description">Tạm thời vô hiệu hóa để cho phép cài đặt ứng dụng tùy chỉnh</string>
+    <string name="onboarding_play_protect_warning">Google Play Protect có thể chặn cài đặt ứng dụng tùy chỉnh. Bạn cần tạm thời vô hiệu hóa nó hoặc cho phép AAAD khi được nhắc.</string>
+    <string name="onboarding_open_play_protect">Mở cài đặt Play Protect</string>
+
+    <!-- Navigation Buttons -->
+    <string name="onboarding_next">Tiếp theo</string>
+    <string name="onboarding_previous">Trước</string>
+    <string name="onboarding_skip">Bỏ qua</string>
+    <string name="onboarding_grant_permissions">Cấp quyền</string>
+    <string name="onboarding_continue">Tiếp tục đến ứng dụng</string>
+    <string name="onboarding_get_started">Bắt đầu</string>
+    <string name="onboarding_finish">Hoàn tất thiết lập</string>
+    <string name="show_intro">Hiển thị giới thiệu</string>
+    <string name="downloads_remaining">Lượt tải còn lại</string>
+
+    <!-- Installation Status -->
+    <string name="status_installed">Đã cài đặt</string>
+    <string name="status_update_available">Có bản cập nhật</string>
+    <string name="status_update_to_version">Cập nhật lên %1$s</string>
+    <string name="status_not_installed">Chưa cài đặt</string>
+    <string name="status_downloading">Đang tải xuống…</string>
+    <string name="status_installing">Đang cài đặt…</string>
+
+    <!-- Action Buttons -->
+    <string name="action_install">Cài đặt</string>
+    <string name="action_update">Cập nhật</string>
+    <string name="action_open">Mở</string>
+    <string name="action_uninstall">Gỡ cài đặt</string>
+    <string name="action_cancel">Hủy</string>
+
+    <!-- Error Messages -->
+    <string name="error_download_failed">Tải xuống thất bại</string>
+    <string name="error_installation_failed">Cài đặt thất bại</string>
+    <string name="error_network_unavailable">Mạng không khả dụng</string>
+    <string name="error_insufficient_storage">Không đủ dung lượng lưu trữ</string>
+    <string name="error_cannot_open_app">Không thể mở ứng dụng - không tìm thấy hoạt động khởi chạy</string>
+    <string name="error_download_tracking_failed">Cập nhật trạng thái tải xuống thất bại</string>
+    <string name="error_loading_catalog">Tải danh mục ứng dụng thất bại</string>
+
+
+
+    <!-- License Transfer - New Modern UI -->
+    <string name="transfer_license_title">Chuyển Giấy Phép</string>
+    <string name="checking_license_status">Đang kiểm tra trạng thái giấy phép…</string>
+    <string name="qr_code_icon">Biểu tượng mã QR</string>
+    <string name="receiver_title">Nhận Giấy Phép PRO</string>
+    <string name="receiver_subtitle">Hiển thị mã QR này để chuyển giấy phép sang thiết bị này</string>
+    <string name="qr_code_to_scan">Mã QR để chuyển giấy phép</string>
+    <string name="receiver_instructions_title">Cách hoạt động</string>
+    <string name="receiver_instructions_step1">Trên thiết bị có PRO, mở AAAD và chuyển đến Chuyển Giấy Phép</string>
+    <string name="receiver_instructions_step2">Nhấn vào nút Quét Mã QR trên thiết bị đó</string>
+    <string name="receiver_instructions_step3">Quét mã QR này để hoàn tất việc chuyển</string>
+    <string name="transfer_license_icon">Biểu tượng chuyển giấy phép</string>
+    <string name="sender_title">Chuyển Giấy Phép PRO</string>
+    <string name="sender_subtitle">Chuyển giấy phép của bạn sang thiết bị mới</string>
+    <string name="sender_warning">⚠️ Cảnh báo: Chuyển giấy phép sẽ xóa trạng thái PRO khỏi thiết bị này và kích hoạt nó trên thiết bị mới. Hành động này không thể hoàn tác.</string>
+    <string name="sender_instructions_title">Cách chuyển</string>
+    <string name="sender_step_1">Mở AAAD trên thiết bị mới của bạn</string>
+    <string name="sender_step_2">Chuyển đến menu Chuyển Giấy Phép</string>
+    <string name="sender_step_3">Mã QR sẽ xuất hiện trên thiết bị mới</string>
+    <string name="sender_step_4">Nhấn vào nút bên dưới và quét mã QR đó</string>
+    <string name="scan_qr_code">Quét Mã QR</string>
+    <string name="camera_permission_required">Yêu cầu quyền máy ảnh để quét mã QR</string>
+    <string name="error_checking_license">Không thể kiểm tra trạng thái giấy phép. Vui lòng thử lại.</string>
+    <string name="error_generating_qr">Không thể tạo mã QR</string>
+    <string name="license_received_success">Đã nhận giấy phép thành công!</string>
+    <string name="scan_error_title">Lỗi Quét</string>
+    <string name="scan_error_message">Không thể quét mã QR. Vui lòng thử lại.</string>
+    <string name="confirm_transfer_title">Xác Nhận Chuyển</string>
+    <string name="confirm_transfer_message">Bạn có chắc chắn muốn chuyển giấy phép PRO của mình sang thiết bị mới không? Điều này sẽ xóa PRO khỏi thiết bị này.</string>
+    <string name="confirm_transfer_yes">Chuyển Giấy Phép</string>
+    <string name="confirm_transfer_no">Hủy</string>
+    <string name="license_transferred_success">Đã chuyển giấy phép thành công!</string>
+    <string name="error_transferring_license">Không thể chuyển giấy phép. Vui lòng thử lại.</string>
+    <string name="support_title">Cần Giúp Đỡ?</string>
+    <string name="support_icon">Biểu tượng trợ giúp</string>
+    <string name="support_subtitle">Chúng tôi luôn sẵn sàng giúp đỡ bạn!</string>
+    <string name="support_description">Bạn gặp sự cố với AAAD? Gửi email cho chúng tôi và chúng tôi sẽ phản hồi trong thời gian sớm nhất. Càng cung cấp nhiều chi tiết, chúng tôi càng có thể giúp bạn nhanh hơn!</string>
+    <string name="support_email_will_include">Email của bạn sẽ bao gồm:</string>
+    <string name="support_email_item_device">Mẫu thiết bị và phiên bản Android</string>
+    <string name="support_email_item_version">Thông tin phiên bản AAAD</string>
+    <string name="support_email_item_description">Không gian để mô tả sự cố của bạn</string>
+    <string name="support_include_logs">Bao gồm nhật ký chẩn đoán</string>
+    <string name="support_logs_explanation">Được đề xuất - Giúp chúng tôi khắc phục sự cố nhanh hơn. Chỉ chứa thông tin thiết bị và cấu hình ứng dụng, không có dữ liệu cá nhân.</string>
+    <string name="support_send_email">Gửi Email Đến Hỗ Trợ</string>
+    <string name="support_privacy_note">Chúng tôi tôn trọng quyền riêng tư của bạn. Không có thông tin cá nhân, mật khẩu hoặc dữ liệu thanh toán được bao gồm trong nhật ký.</string>
+    <string name="support_preparing_email">Đang chuẩn bị email…</string>
+    <string name="support_log_generation_failed">Không thể tạo nhật ký, gửi email không có tệp đính kèm</string>
+    <string name="support_email_failed">Không thể mở ứng dụng email. Vui lòng gửi email trực tiếp đến help.aaad@gmail.com.</string>
+    <string name="support_choose_email_app">Chọn ứng dụng email</string>
+    <string name="support_email_subject">Yêu Cầu Hỗ Trợ AAAD</string>
+
+
+    <!-- Section Names (for large screens) -->
+    <string name="first_section_name">Đa phương tiện</string>
+    <string name="second_section_name">Ứng dụng nhân bản màn hình</string>
+    <string name="third_section_name">Khác</string>
+
+    <string name="privacy_policy">Ứng dụng này tôn trọng quyền riêng tư của bạn. Chúng tôi không thu thập, lưu trữ hoặc chia sẻ bất kỳ thông tin cá nhân nào mà không có sự đồng ý của bạn. Để biết thêm thông tin, vui lòng liên hệ với chúng tôi.</string>
+
+    <!-- Android Auto Setup Activity -->
+    <string name="android_auto_setup_title">Cài đặt nhà phát triển Android Auto</string>
+    <string name="android_auto_setup_icon">Biểu tượng hướng dẫn thiết lập Android Auto</string>
+    <string name="android_auto_setup_subtitle">Làm theo các bước này để bật nguồn không xác định cho các ứng dụng tùy chỉnh trên Android Auto</string>
+    <string name="android_auto_open_settings">Mở cài đặt Android Auto</string>
+    <string name="android_auto_setup_instructions_title">Hướng dẫn thiết lập</string>
+    <string name="android_auto_step1_title">Nhấn \"Phiên bản\" 10 lần</string>
+    <string name="android_auto_step1_description">Trong cài đặt Android Auto, cuộn xuống dưới cùng và nhấn \"Phiên bản\" (mục cuối cùng) 10 lần để mở khóa cài đặt nhà phát triển.</string>
+    <string name="android_auto_step2_title">Xác nhận chế độ nhà phát triển</string>
+    <string name="android_auto_step2_description">Khi được nhắc, nhấn \"Cho phép\" hoặc \"Bật\" để kích hoạt cài đặt nhà phát triển cho Android Auto.</string>
+    <string name="android_auto_step3_title">Mở cài đặt nhà phát triển</string>
+    <string name="android_auto_step3_description">Nhấn biểu tượng menu ba chấm ở góc trên bên phải và chọn \"Cài đặt nhà phát triển\" từ menu thả xuống.</string>
+    <string name="android_auto_step4_title">Bật nguồn không xác định</string>
+    <string name="android_auto_step4_description">Trong menu Cài đặt nhà phát triển, tìm và bật tùy chọn \"Nguồn không xác định\" để cho phép cài đặt ứng dụng của bên thứ ba.</string>
+    <string name="android_auto_setup_done">Xong</string>
+    <string name="android_auto_settings_opened">Đã mở cài đặt Android Auto. Làm theo các bước ở trên.</string>
+    <string name="android_auto_opened_navigate_to_settings">Đã mở Android Auto. Vui lòng điều hướng đến Cài đặt thủ công.</string>
+    <string name="android_auto_not_installed">Android Auto chưa được cài đặt. Vui lòng cài đặt từ Play Store trước.</string>
+
+    <string name="onboarding_page_multimedia_title">Ứng dụng đa phương tiện</string>
+    <string name="onboarding_page_mirroring_title">Ứng dụng nhân bản màn hình</string>
+    <string name="onboarding_page_others_title">Khác</string>
+    <string name="action_retry">Thử lại</string>
+    <string name="action_download_update">Tải xuống bản cập nhật</string>
+    <string name="action_install_update">Cài đặt bản cập nhật</string>
+    <string name="action_skip_update">Bỏ qua bây giờ</string>
+    <string name="action_download_manual">Tải xuống thủ công</string>
+    <string name="action_continue_offline">Tiếp tục ngoại tuyến</string>
+    <string name="badge_update">CẬP NHẬT</string>
+    <string name="check_for_updates">Kiểm tra cập nhật</string>
+    <string name="aaad_update_section">Bản cập nhật AAAD có sẵn</string>
+    <string name="aaad_update_available_subtitle">Phiên bản mới có sẵn để tải xuống</string>
+    <string name="aaad_update_downloaded">Đã tải xuống bản cập nhật! Đang cài đặt…</string>
+    <string name="aaad_update_failed">Tải xuống bản cập nhật thất bại. Vui lòng thử tải xuống thủ công.</string>
+    <string name="aaad_current_version">Hiện tại: %1$s</string>
+    <string name="aaad_latest_version">Mới nhất: %1$s</string>
+    <string name="authorization_failed">Ủy quyền tải xuống thất bại. Vui lòng thử lại.</string>
+    <string name="authorization_error">Lỗi ủy quyền. Vui lòng kiểm tra kết nối.</string>
+    <string name="aabrowser_description">Duyệt web trên Android Auto</string>
+    <string name="benefit_icon">Lợi ích</string>
+    <string name="no_updates_available">Không có bản cập nhật nào</string>
+
+    <!-- Shizuku Setup -->
+    <string name="onboarding_shizuku_title">🚀 Cài đặt nâng cao (tùy chọn)</string>
+    <string name="onboarding_shizuku_subtitle">Dành cho người dùng chuyên nghiệp Android 14+</string>
+    <string name="onboarding_shizuku_standard_mode">Chế độ tiêu chuẩn (khuyến nghị)</string>
+    <string name="onboarding_shizuku_standard_description">Sử dụng trình cài đặt hệ thống. Hoạt động cho mọi người. Hiển thị lời nhắc cài đặt.</string>
+    <string name="onboarding_shizuku_enhanced_mode">Chế độ nâng cao với Shizuku</string>
+    <string name="onboarding_shizuku_enhanced_description">Cài đặt im lặng không có lời nhắc. Yêu cầu thiết lập một lần.</string>
+    <string name="onboarding_shizuku_status">Trạng thái Shizuku:</string>
+    <string name="onboarding_shizuku_not_installed">Chưa cài đặt</string>
+    <string name="onboarding_shizuku_not_running">Đã cài đặt nhưng không chạy</string>
+    <string name="onboarding_shizuku_no_permission">Đang chạy nhưng chưa được cấp quyền</string>
+    <string name="onboarding_shizuku_ready">Sẵn sàng sử dụng</string>
+    <string name="onboarding_shizuku_install">Cài đặt Shizuku</string>
+    <string name="onboarding_shizuku_start">Khởi động Shizuku</string>
+    <string name="onboarding_shizuku_grant_permission">Cấp quyền</string>
+    <string name="onboarding_shizuku_start_service">Đã cài đặt Shizuku - nhấn để khởi động dịch vụ</string>
+    <string name="onboarding_shizuku_start_button">Khởi động dịch vụ Shizuku</string>
+    <string name="shizuku_service_not_started">Dịch vụ Shizuku không chạy. Vui lòng mở Shizuku và khởi động dịch vụ.</string>
+    <string name="onboarding_shizuku_what_is_it">Shizuku là gì?</string>
+    <string name="onboarding_shizuku_explanation">Shizuku là công cụ cho phép ứng dụng sử dụng quyền cấp hệ thống thông qua gỡ lỗi không dây. Nó cho phép cài đặt ứng dụng im lặng trên Android 14+ mà không cần root. Bạn vẫn có thể sử dụng AAAD mà không cần nó!</string>
+    <string name="onboarding_shizuku_steps_title">Các bước thiết lập:</string>
+    <string name="onboarding_shizuku_step1">1. Cài đặt ứng dụng Shizuku</string>
+    <string name="onboarding_shizuku_step2">2. Bật tùy chọn nhà phát triển</string>
+    <string name="onboarding_shizuku_step3">3. Bật gỡ lỗi không dây</string>
+    <string name="onboarding_shizuku_step4">4. Khởi động Shizuku</string>
+    <string name="onboarding_shizuku_step5">5. Cấp quyền cho AAAD</string>
+    <string name="onboarding_shizuku_learn_more">Tìm hiểu thêm</string>
+
+    <!-- Error Messages -->
+    <string name="error_not_eligible">Bạn cần nâng cấp lên PRO hoặc đợi lượt tải xuống miễn phí tiếp theo.</string>
+    <string name="error_no_internet">Không có kết nối internet</string>
+    <string name="error_no_internet_message">Vui lòng kết nối internet để tải thông tin ứng dụng và tiếp tục.</string>
+    <string name="error_initialization_failed">Không thể khởi tạo dữ liệu ứng dụng</string>
+    <string name="error_metadata_fetch_failed">Không thể tải bản cập nhật ứng dụng</string>
+    <string name="error_metadata_fetch_failed_message">Không thể truy xuất thông tin ứng dụng mới nhất. Vui lòng kiểm tra kết nối internet và thử lại.</string>
+    <string name="error_no_internet_title">Không có kết nối internet</string>
+    <string name="error_no_internet_description">AAAD cần kết nối internet để tải thông tin ứng dụng. Vui lòng kết nối WiFi hoặc dữ liệu di động và thử lại.</string>
+    <string name="network_error">Lỗi mạng. Vui lòng kiểm tra kết nối và thử lại.</string>
+
+    <!-- Loading & Progress -->
+    <string name="loading_app_data">Đang tải thông tin ứng dụng…</string>
+    <string name="loading_checking_updates">Đang kiểm tra cập nhật…</string>
+    <string name="loading_please_wait">Vui lòng đợi…</string>
+    <string name="loading_app_catalog">Đang tải danh mục ứng dụng…</string>
+    <string name="loading_fetching_icons">Đang tải biểu tượng ứng dụng…</string>
+    <string name="loading_finalizing">Đang hoàn tất…</string>
+    <string name="loading_checking_internet">Đang kiểm tra kết nối internet…</string>
+    <string name="downloading_aaad_update">Đang tải xuống bản cập nhật AAAD…</string>
+    <string name="progress_downloading">Đang tải xuống %1$s…</string>
+    <string name="progress_installing">Đang cài đặt %1$s…</string>
+    <string name="progress_checking_updates">Đang kiểm tra cập nhật…</string>
+
+    <!-- Pro Version -->
+    <string name="purchase_pro">Mua Pro</string>
+    <string name="pro_version_title">Phiên bản PRO</string>
+    <string name="pro_version_icon">Huy hiệu phiên bản PRO</string>
+    <string name="pro_thank_you_title">Cảm ơn bạn!</string>
+    <string name="pro_thank_you_message">Cảm ơn bạn đã hỗ trợ AAAD bằng cách mua PRO! Đóng góp của bạn giúp duy trì dự án này và cho phép chúng tôi tiếp tục mang đến những ứng dụng Android Auto tốt nhất cho bạn.</string>
+    <string name="pro_since">Thành viên PRO từ %s</string>
+    <string name="pro_since_legacy">Thành viên PRO</string>
+    <string name="pro_benefits_title">Quyền lợi PRO của bạn</string>
+    <string name="pro_benefit_unlimited">Tải xuống ứng dụng không giới hạn</string>
+    <string name="pro_benefit_no_cooldown">Không có thời gian chờ giữa các lần tải xuống</string>
+    <string name="pro_benefit_support">Hỗ trợ phát triển liên tục</string>
+    <string name="pro_closing_message">Chúng tôi thực sự trân trọng sự tin tưởng và hỗ trợ của bạn. Tận hưởng quyền truy cập không giới hạn vào tất cả các ứng dụng AAAD!</string>
+
+    <!-- Support -->
+    <string name="support_no_email_app">Không có ứng dụng email được cài đặt. Vui lòng cài đặt ứng dụng email (Gmail, Outlook, v.v.) hoặc gửi email trực tiếp đến help.aaad@gmail.com từ thiết bị khác.</string>
+    <string name="support_attachment_not_supported">Tệp đính kèm không được hỗ trợ, đang gửi email không có nhật ký</string>
+    <string name="support_attachment_failed_fallback">Không thể đính kèm nhật ký, đang gửi email không có tệp đính kèm</string>
+    <string name="support_email_body_greeting">Xin chào Hỗ trợ AAAD,</string>
+
+    <!-- Update -->
+    <string name="update_available_title">Có bản cập nhật</string>
+    <string name="update_available_message">AAAD v%1$s hiện đã có sẵn. Bạn đang sử dụng v%2$s.\n\nBạn có muốn tải xuống phiên bản mới nhất không?</string>
+    <string name="checking_for_aaad_updates">Đang kiểm tra cập nhật AAAD…</string>
+    <string name="update_available_badge">CẬP NHẬT</string>
+
+    <!-- General -->
+    <string name="aatorque_description">AATorque mang ứng dụng chẩn đoán xe OBD-II Torque Pro lên Android Auto. Giám sát hiệu suất xe của bạn, xem dữ liệu chẩn đoán và truy cập thông tin xe theo thời gian thực trực tiếp từ màn hình xe của bạn.</string>
+    <string name="warning_offline">Bạn đang ngoại tuyến - dữ liệu ứng dụng có thể lỗi thời</string>
+    <string name="onboarding_preparing_catalog">Đang chuẩn bị danh mục ứng dụng trong nền…</string>
+    <string name="version_format">Phiên bản %1$s</string>
+    <string name="installed_version_format">Đã cài đặt: %1$s</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="hero_title">Ứng dụng Android Auto</string>
+    <string name="hero_subtitle">Cài đặt ứng dụng tùy chỉnh cho trải nghiệm Android Auto của bạn</string>
+    <string name="refresh_apps">Làm mới ứng dụng</string>
+    <string name="privacy">Chính sách bảo mật</string>
+    <string name="installation_timeout_message_secure">Xác minh cài đặt hết thời gian. Lượt tải xuống của bạn đã được tính vào giới hạn hàng tháng vì lý do bảo mật.</string>
+    <string name="download_was_counted">Lượt tải xuống đã được tính vào giới hạn hàng tháng của bạn</string>
+    <string name="verifying_authorization">Đang xác minh ủy quyền tải xuống…</string>
+    <string name="please_sign_in">Vui lòng đăng nhập để tải xuống ứng dụng</string>
+</resources>
