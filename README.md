@@ -13,12 +13,6 @@
 
 ---
 
-## 👨‍💻 Developer & Contact
-
-- **Developer:** NTRooT
-- **Email:** [ntroot@gmail.com](mailto:ntroot@gmail.com)
-
----
 
 ## 🙏 Acknowledgements & Fork Information
 
